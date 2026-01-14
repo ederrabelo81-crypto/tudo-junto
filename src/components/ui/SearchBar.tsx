@@ -11,7 +11,7 @@ interface SearchBarProps {
 }
 
 export function SearchBar({ 
-  placeholder = "Pizzaria, pedreiro, farmácia…", 
+  placeholder = "o que você procura?", 
   value,
   onChange,
   onFocus,
@@ -20,7 +20,7 @@ export function SearchBar({
 }: SearchBarProps) {
   return (
     <div className={cn(
-      "relative w-full",
+      "w-full bg-muted/60 border border-transparent rounded-2xl ...",
       className
     )}>
       <Search 
