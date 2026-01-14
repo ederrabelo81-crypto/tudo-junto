@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Camera, X, Check } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { MonteIcon } from '@/components/icons/MonteIcons';
 
 type PublishType = 'bazar' | 'evento' | 'oferta' | 'comercio';
 
@@ -20,10 +20,10 @@ interface FormData {
 const DRAFT_KEY = 'monte-de-tudo-draft';
 
 const publishTypes = [
-  { id: 'bazar' as PublishType, icon: '🛍️', label: 'Bazar / Classificado', description: 'Vender ou doar algo' },
-  { id: 'evento' as PublishType, icon: '🎉', label: 'Evento', description: 'Divulgar um evento' },
-  { id: 'oferta' as PublishType, icon: '🛒', label: 'Oferta', description: 'Promoção do seu negócio' },
-  { id: 'comercio' as PublishType, icon: '🏪', label: 'Comércio / Serviço', description: 'Cadastrar seu negócio' },
+  { id: 'bazar' as PublishType, iconKey: 'classifieds', shortLabel: 'Bazar', label: 'Bazar / Classificado', description: 'Vender ou doar algo' },
+  { id: 'evento' as PublishType, iconKey: 'events', shortLabel: 'Evento', label: 'Evento', description: 'Divulgar um evento' },
+  { id: 'oferta' as PublishType, iconKey: 'deals', shortLabel: 'Oferta', label: 'Oferta', description: 'Promoção do seu negócio' },
+  { id: 'comercio' as PublishType, iconKey: 'store', shortLabel: 'Negócio', label: 'Comércio / Serviço', description: 'Cadastrar seu negócio' },
 ];
 
 const categories = {
@@ -173,21 +173,23 @@ export default function Publish() {
         {step === 1 && (
           <div className="space-y-4 animate-fade-in">
             <h2 className="text-xl font-bold text-foreground">O que você quer publicar?</h2>
-            <div className="grid gap-3">
+            <div className="grid grid-cols-4 gap-2">
               {publishTypes.map((type) => (
                 <button
                   key={type.id}
                   onClick={() => updateField('type', type.id)}
                   className={cn(
-                    "flex items-center gap-4 p-4 bg-card rounded-2xl card-shadow text-left transition-all active:scale-98",
-                    formData.type === type.id && "ring-2 ring-primary"
-                  )}
+  "flex flex-col items-center justify-center gap-2 p-3 bg-card rounded-2xl card-shadow text-center transition-all active:scale-98",
+  formData.type === type.id && "ring-2 ring-primary"
+)}
                 >
-                  <span className="text-3xl">{type.icon}</span>
-                  <div>
-                    <p className="font-semibold text-foreground">{type.label}</p>
-                    <p className="text-sm text-muted-foreground">{type.description}</p>
-                  </div>
+                  <span className="text-primary">
+  <MonteIcon name={type.iconKey} className="h-8 w-8" />
+</span>
+
+<p className="text-[12px] font-semibold text-foreground">
+  {type.shortLabel}
+</p>
                 </button>
               ))}
             </div>
