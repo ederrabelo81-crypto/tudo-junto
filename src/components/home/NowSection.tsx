@@ -24,7 +24,7 @@ export function NowSection() {
   return (
     <section>
       <SectionHeader 
-        title="Agora" 
+        title="Agora na Cidade" 
         action={{ label: 'Ver mais', to: activeTab === 'ofertas' ? '/categoria/ofertas' : activeTab === 'eventos' ? '/categoria/agenda' : '/categoria/servicos' }}
       />
       
