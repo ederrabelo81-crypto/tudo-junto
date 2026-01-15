@@ -123,14 +123,15 @@ export default function Search() {
           <section>
             <h2 className="text-lg font-bold text-foreground mb-3">Categorias</h2>
             <div className="grid grid-cols-2 gap-3">
-              {categories.map((category) => (
-                <CategoryCard
-                  key={category.id}
-                  id={category.id}
-                  name={category.name}
-                  icon={category.icon}
-                />
-              ))}
+             {categories.map((category) => (
+  <CategoryCard
+    key={category.id}
+    id={category.id}
+    name={category.name}
+    iconKey={category.iconKey}
+    size="sm"
+  />
+))}
             </div>
           </section>
         )}
@@ -164,7 +165,7 @@ export default function Search() {
                 <h2 className="text-lg font-bold text-foreground mb-3">
                   Classificados ({searchResults.listings.length})
                 </h2>
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-4 gap-2">
                   {searchResults.listings.slice(0, 4).map((listing) => (
                     <ListingCard key={listing.id} listing={listing} />
                   ))}
