@@ -33,7 +33,7 @@ export default function Index() {
           <CategoryGrid />
         </section>
 
-        {/* Seção "Agora" */}
+        {/* Seção "Agora na Cidade" */}
         <NowSection />
 
         {/* Seção "Em alta" */}
