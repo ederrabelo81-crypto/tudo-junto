@@ -101,20 +101,20 @@ export default function Search() {
         </div>
         
         {/* Filtros */}
-        <div className="px-4 pb-3 overflow-x-auto scrollbar-hide">
-          <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2 no-scrollbar">
-            {allFilters.slice(0, 6).map((filter) => (
-              <Chip
-                key={filter}
-                isActive={activeFilters.includes(filter)}
-                onClick={() => toggleFilter(filter)}
-                size="sm"
-              >
-                {filter}
-              </Chip>
-            ))}
-          </div>
-        </div>
+        <div className="px-4 pb-3">
+  <div className="flex gap-2 overflow-x-auto whitespace-nowrap pb-2">
+    {allFilters.map((filter) => (
+      <Chip
+        key={filter}
+        isActive={activeFilters.includes(filter)}
+        onClick={() => toggleFilter(filter)}
+        size="sm"
+      >
+        {filter}
+      </Chip>
+    ))}
+  </div>
+</div>
       </header>
 
       <main className="px-4 py-4">
