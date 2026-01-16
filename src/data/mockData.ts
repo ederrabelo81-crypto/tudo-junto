@@ -7118,7 +7118,6 @@ export const businesses: Business[] = [
     ],
     isOpenNow: false,
     isVerified: true,
-    description: nan,
     address: "Av. Dr. Aristídes Cunha, 508 - Monte Santo de Minas, MG, 37958-000",
     rating: 5.0,
     reviewCount: 2,
