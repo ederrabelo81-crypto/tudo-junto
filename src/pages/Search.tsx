@@ -1,3 +1,4 @@
+// Search.tsx
 import { useState, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
@@ -11,152 +12,167 @@ import { EventCard } from '@/components/cards/EventCard';
 import { NewsCard } from '@/components/cards/NewsCard';
 import { categories, businesses, listings, deals, events, news, filtersByCategory } from '@/data/mockData';
 import { matchesAllFilters, normalizeText, matchesListingFilter } from '@/lib/tagUtils';
+import { getBusinessTags } from '@/lib/businessTags';
+
+type SearchResults = {
+  businesses: typeof businesses;
+  listings: typeof listings;
+  deals: typeof deals;
+  events: typeof events;
+  news: typeof news;
+  total: number;
+};
 
 export default function Search() {
   const navigate = useNavigate();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [query, setQuery] = useState(searchParams.get('q') || '');
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   const allFilters = useMemo(() => {
-    const filters = new Set<string>();
-    Object.values(filtersByCategory).flat().forEach(f => filters.add(f));
-    return Array.from(filters);
+    const s = new Set<string>();
+    Object.values(filtersByCategory).flat().forEach((f) => s.add(f));
+    return Array.from(s);
   }, []);
 
   const toggleFilter = (filter: string) => {
-    setActiveFilters(prev => 
-      prev.includes(filter) 
-        ? prev.filter(f => f !== filter)
-        : [...prev, filter]
-    );
+    setActiveFilters((prev) => (prev.includes(filter) ? prev.filter((f) => f !== filter) : [...prev, filter]));
   };
 
-  const clearFilters = () => {
-    setActiveFilters([]);
-  };
+  const clearFilters = () => setActiveFilters([]);
 
-  // Busca com filtros funcionais
-  const searchResults = useMemo(() => {
-    if (!query.trim() && activeFilters.length === 0) return null;
+  const searchResults = useMemo<SearchResults | null>(() => {
+    const hasQuery = !!query.trim();
+    const hasFilters = activeFilters.length > 0;
+
+    if (!hasQuery && !hasFilters) return null;
 
     const lowerQuery = query.toLowerCase().trim();
-    
-    // Filtra businesses com texto + filtros de tags/horário
-    getBusinessTags(b).some(t => t.toLowerCase().includes(lowerQuery))
-    
-    if (lowerQuery) {
-      filteredBusinesses = filteredBusinesses.filter(b => 
-        b.name.toLowerCase().includes(lowerQuery) ||
-        b.category.toLowerCase().includes(lowerQuery) ||
-        b.neighborhood.toLowerCase().includes(lowerQuery) ||
-        b.tags.some(t => t.toLowerCase().includes(lowerQuery))
-      );
+
+    // Businesses
+    let filteredBusinesses = businesses;
+
+    if (hasQuery) {
+      filteredBusinesses = filteredBusinesses.filter((b) => {
+        const tagHit = getBusinessTags(b).some((t) => t.toLowerCase().includes(lowerQuery));
+        return (
+          b.name.toLowerCase().includes(lowerQuery) ||
+          b.category.toLowerCase().includes(lowerQuery) ||
+          b.neighborhood.toLowerCase().includes(lowerQuery) ||
+          tagHit
+        );
+      });
     }
-    
-    if (activeFilters.length > 0) {
-      filteredBusinesses = filteredBusinesses.filter(business => 
+
+    if (hasFilters) {
+      filteredBusinesses = filteredBusinesses.filter((business) =>
         matchesAllFilters(getBusinessTags(business), activeFilters, { hours: business.hours, checkOpenNow: true })
       );
     }
 
-    // Filtra listings com texto + filtros de tipo
+    // Listings
     let filteredListings = listings;
-    
-    if (lowerQuery) {
-      filteredListings = filteredListings.filter(l =>
-        l.title.toLowerCase().includes(lowerQuery) ||
-        l.neighborhood.toLowerCase().includes(lowerQuery)
-      );
-    }
-    
-    if (activeFilters.length > 0) {
-      filteredListings = filteredListings.filter(listing => 
-        matchesListingFilter(listing, activeFilters)
+
+    if (hasQuery) {
+      filteredListings = filteredListings.filter(
+        (l) => l.title.toLowerCase().includes(lowerQuery) || l.neighborhood.toLowerCase().includes(lowerQuery)
       );
     }
 
-    // Filtra deals com texto + filtros
+    if (hasFilters) {
+      filteredListings = filteredListings.filter((listing) => matchesListingFilter(listing, activeFilters));
+    }
+
+    // Deals
     let filteredDeals = deals;
-    
-    if (lowerQuery) {
-      filteredDeals = filteredDeals.filter(d =>
-        d.title.toLowerCase().includes(lowerQuery) ||
-        d.businessName?.toLowerCase().includes(lowerQuery)
+
+    if (hasQuery) {
+      filteredDeals = filteredDeals.filter(
+        (d) => d.title.toLowerCase().includes(lowerQuery) || d.businessName?.toLowerCase().includes(lowerQuery)
       );
     }
-    
-    if (activeFilters.length > 0) {
-      const normalizedFilters = activeFilters.map(f => normalizeText(f));
-      
-      filteredDeals = filteredDeals.filter(deal => {
-        // "Válido hoje"
+
+    if (hasFilters) {
+      const normalizedFilters = activeFilters.map((f) => normalizeText(f));
+
+      filteredDeals = filteredDeals.filter((deal) => {
         if (normalizedFilters.includes('valido hoje')) {
           const today = new Date().toISOString().split('T')[0];
           if (deal.validUntil < today) return false;
         }
-        
-        // "Entrega"
+
         if (normalizedFilters.includes('entrega')) {
           const text = `${deal.title} ${deal.subtitle || ''}`.toLowerCase();
           if (!text.includes('entrega') && !text.includes('delivery')) return false;
         }
-        
+
         return true;
       });
     }
 
-    // Filtra events com texto + filtros
+    // Events
     let filteredEvents = events;
-    
-    if (lowerQuery) {
-      filteredEvents = filteredEvents.filter(e =>
-        e.title.toLowerCase().includes(lowerQuery) ||
-        e.location.toLowerCase().includes(lowerQuery) ||
-        e.tags.some(t => t.toLowerCase().includes(lowerQuery))
+
+    if (hasQuery) {
+      filteredEvents = filteredEvents.filter(
+        (e) =>
+          e.title.toLowerCase().includes(lowerQuery) ||
+          e.location.toLowerCase().includes(lowerQuery) ||
+          e.tags.some((t) => t.toLowerCase().includes(lowerQuery))
       );
     }
-    
-    if (activeFilters.length > 0) {
-      const normalizedFilters = activeFilters.map(f => normalizeText(f));
-      
-      filteredEvents = filteredEvents.filter(event => {
-        // "Entrada gratuita"
+
+    if (hasFilters) {
+      const normalizedFilters = activeFilters.map((f) => normalizeText(f));
+
+      filteredEvents = filteredEvents.filter((event) => {
         if (normalizedFilters.includes('entrada gratuita')) {
           const price = event.priceText.toLowerCase();
-          if (!price.includes('grátis') && !price.includes('gratuito') && !price.includes('free') && price !== 'entrada livre') {
-            return false;
-          }
+          const ok =
+            price.includes('grátis') ||
+            price.includes('gratuito') ||
+            price.includes('free') ||
+            price === 'entrada livre';
+          if (!ok) return false;
         }
-        
-        // "Hoje"
+
         if (normalizedFilters.includes('hoje')) {
           const today = new Date().toISOString().split('T')[0];
           if (!event.dateTime.startsWith(today)) return false;
         }
-        
-        // "Fim de semana"
+
         if (normalizedFilters.includes('fim de semana')) {
           const eventDate = new Date(event.dateTime);
           const day = eventDate.getDay();
           if (day !== 0 && day !== 6) return false;
         }
-        
-        return true;
+
+        const remainingFilters = activeFilters.filter((f) =>
+          !['entrada gratuita', 'hoje', 'fim de semana'].includes(normalizeText(f))
+        );
+
+        return matchesAllFilters(event.tags, remainingFilters, {});
       });
     }
 
-    // Filtra news com texto + tags
+    // News
     let filteredNews = news;
-    
-    if (lowerQuery) {
-      filteredNews = filteredNews.filter(n =>
-        n.title.toLowerCase().includes(lowerQuery) ||
-        n.tag.toLowerCase().includes(lowerQuery) ||
-        n.snippet.toLowerCase().includes(lowerQuery)
+
+    if (hasQuery) {
+      filteredNews = filteredNews.filter(
+        (n) =>
+          n.title.toLowerCase().includes(lowerQuery) ||
+          n.tag.toLowerCase().includes(lowerQuery) ||
+          n.snippet.toLowerCase().includes(lowerQuery)
       );
     }
+
+    const total =
+      filteredBusinesses.length +
+      filteredListings.length +
+      filteredDeals.length +
+      filteredEvents.length +
+      filteredNews.length;
 
     return {
       businesses: filteredBusinesses,
@@ -164,21 +180,20 @@ export default function Search() {
       deals: filteredDeals,
       events: filteredEvents,
       news: filteredNews,
-      total: filteredBusinesses.length + filteredListings.length + filteredDeals.length + filteredEvents.length + filteredNews.length
+      total,
     };
   }, [query, activeFilters]);
 
-  const hasResults = searchResults && searchResults.total > 0;
+  const hasResults = !!searchResults && searchResults.total > 0;
   const showCategories = !query.trim() && activeFilters.length === 0;
   const hasActiveSearch = query.trim() || activeFilters.length > 0;
 
   return (
     <div className="min-h-screen bg-background pb-24">
-      {/* Header */}
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border safe-top">
         <div className="px-4 py-3">
           <div className="flex items-center gap-3 mb-3">
-            <button 
+            <button
               onClick={() => navigate(-1)}
               className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-muted transition-colors flex-shrink-0"
             >
@@ -186,16 +201,10 @@ export default function Search() {
             </button>
             <h1 className="text-lg font-bold text-foreground">Buscar</h1>
           </div>
-          
-          <SearchBar 
-            value={query}
-            onChange={setQuery}
-            placeholder="O que você procura agora?"
-            size="large"
-          />
+
+          <SearchBar value={query} onChange={setQuery} placeholder="O que você procura agora?" size="large" />
         </div>
-        
-        {/* Filtros - scroll horizontal sem quebra */}
+
         <div className="px-4 pb-3 -mx-4">
           <div className="flex gap-2 overflow-x-auto px-4 pb-2 scrollbar-hide">
             {allFilters.map((filter) => (
@@ -213,7 +222,6 @@ export default function Search() {
       </header>
 
       <main className="px-4 py-4">
-        {/* Categorias (quando não há busca nem filtros) */}
         {showCategories && (
           <section>
             <h2 className="text-lg font-bold text-foreground mb-3">Categorias</h2>
@@ -231,7 +239,6 @@ export default function Search() {
           </section>
         )}
 
-        {/* Resultados da busca */}
         {hasActiveSearch && !hasResults && (
           <div className="text-center py-12">
             <p className="text-4xl mb-3">🔍</p>
@@ -248,7 +255,7 @@ export default function Search() {
           </div>
         )}
 
-        {hasResults && (
+        {hasResults && searchResults && (
           <div className="space-y-6">
             {searchResults.businesses.length > 0 && (
               <section>
@@ -278,9 +285,7 @@ export default function Search() {
 
             {searchResults.deals.length > 0 && (
               <section>
-                <h2 className="text-lg font-bold text-foreground mb-3">
-                  Ofertas ({searchResults.deals.length})
-                </h2>
+                <h2 className="text-lg font-bold text-foreground mb-3">Ofertas ({searchResults.deals.length})</h2>
                 <div className="space-y-3">
                   {searchResults.deals.slice(0, 3).map((deal) => (
                     <DealCard key={deal.id} deal={deal} variant="compact" />
@@ -291,9 +296,7 @@ export default function Search() {
 
             {searchResults.events.length > 0 && (
               <section>
-                <h2 className="text-lg font-bold text-foreground mb-3">
-                  Eventos ({searchResults.events.length})
-                </h2>
+                <h2 className="text-lg font-bold text-foreground mb-3">Eventos ({searchResults.events.length})</h2>
                 <div className="space-y-3">
                   {searchResults.events.slice(0, 3).map((event) => (
                     <EventCard key={event.id} event={event} variant="compact" />
@@ -304,9 +307,7 @@ export default function Search() {
 
             {searchResults.news.length > 0 && (
               <section>
-                <h2 className="text-lg font-bold text-foreground mb-3">
-                  Notícias ({searchResults.news.length})
-                </h2>
+                <h2 className="text-lg font-bold text-foreground mb-3">Notícias ({searchResults.news.length})</h2>
                 <div className="space-y-3">
                   {searchResults.news.slice(0, 3).map((n) => (
                     <NewsCard key={n.id} news={n} variant="compact" />
