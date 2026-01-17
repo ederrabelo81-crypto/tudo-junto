@@ -37,10 +37,10 @@ const FILTER_SYNONYMS: Record<string, string[]> = {
   
   'atendimento 24h': ['atendimento 24h', '24h', '24 horas', 'plantao 24h', 'plantão 24h'],
   
-  'atende em domicilio': ['atende em domicilio', 'atende em domicílio', 'domicilio', 'domicílio', 'visita', 'vai ate voce'],
+  'atende em domicilio': ['atende em domicilio',  'atende em domicílio',  'atendimento residencial',  'atendimento em casa',  'visita tecnica',  'visita técnica',  'vai ate voce',  'vai até você'],],
   
-  'orcamento sem compromisso': ['orcamento sem compromisso', 'orçamento sem compromisso', 'orcamento gratis', 'orçamento grátis'],
-  
+  'orcamento sem compromisso': [  'orcamento sem compromisso',  'orçamento sem compromisso',  'orcamento',  'orçamento',  'sem compromisso',  'avaliacao gratuita',  'avaliação gratuita',  'consultoria gratuita],
+                                
   'entrada gratuita': ['entrada gratuita', 'gratis', 'gratuito', 'free', 'entrada free'],
   
   'fim de semana': ['fim de semana', 'sabado', 'sábado', 'domingo', 'final de semana'],
