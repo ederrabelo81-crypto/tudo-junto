@@ -8,6 +8,8 @@ import type { Business } from '@/data/mockData';
 import { cn } from '@/lib/utils';
 import { formatHours, parseAndFormatHours } from '@/lib/hoursUtils';
 import { getBusinessTags } from '@/lib/businessTags';
+import { isOpenNow } from '@/lib/tagUtils';
+
 
 interface BusinessCardProps {
   business: Business;
@@ -18,6 +20,7 @@ interface BusinessCardProps {
 export function BusinessCard({ business, variant = 'default', className }: BusinessCardProps) {
   const isCompact = variant === 'compact';
   const tags = getBusinessTags(business);
+  const open = isOpenNow(business.hours);
 
   return (
     <div
