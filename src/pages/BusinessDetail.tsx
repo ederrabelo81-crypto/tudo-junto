@@ -6,6 +6,7 @@ import { businesses } from '@/data/mockData';
 import { useFavorites } from '@/hooks/useFavorites';
 import { cn } from '@/lib/utils';
 import { MapsButton } from '@/components/ui/MapsButton';
+import { isOpenNow } from '@/lib/tagUtils';
 
 export default function BusinessDetail() {
   const { id } = useParams<{ id: string }>();
@@ -13,6 +14,8 @@ export default function BusinessDetail() {
   const { isFavorite, toggleFavorite } = useFavorites();
 
   const business = businesses.find(b => b.id === id);
+  const open = isOpenNow(business.hours);
+
 
   if (!business) {
     return (
@@ -102,7 +105,9 @@ export default function BusinessDetail() {
               </div>
               <p className="text-muted-foreground">{business.category}</p>
             </div>
-            <StatusBadge isOpen={business.isOpenNow} />
+            <StatusBadge
+  status={open === true ? "open" : open === false ? "closed" : "unknown"}
+/>
           </div>
 
           {/* Tags */}
