@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Chip } from '@/components/ui/Chip';
 import { BusinessCard } from '@/components/cards/BusinessCard';
 import { ListingCard } from '@/components/cards/ListingCard';
@@ -19,6 +19,7 @@ import {
   obituaries,
   filtersByCategory 
 } from '@/data/mockData';
+import { matchesAllFilters, matchesListingFilter, normalizeText } from '@/lib/tagUtils';
 
 export default function Category() {
   const { categoryId } = useParams<{ categoryId: string }>();
@@ -36,6 +37,91 @@ export default function Category() {
     );
   };
 
+  const clearFilters = () => {
+    setActiveFilters([]);
+  };
+
+  // Filtra os negócios com lógica de sinônimos e horário real
+  const filteredBusinesses = useMemo(() => {
+    let filtered = businesses.filter(b => b.categorySlug === categoryId);
+    
+    if (activeFilters.length > 0) {
+      filtered = filtered.filter(business => 
+        matchesAllFilters(business.tags, activeFilters, {
+          hours: business.hours,
+          checkOpenNow: true
+        })
+      );
+    }
+    
+    return filtered;
+  }, [categoryId, activeFilters]);
+
+  // Filtra listings por tipo (Novo, Usado, Doação)
+  const filteredListings = useMemo(() => {
+    if (activeFilters.length === 0) return listings;
+    return listings.filter(listing => matchesListingFilter(listing, activeFilters));
+  }, [activeFilters]);
+
+  // Filtra deals
+  const filteredDeals = useMemo(() => {
+    if (activeFilters.length === 0) return deals;
+    
+    return deals.filter(deal => {
+      // Verifica filtros de texto simples
+      const normalizedFilters = activeFilters.map(f => normalizeText(f));
+      
+      // "Válido hoje" - verificar data de validade
+      if (normalizedFilters.includes('valido hoje')) {
+        const today = new Date().toISOString().split('T')[0];
+        if (deal.validUntil < today) return false;
+      }
+      
+      // "Entrega" - verificar no título/subtítulo
+      if (normalizedFilters.includes('entrega')) {
+        const text = `${deal.title} ${deal.subtitle || ''}`.toLowerCase();
+        if (!text.includes('entrega') && !text.includes('delivery')) return false;
+      }
+      
+      return true;
+    });
+  }, [activeFilters]);
+
+  // Filtra eventos
+  const filteredEvents = useMemo(() => {
+    if (activeFilters.length === 0) return events;
+    
+    return events.filter(event => {
+      const normalizedFilters = activeFilters.map(f => normalizeText(f));
+      
+      // "Entrada gratuita"
+      if (normalizedFilters.includes('entrada gratuita')) {
+        const price = event.priceText.toLowerCase();
+        if (!price.includes('grátis') && !price.includes('gratuito') && !price.includes('free') && price !== 'entrada livre') {
+          return false;
+        }
+      }
+      
+      // "Hoje"
+      if (normalizedFilters.includes('hoje')) {
+        const today = new Date().toISOString().split('T')[0];
+        if (!event.dateTime.startsWith(today)) return false;
+      }
+      
+      // "Fim de semana"
+      if (normalizedFilters.includes('fim de semana')) {
+        const eventDate = new Date(event.dateTime);
+        const day = eventDate.getDay();
+        if (day !== 0 && day !== 6) return false;
+      }
+      
+      // Tags do evento
+      return matchesAllFilters(event.tags, activeFilters.filter(f => 
+        !['entrada gratuita', 'hoje', 'fim de semana'].includes(normalizeText(f))
+      ), {});
+    });
+  }, [activeFilters]);
+
   if (!category) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -44,53 +130,51 @@ export default function Category() {
     );
   }
 
-  // Filtra os dados conforme a categoria
-  const getFilteredBusinesses = () => {
-    let filtered = businesses.filter(b => b.categorySlug === categoryId);
-    if (activeFilters.length > 0) {
-      filtered = filtered.filter(b => 
-        activeFilters.every(filter => b.tags.includes(filter))
-      );
-    }
-    return filtered;
-  };
-
-  const getFilteredListings = () => {
-    let filtered = listings;
-    if (activeFilters.includes('Doação')) {
-      filtered = filtered.filter(l => l.type === 'doacao');
-    }
-    if (activeFilters.includes('Novo') || activeFilters.includes('Usado')) {
-      filtered = filtered.filter(l => l.type === 'venda');
-    }
-    return filtered;
-  };
+  // Componente de estado vazio
+  const EmptyState = ({ message, subMessage }: { message: string; subMessage: string }) => (
+    <div className="py-12 text-center">
+      <div className="text-4xl mb-3">🔍</div>
+      <p className="font-semibold text-foreground mb-1">{message}</p>
+      <p className="text-muted-foreground text-sm mb-4">{subMessage}</p>
+      {activeFilters.length > 0 && (
+        <button
+          onClick={clearFilters}
+          className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+        >
+          Limpar filtros
+        </button>
+      )}
+    </div>
+  );
 
   const renderContent = () => {
     switch (categoryId) {
-  case 'comer-agora':
-  case 'servicos':
-  case 'negocios':
-    const filteredBusinesses = getFilteredBusinesses();
+      case 'comer-agora':
+      case 'servicos':
+      case 'negocios':
         if (filteredBusinesses.length === 0) {
-  return (
-    <div className="py-12 text-center">
-      <div className="text-4xl mb-2">🏪</div>
-      <p className="font-semibold">Ainda não temos negócios aqui.</p>
-      <p className="text-muted-foreground">Indique um lugar pra gente adicionar.</p>
-    </div>
-  );
-}
-    return (
-      <div className="grid grid-cols-1 gap-4">
-        {filteredBusinesses.map(business => (
-          <BusinessCard key={business.id} business={business} />
-        ))}
-      </div>
-    );
+          return activeFilters.length > 0 ? (
+            <EmptyState 
+              message="Nada encontrado com esses filtros" 
+              subMessage="Tente remover algum filtro ou limpar todos"
+            />
+          ) : (
+            <div className="py-12 text-center">
+              <div className="text-4xl mb-2">🏪</div>
+              <p className="font-semibold">Ainda não temos negócios aqui.</p>
+              <p className="text-muted-foreground">Indique um lugar pra gente adicionar.</p>
+            </div>
+          );
+        }
+        return (
+          <div className="grid grid-cols-1 gap-4">
+            {filteredBusinesses.map(business => (
+              <BusinessCard key={business.id} business={business} />
+            ))}
+          </div>
+        );
 
       case 'classificados':
-        const filteredListings = getFilteredListings();
         return (
           <div>
             {/* Aviso anti-golpe */}
@@ -103,18 +187,35 @@ export default function Category() {
               </p>
             </details>
             
-            <div className="grid grid-cols-2 gap-3">
-              {filteredListings.map(listing => (
-                <ListingCard key={listing.id} listing={listing} />
-              ))}
-            </div>
+            {filteredListings.length === 0 ? (
+              <EmptyState 
+                message="Nada encontrado com esses filtros" 
+                subMessage="Tente remover algum filtro"
+              />
+            ) : (
+              <div className="grid grid-cols-2 gap-3">
+                {filteredListings.map(listing => (
+                  <ListingCard key={listing.id} listing={listing} />
+                ))}
+              </div>
+            )}
           </div>
         );
 
       case 'ofertas':
         // Patrocinados primeiro
-        const sponsored = deals.filter(d => d.isSponsored);
-        const regular = deals.filter(d => !d.isSponsored);
+        const sponsored = filteredDeals.filter(d => d.isSponsored);
+        const regular = filteredDeals.filter(d => !d.isSponsored);
+        
+        if (filteredDeals.length === 0) {
+          return (
+            <EmptyState 
+              message="Nenhuma oferta encontrada" 
+              subMessage="Tente outros filtros"
+            />
+          );
+        }
+        
         return (
           <div className="space-y-4">
             {sponsored.length > 0 && (
@@ -138,9 +239,17 @@ export default function Category() {
         );
 
       case 'agenda':
+        if (filteredEvents.length === 0) {
+          return (
+            <EmptyState 
+              message="Nenhum evento encontrado" 
+              subMessage="Tente outros filtros"
+            />
+          );
+        }
         return (
           <div className="space-y-3">
-            {events.map(event => (
+            {filteredEvents.map(event => (
               <EventCard key={event.id} event={event} />
             ))}
           </div>

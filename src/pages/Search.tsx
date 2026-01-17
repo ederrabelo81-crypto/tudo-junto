@@ -10,6 +10,7 @@ import { DealCard } from '@/components/cards/DealCard';
 import { EventCard } from '@/components/cards/EventCard';
 import { NewsCard } from '@/components/cards/NewsCard';
 import { categories, businesses, listings, deals, events, news, filtersByCategory } from '@/data/mockData';
+import { matchesAllFilters, normalizeText, matchesListingFilter } from '@/lib/tagUtils';
 
 export default function Search() {
   const navigate = useNavigate();
@@ -32,38 +33,133 @@ export default function Search() {
     );
   };
 
-  // Busca simples full-text
+  const clearFilters = () => {
+    setActiveFilters([]);
+  };
+
+  // Busca com filtros funcionais
   const searchResults = useMemo(() => {
-    if (!query.trim()) return null;
+    if (!query.trim() && activeFilters.length === 0) return null;
 
-    const lowerQuery = query.toLowerCase();
+    const lowerQuery = query.toLowerCase().trim();
     
-    const filteredBusinesses = businesses.filter(b => 
-      b.name.toLowerCase().includes(lowerQuery) ||
-      b.category.toLowerCase().includes(lowerQuery) ||
-      b.neighborhood.toLowerCase().includes(lowerQuery) ||
-      b.tags.some(t => t.toLowerCase().includes(lowerQuery))
-    );
+    // Filtra businesses com texto + filtros de tags/horário
+    let filteredBusinesses = businesses;
+    
+    if (lowerQuery) {
+      filteredBusinesses = filteredBusinesses.filter(b => 
+        b.name.toLowerCase().includes(lowerQuery) ||
+        b.category.toLowerCase().includes(lowerQuery) ||
+        b.neighborhood.toLowerCase().includes(lowerQuery) ||
+        b.tags.some(t => t.toLowerCase().includes(lowerQuery))
+      );
+    }
+    
+    if (activeFilters.length > 0) {
+      filteredBusinesses = filteredBusinesses.filter(business => 
+        matchesAllFilters(business.tags, activeFilters, {
+          hours: business.hours,
+          checkOpenNow: true
+        })
+      );
+    }
 
-    const filteredListings = listings.filter(l =>
-      l.title.toLowerCase().includes(lowerQuery) ||
-      l.neighborhood.toLowerCase().includes(lowerQuery)
-    );
+    // Filtra listings com texto + filtros de tipo
+    let filteredListings = listings;
+    
+    if (lowerQuery) {
+      filteredListings = filteredListings.filter(l =>
+        l.title.toLowerCase().includes(lowerQuery) ||
+        l.neighborhood.toLowerCase().includes(lowerQuery)
+      );
+    }
+    
+    if (activeFilters.length > 0) {
+      filteredListings = filteredListings.filter(listing => 
+        matchesListingFilter(listing, activeFilters)
+      );
+    }
 
-    const filteredDeals = deals.filter(d =>
-      d.title.toLowerCase().includes(lowerQuery) ||
-      d.businessName?.toLowerCase().includes(lowerQuery)
-    );
+    // Filtra deals com texto + filtros
+    let filteredDeals = deals;
+    
+    if (lowerQuery) {
+      filteredDeals = filteredDeals.filter(d =>
+        d.title.toLowerCase().includes(lowerQuery) ||
+        d.businessName?.toLowerCase().includes(lowerQuery)
+      );
+    }
+    
+    if (activeFilters.length > 0) {
+      const normalizedFilters = activeFilters.map(f => normalizeText(f));
+      
+      filteredDeals = filteredDeals.filter(deal => {
+        // "Válido hoje"
+        if (normalizedFilters.includes('valido hoje')) {
+          const today = new Date().toISOString().split('T')[0];
+          if (deal.validUntil < today) return false;
+        }
+        
+        // "Entrega"
+        if (normalizedFilters.includes('entrega')) {
+          const text = `${deal.title} ${deal.subtitle || ''}`.toLowerCase();
+          if (!text.includes('entrega') && !text.includes('delivery')) return false;
+        }
+        
+        return true;
+      });
+    }
 
-    const filteredEvents = events.filter(e =>
-      e.title.toLowerCase().includes(lowerQuery) ||
-      e.location.toLowerCase().includes(lowerQuery)
-    );
+    // Filtra events com texto + filtros
+    let filteredEvents = events;
+    
+    if (lowerQuery) {
+      filteredEvents = filteredEvents.filter(e =>
+        e.title.toLowerCase().includes(lowerQuery) ||
+        e.location.toLowerCase().includes(lowerQuery) ||
+        e.tags.some(t => t.toLowerCase().includes(lowerQuery))
+      );
+    }
+    
+    if (activeFilters.length > 0) {
+      const normalizedFilters = activeFilters.map(f => normalizeText(f));
+      
+      filteredEvents = filteredEvents.filter(event => {
+        // "Entrada gratuita"
+        if (normalizedFilters.includes('entrada gratuita')) {
+          const price = event.priceText.toLowerCase();
+          if (!price.includes('grátis') && !price.includes('gratuito') && !price.includes('free') && price !== 'entrada livre') {
+            return false;
+          }
+        }
+        
+        // "Hoje"
+        if (normalizedFilters.includes('hoje')) {
+          const today = new Date().toISOString().split('T')[0];
+          if (!event.dateTime.startsWith(today)) return false;
+        }
+        
+        // "Fim de semana"
+        if (normalizedFilters.includes('fim de semana')) {
+          const eventDate = new Date(event.dateTime);
+          const day = eventDate.getDay();
+          if (day !== 0 && day !== 6) return false;
+        }
+        
+        return true;
+      });
+    }
 
-    const filteredNews = news.filter(n =>
-      n.title.toLowerCase().includes(lowerQuery) ||
-      n.tag.toLowerCase().includes(lowerQuery)
-    );
+    // Filtra news com texto + tags
+    let filteredNews = news;
+    
+    if (lowerQuery) {
+      filteredNews = filteredNews.filter(n =>
+        n.title.toLowerCase().includes(lowerQuery) ||
+        n.tag.toLowerCase().includes(lowerQuery) ||
+        n.snippet.toLowerCase().includes(lowerQuery)
+      );
+    }
 
     return {
       businesses: filteredBusinesses,
@@ -73,10 +169,11 @@ export default function Search() {
       news: filteredNews,
       total: filteredBusinesses.length + filteredListings.length + filteredDeals.length + filteredEvents.length + filteredNews.length
     };
-  }, [query]);
+  }, [query, activeFilters]);
 
   const hasResults = searchResults && searchResults.total > 0;
-  const showCategories = !query.trim();
+  const showCategories = !query.trim() && activeFilters.length === 0;
+  const hasActiveSearch = query.trim() || activeFilters.length > 0;
 
   return (
     <div className="min-h-screen bg-background pb-24">
@@ -119,30 +216,38 @@ export default function Search() {
       </header>
 
       <main className="px-4 py-4">
-        {/* Categorias (quando não há busca) */}
+        {/* Categorias (quando não há busca nem filtros) */}
         {showCategories && (
           <section>
             <h2 className="text-lg font-bold text-foreground mb-3">Categorias</h2>
             <div className="grid grid-cols-2 gap-3">
-             {categories.map((category) => (
-  <CategoryCard
-    key={category.id}
-    id={category.id}
-    name={category.name}
-    iconKey={category.iconKey}
-    size="sm"
-  />
-))}
+              {categories.map((category) => (
+                <CategoryCard
+                  key={category.id}
+                  id={category.id}
+                  name={category.name}
+                  iconKey={category.iconKey}
+                  size="sm"
+                />
+              ))}
             </div>
           </section>
         )}
 
         {/* Resultados da busca */}
-        {query.trim() && !hasResults && (
+        {hasActiveSearch && !hasResults && (
           <div className="text-center py-12">
             <p className="text-4xl mb-3">🔍</p>
             <p className="text-lg font-semibold text-foreground mb-1">Nenhum resultado</p>
-            <p className="text-muted-foreground">Tente buscar por outro termo</p>
+            <p className="text-muted-foreground mb-4">Tente buscar por outro termo ou remover filtros</p>
+            {activeFilters.length > 0 && (
+              <button
+                onClick={clearFilters}
+                className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+              >
+                Limpar filtros
+              </button>
+            )}
           </div>
         )}
 

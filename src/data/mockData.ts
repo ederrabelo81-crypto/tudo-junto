@@ -3114,16 +3114,16 @@ export const obituaries: Obituary[] = [
   },
 ];
 
-// Categorias do app
+// Categorias do app (ordem fixa: Comer Agora, Negócios, Serviços, Classificados, Ofertas, Agenda, Notícias, Falecimentos)
 export const categories: Array<{ id: string; name: string; iconKey: CategoryIconKey; color: string }> = [
   { id: 'comer-agora', name: 'Comer Agora', iconKey: 'food', color: 'category-food' },
+  { id: 'negocios', name: 'Negócios', iconKey: 'store', color: 'category-store' },
+  { id: 'servicos', name: 'Serviços', iconKey: 'services', color: 'category-services' },
   { id: 'classificados', name: 'Classificados', iconKey: 'classifieds', color: 'category-classifieds' },
   { id: 'ofertas', name: 'Ofertas', iconKey: 'deals', color: 'category-deals' },
-  { id: 'servicos', name: 'Serviços', iconKey: 'services', color: 'category-services' },
   { id: 'agenda', name: 'Agenda', iconKey: 'events', color: 'category-events' },
-  { id: 'falecimentos', name: 'Falecimentos', iconKey: 'obituary', color: 'category-obituary' },
   { id: 'noticias', name: 'Notícias', iconKey: 'news', color: 'category-news' },
-  { id: 'negocios', name: 'Negócios', iconKey: 'store', color: 'category-store' },
+  { id: 'falecimentos', name: 'Falecimentos', iconKey: 'obituary', color: 'category-obituary' },
 ];
 
 // Filtros por categoria
