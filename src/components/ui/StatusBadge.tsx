@@ -1,26 +1,49 @@
 import { cn } from '@/lib/utils';
 
+type Status = 'open' | 'closed' | 'unknown';
+
 interface StatusBadgeProps {
-  isOpen: boolean;
+  /**
+   * Novo formato: use status.
+   * - open: "Aberto"
+   * - closed: "Fechado"
+   * - unknown: "Horário"
+   */
+  status?: Status;
+
+  /**
+   * Formato antigo (mantido para compatibilidade).
+   * Se `status` for informado, `isOpen` é ignorado.
+   */
+  isOpen?: boolean;
+
   className?: string;
 }
 
-export function StatusBadge({ isOpen, className }: StatusBadgeProps) {
+export function StatusBadge({ status, isOpen, className }: StatusBadgeProps) {
+  const resolved: Status = status ?? (isOpen ? 'open' : 'closed');
+
+  const label = resolved === 'open' ? 'Aberto' : resolved === 'closed' ? 'Fechado' : 'Horário';
+
   return (
-    <span 
+    <span
       className={cn(
-        "inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-semibold",
-        isOpen 
-          ? "bg-status-open/10 text-status-open" 
-          : "bg-status-closed/10 text-status-closed",
-        className
+        'inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-semibold',
+        resolved === 'open'
+          ? 'bg-status-open/10 text-status-open'
+          : resolved === 'closed'
+            ? 'bg-status-closed/10 text-status-closed'
+            : 'bg-muted text-muted-foreground',
+        className,
       )}
     >
-      <span className={cn(
-        "w-1.5 h-1.5 rounded-full",
-        isOpen ? "bg-status-open pulse-open" : "bg-status-closed"
-      )} />
-      {isOpen ? 'Aberto' : 'Fechado'}
+      <span
+        className={cn(
+          'w-1.5 h-1.5 rounded-full',
+          resolved === 'open' ? 'bg-status-open pulse-open' : resolved === 'closed' ? 'bg-status-closed' : 'bg-muted-foreground',
+        )}
+      />
+      {label}
     </span>
   );
 }
