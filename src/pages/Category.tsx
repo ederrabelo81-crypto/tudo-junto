@@ -9,6 +9,7 @@ import { EventCard } from '@/components/cards/EventCard';
 import { NewsCard } from '@/components/cards/NewsCard';
 import { ObituaryCard } from '@/components/cards/ObituaryCard';
 import { CategoryIcon } from '@/components/ui/CategoryIcon';
+import { getBusinessTags } from "@/lib/businessTags";
 import { 
   categories, 
   businesses, 
@@ -46,12 +47,12 @@ export default function Category() {
     let filtered = businesses.filter(b => b.categorySlug === categoryId);
     
     if (activeFilters.length > 0) {
-      filtered = filtered.filter(business => 
-        matchesAllFilters(business.tags, activeFilters, {
-          hours: business.hours,
-          checkOpenNow: true
-        })
-      );
+      filtered = filtered.filter(business =>
+  matchesAllFilters(getBusinessTags(business), activeFilters, {
+    hours: business.hours,
+    checkOpenNow: true
+  })
+);
     }
     
     return filtered;
