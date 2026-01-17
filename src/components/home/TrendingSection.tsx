@@ -44,8 +44,9 @@ export function TrendingSection() {
             return (
               <div key={`listing-${index}`} className="grid grid-cols-2 gap-3">
                 {item.data.map((l, i) => (
-                  <div key={l.id ?? `listing-${i}`} className="relative">
+                  <div key={l?.id ?? `listing-${i}`} className="relative">
                     <Badge text="Classificado" />
+                    if (!item.data || item.data.length === 0) return null;
                     <ListingCard listing={l} />
                   </div>
                 ))}
