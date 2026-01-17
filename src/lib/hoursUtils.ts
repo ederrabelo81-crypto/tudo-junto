@@ -1,10 +1,10 @@
 import { normalizeText } from './tagUtils';
 
-function pad2(n: number) {
+function pad2(n: number): string {
   return String(n).padStart(2, '0');
 }
 
-function to24h(hour: number, ampm?: 'am' | 'pm') {
+function to24h(hour: number, ampm?: 'am' | 'pm'): number {
   let h = hour;
   if (ampm === 'pm' && h < 12) h += 12;
   if (ampm === 'am' && h === 12) h = 0;
@@ -35,13 +35,14 @@ function parseTimePart(partRaw: string): { h: number; m: number } | null {
   return { h: h24, m: mm };
 }
 
-export function formatHours(hoursString: string, isOpenNow?: boolean) {
+export function formatHours(hoursString: string, isOpenNow?: boolean): string {
   if (isOpenNow) {
     return `Aberto agora • ${hoursString}`;
   }
   return hoursString;
 }
 
+export function parseAndFormatHours(hoursRaw: string): string {
   const raw = hoursRaw.trim();
   const n = normalizeText(raw);
 
@@ -55,8 +56,7 @@ export function formatHours(hoursString: string, isOpenNow?: boolean) {
     null;
 
   if (!sep) {
-    // já pode estar “7h às 21h” sem prefixo, ou algo não parseável
-    // tenta achar dois horários mesmo sem separador padronizado
+    // já pode estar "7h às 21h" sem prefixo, ou algo não parseável
     return raw.toLowerCase().includes('hor')
       ? raw
       : `Horário: ${raw}`;
@@ -74,7 +74,7 @@ export function formatHours(hoursString: string, isOpenNow?: boolean) {
       : `Horário: ${raw}`;
   }
 
-  // saída “7h às 21h” (sem minutos se for :00)
+  // saída "7h às 21h" (sem minutos se for :00)
   const startStr = start.m === 0 ? `${start.h}h` : `${pad2(start.h)}:${pad2(start.m)}`;
   const endStr = end.m === 0 ? `${end.h}h` : `${pad2(end.h)}:${pad2(end.m)}`;
 
