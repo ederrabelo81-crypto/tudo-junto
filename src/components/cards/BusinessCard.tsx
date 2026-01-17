@@ -56,7 +56,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
           <MapPin className="w-3.5 h-3.5 mr-1 flex-shrink-0" />
           <span className="truncate">{business.neighborhood}</span>
           <span className="mx-2">•</span>
-          <span className="truncate">{business.hours}</span>
+          <span className="truncate">{formatHours(business.hours, business.isOpenNow)}</span>
         </div>
 
         {!isCompact && business.tags.length > 0 && (
