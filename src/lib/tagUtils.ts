@@ -20,26 +20,25 @@ export function normalizeText(text: string): string {
 const FILTER_SYNONYMS: Record<string, string[]> = {
   entrega: ['entrega', 'delivery', 'tele entrega', 'tele-entrega', 'teleentrega', 'faz entrega'],
   
-  'aceita cartao': [
-    'aceita cartao', 'aceita cartão', 'cartao', 'cartão', 
-    'credito', 'debito', 'crédito', 'débito',
-    'pix e cartao', 'pix e cartão', 'aceita pix'
-  ],
+  'aceita cartao': [  'aceita cartao',  'aceita cartão',  'cartao',  'cartão',  'credito',  'crédito',  'debito',  'débito',  'cartoes',  'cartões',  'pagamento no cartao',  'pagamento no cartão',  'paga no cartao',  'maquininha',
+  'visa',  'mastercard',  'elo',  'amex',  'pix e cartao',  'pix e cartão'],
   
   agora: ['aberto agora', 'aberto', 'funcionando'],
 'agora na cidade': ['aberto agora', 'aberto', 'funcionando'],
   
   'atende hoje': ['atende hoje', 'hoje', 'plantao', 'plantão'],
   
-  'pet friendly': ['pet friendly', 'aceita pet', 'aceita animais', 'permite animais', 'permite pet'],
+  'pet friendly': [  'pet friendly',  'aceita pet',  'aceita animais',  'pets ok',  'amigo dos pets'],
   
   '24h': ['24h', '24 horas', '24 horas por dia', 'vinte quatro horas', 'plantao', 'plantão'],
   
-  'atendimento 24h': ['atendimento 24h', '24h', '24 horas', 'plantao 24h', 'plantão 24h'],
+  'atendimento 24h': [  'atendimento 24h',  '24h',  '24 horas',  '24hrs',  '24 horas por dia',  'plantao 24h',  'plantão 24h',  'plantao',  'plantão'],
   
-  'atende em domicilio': ['atende em domicilio',  'atende em domicílio',  'atendimento residencial',  'atendimento em casa',  'visita tecnica',  'visita técnica',  'vai ate voce',  'vai até você'],
+  'atende em domicilio': [  'atende em domicilio',  'atende em domicílio',  'atendimento em domicilio',  'atendimento em domicílio',  'atende em casa',  'atendimento em casa',  'atendimento residencial',  'servico a domicilio',
+  'serviço a domicílio',  'visita tecnica',  'visita técnica',  'vou ate voce',  'vou até você']
   
-  'orcamento sem compromisso': [  'orcamento sem compromisso',  'orçamento sem compromisso',  'orcamento',  'orçamento',  'sem compromisso',  'avaliacao gratuita',  'avaliação gratuita',  'consultoria gratuita'],
+  'orcamento sem compromisso': [  'orcamento sem compromisso',  'orçamento sem compromisso',  'orcamento',  'orçamento',  'sem compromisso',  'avaliacao gratuita',  'avaliação gratuita',  'diagnostico gratis',  'diagnóstico grátis',
+  'consulta gratis',  'consulta grátis',  'consultoria gratuita',  'preco sem compromisso',  'preço sem compromisso'],
                                 
   'entrada gratuita': ['entrada gratuita', 'gratis', 'gratuito', 'free', 'entrada free'],
   
