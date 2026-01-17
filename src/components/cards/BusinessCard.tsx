@@ -4,6 +4,9 @@ import { StatusBadge } from '@/components/ui/StatusBadge';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import type { Business } from '@/data/mockData';
 import { cn } from '@/lib/utils';
+import { formatHours } from '@/lib/hoursUtils';
+// ...
+<p className="...">{formatHours(business.hours)}</p>
 
 interface BusinessCardProps {
   business: Business;
