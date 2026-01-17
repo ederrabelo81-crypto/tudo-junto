@@ -4,7 +4,7 @@ import { StatusBadge } from '@/components/ui/StatusBadge';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import type { Business } from '@/data/mockData';
 import { cn } from '@/lib/utils';
-import { formatHours } from '@/lib/hoursUtils';
+import { formatHours, parseAndFormatHours } from '@/lib/hoursUtils';
 
 interface BusinessCardProps {
   business: Business;
@@ -54,7 +54,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
           <MapPin className="w-3.5 h-3.5 mr-1 flex-shrink-0" />
           <span className="truncate">{business.neighborhood}</span>
           <span className="mx-2">•</span>
-          <span className="truncate">{formatHours(business.hours, business.isOpenNow)}</span>
+          <span className="truncate">  {formatHours(parseAndFormatHours(business.hours), business.isOpenNow)}</span>
         </div>
 
         {!isCompact && business.tags.length > 0 && (
