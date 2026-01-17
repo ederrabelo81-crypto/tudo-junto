@@ -44,7 +44,7 @@ export default function Search() {
     const lowerQuery = query.toLowerCase().trim();
     
     // Filtra businesses com texto + filtros de tags/horário
-    let filteredBusinesses = businesses;
+    getBusinessTags(b).some(t => t.toLowerCase().includes(lowerQuery))
     
     if (lowerQuery) {
       filteredBusinesses = filteredBusinesses.filter(b => 
@@ -57,10 +57,7 @@ export default function Search() {
     
     if (activeFilters.length > 0) {
       filteredBusinesses = filteredBusinesses.filter(business => 
-        matchesAllFilters(business.tags, activeFilters, {
-          hours: business.hours,
-          checkOpenNow: true
-        })
+        matchesAllFilters(getBusinessTags(business), activeFilters, { hours: business.hours, checkOpenNow: true })
       );
     }
 
