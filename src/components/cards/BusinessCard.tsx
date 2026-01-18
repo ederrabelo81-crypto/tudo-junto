@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
-import { MapPin, CheckCircle2 } from 'lucide-react';
+import { MapPin, CheckCircle2, Star } from 'lucide-react';
 import { StatusBadge } from '@/components/ui/StatusBadge';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { MapsButton } from '@/components/ui/MapsButton';
+import { CallButton } from '@/components/ui/CallButton';
+import { MetaChip } from '@/components/ui/MetaChip';
 import type { Business } from '@/data/mockData';
 import { cn } from '@/lib/utils';
 import { formatHours, parseAndFormatHours } from '@/lib/hoursUtils';
@@ -20,6 +22,11 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
   const tags = getBusinessTags(business);
   const open = isOpenNow(business.hours);
 
+  // Extrai rating da descrição se existir (ex: "Nota 5.0 (21 avaliações)")
+  const ratingMatch = business.description?.match(/Nota\s+(\d+(?:\.\d+)?)\s*\((\d+)/i);
+  const rating = ratingMatch ? parseFloat(ratingMatch[1]) : undefined;
+  const reviewCount = ratingMatch ? parseInt(ratingMatch[2]) : undefined;
+
   return (
     <div
       className={cn(
@@ -36,13 +43,26 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
             loading="lazy"
           />
 
-          <div className="absolute top-2 left-2">
+          {/* Meta chips (estilo MyListing) */}
+          <div className="absolute top-2 left-2 flex gap-2 items-center">
             <StatusBadge status={open === true ? 'open' : open === false ? 'closed' : 'unknown'} />
+            {typeof rating === 'number' && !Number.isNaN(rating) && (
+              <MetaChip>
+                <Star className="w-3.5 h-3.5" />
+                <span>{rating.toFixed(1)}</span>
+                {typeof reviewCount === 'number' && reviewCount > 0 && (
+                  <span className="opacity-90">({reviewCount})</span>
+                )}
+              </MetaChip>
+            )}
           </div>
 
           {business.isVerified && (
-            <div className="absolute top-2 right-2 bg-primary text-primary-foreground rounded-full p-1">
-              <CheckCircle2 className="w-4 h-4" />
+            <div className="absolute top-2 right-2">
+              <MetaChip className="bg-primary/85">
+                <CheckCircle2 className="w-3.5 h-3.5" />
+                <span>Verificado</span>
+              </MetaChip>
             </div>
           )}
         </div>
@@ -82,6 +102,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
             query={`${business.name} ${business.address ?? business.neighborhood ?? ''}`}
             className="shrink-0"
           />
+          {business.phone && <CallButton phone={business.phone} size="sm" className="shrink-0" />}
         </div>
       </div>
     </div>
