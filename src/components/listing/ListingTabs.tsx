@@ -5,6 +5,8 @@ export interface TabItem {
   id: string;
   label: string;
   icon?: ReactNode;
+  /** Número opcional mostrado ao lado do label (ex: Avaliações 12) */
+  count?: number;
   content: ReactNode;
   /** Se true, a aba só aparece se content não for null/undefined */
   hideIfEmpty?: boolean;
@@ -41,7 +43,19 @@ export function ListingTabs({ tabs, defaultTab, className }: ListingTabsProps) {
               )}
             >
               {tab.icon}
-              {tab.label}
+              <span>{tab.label}</span>
+              {typeof tab.count === 'number' && tab.count > 0 && (
+                <span
+                  className={cn(
+                    'ml-1 inline-flex min-w-[20px] h-5 px-1.5 items-center justify-center rounded-full text-[11px] font-semibold',
+                    activeTab === tab.id
+                      ? 'bg-primary/10 text-primary'
+                      : 'bg-muted text-muted-foreground'
+                  )}
+                >
+                  {tab.count}
+                </span>
+              )}
             </button>
           ))}
         </div>
