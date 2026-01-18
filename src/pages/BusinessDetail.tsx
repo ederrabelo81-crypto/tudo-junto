@@ -104,6 +104,7 @@ export default function BusinessDetail() {
       id: 'galeria',
       label: 'Galeria',
       icon: <Images className="w-4 h-4" />,
+      count: business.coverImages.length,
       hideIfEmpty: true,
       content: business.coverImages.length > 1 ? (
         <div className="px-4">
