@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, X } from 'lucide-react';
 import { SearchBar } from '@/components/ui/SearchBar';
@@ -53,20 +53,16 @@ export default function Search() {
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
   const handleLoadMore = useCallback(() => {
-    // Hoje os dados são locais (mock) e carregam instantâneo.
-    // Mesmo assim, exibimos um micro feedback de carregamento (skeleton) para:
-    // 1) evitar "cliques fantasmas" e 2) ficar pronto quando virar API/BD.
     setIsLoadingMore(true);
     setCurrentPage((p) => p + 1);
     window.setTimeout(() => setIsLoadingMore(false), 250);
   }, []);
 
-  // Se mudar type/q/filters, reseta paginação e loading
   useEffect(() => {
     setCurrentPage(1);
     setIsLoadingMore(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeType, query, filtersParam]);
+
 
   // Todos os filtros disponíveis
   const allFilters = useMemo(() => {
