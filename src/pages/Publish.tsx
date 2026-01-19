@@ -195,18 +195,18 @@ export default function Publish() {
             </div>
 
             <h3 className="text-base font-semibold text-foreground">O que você quer publicar?</h3>
-            <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+            <div className="grid grid-cols-4 gap-2">
               {publishTypes.map((type) => (
                 <button
                   key={type.id}
                   onClick={() => updateField('type', type.id)}
                   className={cn(
-                    "flex flex-col items-center justify-center gap-2 p-4 bg-card rounded-2xl card-shadow text-center transition-all active:scale-98",
+                    "flex flex-col items-center justify-center gap-2 p-3 bg-card rounded-2xl card-shadow text-center transition-all active:scale-98",
                     formData.type === type.id && "ring-2 ring-primary bg-primary/5"
                   )}
                 >
-                  <CategoryIcon categoryId={type.iconKey} size="md" />
-                  <p className="text-[12px] font-semibold text-foreground leading-tight">
+                  <CategoryIcon categoryId={type.iconKey} size="sm" />
+                  <p className="text-[11px] font-semibold text-foreground leading-tight">
                     {type.shortLabel}
                   </p>
                 </button>
