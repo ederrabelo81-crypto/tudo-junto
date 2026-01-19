@@ -49,11 +49,13 @@ export default function RealEstateList() {
           </div>
           <SearchBar value={query} onChange={setQuery} placeholder="Buscar imóveis..." />
           <div className="flex gap-2 mt-3 overflow-x-auto pb-1 scrollbar-hide">
-            {filters.map((filter) => (  <Chip    key={filter}
-    active={activeFilters.includes(filter)}
-    onClick={() => toggleFilter(filter)}  >
-    {filter}
-  </Chip>
+            {filters.map((filter) => (  <Chip
+  key={filter}
+  active={activeFilters.includes(filter)}
+  onClick={() => toggleFilter(filter)}
+>
+  {filter}
+</Chip>
 ))}
           </div>
         </div>
