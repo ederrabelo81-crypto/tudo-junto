@@ -4,8 +4,9 @@ import { ArrowLeft, ArrowRight, Camera, Check } from 'lucide-react';
 import { CategoryIcon } from '@/components/ui/CategoryIcon';
 import { cn } from '@/lib/utils';
 import type { CategoryIconKey } from '@/data/mockData';
+import { LISTING_TYPES, getCategoriesForType } from '@/lib/taxonomy';
 
-type PublishType = 'classificados' | 'evento' | 'oferta' | 'comercio' | 'carros' | 'emprego' | 'imovel' | 'servicos';
+type PublishType = 'classificados' | 'agenda' | 'ofertas' | 'negocios' | 'carros' | 'empregos' | 'imoveis' | 'servicos';
 
 interface FormData {
   type: PublishType | null;
@@ -21,26 +22,27 @@ interface FormData {
 
 const DRAFT_KEY = 'monte-de-tudo-draft';
 
-const publishTypes: { id: PublishType; iconKey: CategoryIconKey; shortLabel: string; label: string; description: string }[] = [
-  { id: 'classificados', iconKey: 'classifieds', shortLabel: 'Classificados', label: 'Classificados', description: 'Vender ou doar algo' },
-  { id: 'evento', iconKey: 'events', shortLabel: 'Evento', label: 'Evento', description: 'Divulgar um evento' },
-  { id: 'oferta', iconKey: 'deals', shortLabel: 'Oferta', label: 'Oferta', description: 'Promoção do seu negócio' },
-  { id: 'comercio', iconKey: 'store', shortLabel: 'Negócio', label: 'Comércio / Serviço', description: 'Cadastrar seu negócio' },
-  { id: 'carros', iconKey: 'cars', shortLabel: 'Carros', label: 'Carros', description: 'Anunciar veículo' },
-  { id: 'emprego', iconKey: 'jobs', shortLabel: 'Emprego', label: 'Vaga de Emprego', description: 'Publicar vaga' },
-  { id: 'imovel', iconKey: 'realestate', shortLabel: 'Imóvel', label: 'Imóvel', description: 'Alugar ou vender imóvel' },
-  { id: 'servicos', iconKey: 'services', shortLabel: 'Serviços', label: 'Serviços', description: 'Oferecer um serviço' },
+// Mapeamento de PublishType para ID da taxonomia e iconKey
+const publishTypes: { id: PublishType; taxonomyId: string; iconKey: CategoryIconKey; shortLabel: string; label: string; description: string }[] = [
+  { id: 'classificados', taxonomyId: 'classificados', iconKey: 'classifieds', shortLabel: 'Classificados', label: 'Classificados', description: 'Vender ou doar algo' },
+  { id: 'agenda', taxonomyId: 'agenda', iconKey: 'events', shortLabel: 'Evento', label: 'Evento', description: 'Divulgar um evento' },
+  { id: 'ofertas', taxonomyId: 'ofertas', iconKey: 'deals', shortLabel: 'Oferta', label: 'Oferta', description: 'Promoção do seu negócio' },
+  { id: 'negocios', taxonomyId: 'negocios', iconKey: 'store', shortLabel: 'Negócio', label: 'Comércio / Serviço', description: 'Cadastrar seu negócio' },
+  { id: 'carros', taxonomyId: 'carros', iconKey: 'cars', shortLabel: 'Carros', label: 'Carros', description: 'Anunciar veículo' },
+  { id: 'empregos', taxonomyId: 'empregos', iconKey: 'jobs', shortLabel: 'Emprego', label: 'Vaga de Emprego', description: 'Publicar vaga' },
+  { id: 'imoveis', taxonomyId: 'imoveis', iconKey: 'realestate', shortLabel: 'Imóvel', label: 'Imóvel', description: 'Alugar ou vender imóvel' },
+  { id: 'servicos', taxonomyId: 'servicos', iconKey: 'services', shortLabel: 'Serviços', label: 'Serviços', description: 'Oferecer um serviço' },
 ];
 
-const categories: Record<PublishType, string[]> = {
-  classificados: ['Eletrônicos', 'Móveis', 'Roupas', 'Veículos', 'Pets', 'Outros'],
-  evento: ['Festa', 'Show', 'Esportes', 'Religioso', 'Cultural', 'Outros'],
-  oferta: ['Alimentação', 'Beleza', 'Serviços', 'Varejo', 'Outros'],
-  comercio: ['Alimentação', 'Beleza', 'Saúde', 'Serviços', 'Varejo', 'Pets', 'Outros'],
-  carros: ['Sedan', 'SUV', 'Hatch', 'Pickup', 'Moto', 'Outros'],
-  emprego: ['CLT', 'PJ', 'Estágio', 'Freelancer', 'Temporário', 'Outros'],
-  imovel: ['Apartamento', 'Casa', 'Kitnet', 'Terreno', 'Comercial', 'Outros'],
-  servicos: ['Beleza', 'Saúde', 'Tecnologia', 'Construção', 'Educação', 'Outros'],
+// Função para obter categorias do tipo selecionado a partir da taxonomia
+const getCategoriesForPublishType = (type: PublishType): string[] => {
+  const publishType = publishTypes.find(p => p.id === type);
+  if (!publishType) return ['Outros'];
+  
+  const categories = getCategoriesForType(publishType.taxonomyId);
+  // Adiciona "Outros" se não existir
+  if (categories.length === 0) return ['Outros'];
+  return [...categories, 'Outros'];
 };
 
 const neighborhoods = ['Centro', 'Vila Nova', 'Jardim América', 'Industrial', 'Outro'];
@@ -247,7 +249,7 @@ export default function Publish() {
             <div>
               <label className="text-sm font-medium text-foreground mb-1.5 block">Categoria</label>
               <div className="flex flex-wrap gap-2">
-                {categories[formData.type].map((cat) => (
+                {getCategoriesForPublishType(formData.type).map((cat) => (
                   <button
                     key={cat}
                     onClick={() => updateField('category', cat)}
@@ -284,7 +286,7 @@ export default function Publish() {
               </div>
             </div>
 
-            {(formData.type === 'classificados' || formData.type === 'carros' || formData.type === 'imovel') && (
+            {(formData.type === 'classificados' || formData.type === 'carros' || formData.type === 'imoveis') && (
               <div>
                 <label className="text-sm font-medium text-foreground mb-1.5 block">
                   Preço {formData.type === 'classificados' && '(opcional)'}
@@ -296,7 +298,7 @@ export default function Publish() {
                   placeholder={
                     formData.type === 'classificados' 
                       ? "R$ 0,00 (deixe vazio se for doação)" 
-                      : formData.type === 'imovel'
+                      : formData.type === 'imoveis'
                         ? "R$ 0,00 (ou valor do aluguel)"
                         : "R$ 0,00"
                   }
