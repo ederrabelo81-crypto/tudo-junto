@@ -3169,16 +3169,31 @@ export const categories: Array<{ id: string; name: string; iconKey: CategoryIcon
   ...extraCategories,
 ];
 
-// Filtros por categoria
+// Filtros por categoria - baseados na taxonomia de 3 camadas
+// Tags são usadas como filtros rápidos na UI
 export const filtersByCategory: Record<string, string[]> = {
-  'comer-agora': ['Entrega', 'Aberto agora', 'Aceita cartão'],
-  servicos: ["WhatsApp", "Agendamento", "Site", "Bem avaliado"],
-  classificados: ['Novo', 'Usado', 'Doação'],
-  agenda: ['Entrada gratuita', 'Hoje', 'Fim de semana'],
-  ofertas: ['Válido hoje', 'Entrega'],
-  negocios: ['Entrega', 'Aceita cartão', 'Estacionamento', 'Aberto agora'],
-  lugares: ['Grátis', 'Família', 'Romântico', 'Trilha', 'Cultura', 'Pet Friendly'],
-  carros: ['Concessionária', 'Particular', 'Financiamento', 'Troca', 'Único dono', 'Baixa km'],
-  empregos: ['CLT', 'PJ', 'Estágio', 'Freelancer', 'Home office', 'Sem experiência'],
-  imoveis: ['Alugar', 'Comprar', 'Apartamento', 'Casa', 'Mobiliado', 'Pet Friendly'],
+  // Comer Agora: tags de urgência e conveniência
+  'comer-agora': ['Delivery', 'Aberto Agora', 'Retirada no Local', 'Self-Service', 'Rodízio', 'Espaço Kids'],
+  // Negócios: tags de comércio físico
+  negocios: ['Aceita Cartão', 'Estacionamento Próprio', 'Loja Física', 'Promoções', 'Atendimento no Local'],
+  // Serviços: tags de prestação de serviço
+  servicos: ['Atende em Domicílio', 'Orçamento Sem Compromisso', 'Emergência 24h', 'Com Agendamento', 'Atendimento Online'],
+  // Classificados: tags de estado do produto
+  classificados: ['Produto Novo', 'Produto Usado', 'Para Doação', 'Aceita Troca', 'Preço Negociável', 'Faz Entrega'],
+  // Ofertas: tags promocionais
+  ofertas: ['Desconto', 'Promoção por Tempo Limitado', 'Cupom', 'Oferta do Dia'],
+  // Agenda (Eventos): tags de tipo de evento
+  agenda: ['Entrada Gratuita', 'Ao Ar Livre', 'Para Família', 'Música ao Vivo', 'Ingressos Online'],
+  // Lugares: tags de características
+  lugares: ['Acesso Livre', 'Histórico', 'Área Verde', 'Ideal para Crianças'],
+  // Imóveis: tags de condições
+  imoveis: ['Aceita Financiamento', 'Mobiliado', 'Piscina', 'Garagem', 'Aceita Permuta'],
+  // Notícias: tags editoriais
+  noticias: ['Urgente', 'Comunicado Oficial', 'Interesse Público'],
+  // Falecimentos: tags de serviço
+  falecimentos: ['Velório', 'Sepultamento', 'Comunicado da Família'],
+  // Carros: tags automotivas
+  carros: ['Novo', 'Usado', 'Financiamento', 'Único Dono'],
+  // Empregos: tags profissionais
+  empregos: ['CLT', 'Meio Período', 'Home Office', 'Urgente', 'Sem Experiência'],
 };
