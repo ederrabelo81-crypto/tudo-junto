@@ -24,7 +24,9 @@ export function NoticiasBlock() {
   return (
     <section>
       <SectionHeader
-        title="📰 Notícias & Falecimentos"
+        title="Notícias & Falecimentos"
+        icon={Newspaper}
+        iconVariant="primary"
         action={{ label: 'Ver mais', to: '/categoria/noticias' }}
       />
 

@@ -1,7 +1,7 @@
 import type React from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
-import { getCategoryIcon } from '@/assets/icons/categoryIcons';
+import { GlassCategoryIcon } from '@/components/ui/GlassCategoryIcon';
 
 interface CategoryCardProps {
   id: string;
@@ -13,8 +13,6 @@ interface CategoryCardProps {
 }
 
 export function CategoryCard({ id, name, iconKey, className, size = 'md', onClickOverride }: CategoryCardProps) {
-  const iconSrc = getCategoryIcon(iconKey) || getCategoryIcon(id);
-  
   // Rotas especiais para novos tipos
   const getRoute = () => {
     const specialRoutes: Record<string, string> = {
@@ -37,24 +35,11 @@ export function CategoryCard({ id, name, iconKey, className, size = 'md', onClic
         className
       )}
     >
-      <span className={cn(
-        "mb-2 flex items-center justify-center",
-        size === 'md' ? "h-12 w-12" : "h-11 w-11"
-      )}>
-        {iconSrc ? (
-          <img 
-            src={iconSrc} 
-            alt={name}
-            loading="lazy"
-            className={cn(
-              "object-contain drop-shadow-md",
-              size === 'md' ? 'h-12 w-12' : 'h-11 w-11'
-            )}
-          />
-        ) : (
-          <span className="text-2xl">📦</span>
-        )}
-      </span>
+      <GlassCategoryIcon 
+        categoryId={iconKey || id} 
+        size={size === 'md' ? 'md' : 'sm'}
+        className="mb-2"
+      />
 
       <span className={cn(
         "font-semibold text-foreground text-center leading-tight line-clamp-2 break-words min-h-[2.5em]",

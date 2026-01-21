@@ -24,7 +24,9 @@ export function OfertasBlock() {
   return (
     <section>
       <SectionHeader
-        title="💸 Ofertas Ativas"
+        title="Ofertas Ativas"
+        icon={Tag}
+        iconVariant="warning"
         action={{ label: 'Ver todas', to: '/categoria/ofertas' }}
       />
 

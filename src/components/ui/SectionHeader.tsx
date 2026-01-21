@@ -1,9 +1,12 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, type LucideIcon } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { cn } from '@/lib/utils';
+import { GlassIcon, type GlassIconVariant } from '@/components/ui/GlassIcon';
 
 interface SectionHeaderProps {
   title: string;
+  icon?: LucideIcon;
+  iconVariant?: GlassIconVariant;
   count?: number;
   /** Exibir "Ver todos (X)" quando count > previewLimit */
   previewLimit?: number;
@@ -19,6 +22,8 @@ interface SectionHeaderProps {
 
 export function SectionHeader({
   title,
+  icon,
+  iconVariant = 'primary',
   count,
   previewLimit = 0,
   viewAllType,
@@ -53,7 +58,12 @@ export function SectionHeader({
 
   return (
     <div className={cn('flex items-center justify-between mb-3', className)}>
-      <h2 className="text-lg font-bold text-foreground">{displayTitle}</h2>
+      <div className="flex items-center gap-2">
+        {icon && (
+          <GlassIcon icon={icon} size="xs" variant={iconVariant} />
+        )}
+        <h2 className="text-lg font-bold text-foreground">{displayTitle}</h2>
+      </div>
       {showLink && (
         <Link
           to={linkTo}
