@@ -25,7 +25,9 @@ export function AgendaBlock() {
   return (
     <section>
       <SectionHeader
-        title="📅 Agenda da Cidade"
+        title="Agenda da Cidade"
+        icon={Calendar}
+        iconVariant="destructive"
         action={{ label: 'Ver agenda completa', to: '/categoria/agenda' }}
       />
 

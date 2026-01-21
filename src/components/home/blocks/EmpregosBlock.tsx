@@ -17,7 +17,9 @@ export function EmpregosBlock() {
   return (
     <section>
       <SectionHeader
-        title="💼 Empregos Recentes"
+        title="Empregos Recentes"
+        icon={Briefcase}
+        iconVariant="primary"
         action={{ label: 'Ver todos', to: '/empregos' }}
       />
 

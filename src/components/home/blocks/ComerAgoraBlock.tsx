@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { businesses } from '@/data/mockData';
 import { isOpenNow } from '@/lib/tagUtils';
-import { Clock, MapPin } from 'lucide-react';
+import { Clock, MapPin, Utensils } from 'lucide-react';
 
 export function ComerAgoraBlock() {
   // Apenas listings do tipo "comer-agora" que estão ABERTOS agora
@@ -22,7 +22,9 @@ export function ComerAgoraBlock() {
   return (
     <section>
       <SectionHeader
-        title="🍽️ Comer Agora"
+        title="Comer Agora"
+        icon={Utensils}
+        iconVariant="warning"
         action={{ label: 'Ver todos', to: '/categoria/comer-agora' }}
       />
 

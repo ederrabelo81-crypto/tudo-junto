@@ -13,7 +13,7 @@ export function BottomNav() {
   const location = useLocation();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-card border-t border-border safe-bottom">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-t border-border/50 safe-bottom">
       <div className="flex items-center justify-around h-16 max-w-lg mx-auto px-2">
         {navItems.map((item) => {
           const isActive = location.pathname === item.to;
@@ -38,21 +38,27 @@ export function BottomNav() {
               key={item.to}
               to={item.to}
               className={cn(
-                "flex flex-col items-center justify-center w-16 h-14 rounded-xl transition-colors touch-target",
+                "flex flex-col items-center justify-center w-16 h-14 rounded-xl transition-all touch-target",
                 isActive 
                   ? "text-primary" 
                   : "text-muted-foreground hover:text-foreground"
               )}
             >
-              <Icon 
-                className={cn(
-                  "w-6 h-6 mb-0.5 transition-transform",
-                  isActive && "scale-110"
-                )} 
-                strokeWidth={isActive ? 2.5 : 2}
-              />
+              {/* Glassmorphic active state */}
+              <div className={cn(
+                "flex items-center justify-center w-10 h-10 rounded-xl transition-all duration-200",
+                isActive && "bg-primary/12 backdrop-blur-sm border border-primary/20"
+              )}>
+                <Icon 
+                  className={cn(
+                    "w-5 h-5 transition-transform",
+                    isActive && "scale-105"
+                  )} 
+                  strokeWidth={isActive ? 2.2 : 1.8}
+                />
+              </div>
               <span className={cn(
-                "text-2xs font-medium",
+                "text-2xs font-medium mt-0.5",
                 isActive && "font-semibold"
               )}>
                 {item.label}

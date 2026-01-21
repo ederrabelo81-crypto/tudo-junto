@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { realEstate } from '@/data/newListingTypes';
-import { MapPin, Bed, Bath } from 'lucide-react';
+import { MapPin, Bed, Bath, Home } from 'lucide-react';
 
 function formatPrice(value: number): string {
   return new Intl.NumberFormat('pt-BR', {
@@ -38,7 +38,9 @@ export function ImoveisBlock() {
   return (
     <section>
       <SectionHeader
-        title="🏠 Imóveis em Destaque"
+        title="Imóveis em Destaque"
+        icon={Home}
+        iconVariant="warning"
         action={{ label: 'Ver todos', to: '/imoveis' }}
       />
 

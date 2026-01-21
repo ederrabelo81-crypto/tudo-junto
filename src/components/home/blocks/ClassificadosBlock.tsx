@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { listings } from '@/data/mockData';
-import { Heart, MapPin } from 'lucide-react';
+import { Heart, MapPin, ShoppingBag } from 'lucide-react';
 
 function formatPrice(price: number): string {
   return new Intl.NumberFormat('pt-BR', {
@@ -23,7 +23,9 @@ export function ClassificadosBlock() {
   return (
     <section>
       <SectionHeader
-        title="🛒 Classificados & Doações"
+        title="Classificados & Doações"
+        icon={ShoppingBag}
+        iconVariant="success"
         action={{ label: 'Ver todos', to: '/categoria/classificados' }}
       />
 

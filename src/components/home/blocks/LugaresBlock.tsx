@@ -22,7 +22,9 @@ export function LugaresBlock() {
   return (
     <section>
       <SectionHeader
-        title="📍 Lugares para Conhecer"
+        title="Lugares para Conhecer"
+        icon={MapPin}
+        iconVariant="success"
         action={{ label: 'Ver todos', to: '/lugares' }}
       />
 
