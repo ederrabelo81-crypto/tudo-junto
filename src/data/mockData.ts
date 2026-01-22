@@ -13590,10 +13590,10 @@ export const places: Place[] = [
     neighborhood: "Centro",
     lat: -21.1878,
     lng: -46.9753,
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipN8zZZ1YzVNOZdtbYZ7s2ZxvFHXzVQv3TnXzLXN=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipN8zZZ1YzVNOZdtbYZ7s2ZxvFHXzVQv3TnXzLXN=w800-h500-k-no",
-      "https://lh3.googleusercontent.com/p/AF1QipMpHQFpN1MwZGFKC3Y4PKQ8YgH2oMZA3rV7xTZ=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?w=800&h=500&fit=crop"
     ],
     shortDescription: "Praça central histórica com igreja matriz e coreto, ideal para passeios e eventos culturais.",
     typeTag: "Praça",
@@ -13614,9 +13614,9 @@ export const places: Place[] = [
     neighborhood: "Zona Rural",
     lat: -21.2012,
     lng: -46.9834,
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipOv7G8K9LhF1TJ3WMxR4nZ6Hq8Y5xVP2mW9kLN=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipOv7G8K9LhF1TJ3WMxR4nZ6Hq8Y5xVP2mW9kLN=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=800&h=500&fit=crop"
     ],
     shortDescription: "Cachoeira natural com águas cristalinas, perfeita para banho e contato com a natureza.",
     typeTag: "Natureza",
@@ -13637,9 +13637,9 @@ export const places: Place[] = [
     neighborhood: "Serra Negra",
     lat: -21.1756,
     lng: -46.9912,
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipPKLmN2xR5Y7vW8Z3aB4cD5eF6gH7iJ8kL9mN=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipPKLmN2xR5Y7vW8Z3aB4cD5eF6gH7iJ8kL9mN=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=500&fit=crop"
     ],
     shortDescription: "Vista panorâmica de toda a região, ideal para ver o pôr do sol e fotografias.",
     typeTag: "Mirante",
@@ -13660,9 +13660,9 @@ export const places: Place[] = [
     neighborhood: "Centro",
     lat: -21.1889,
     lng: -46.9767,
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipQR2sT3uV4wX5yZ6aB7cD8eF9gH0iJ1kL2mN=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipQR2sT3uV4wX5yZ6aB7cD8eF9gH0iJ1kL2mN=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=500&fit=crop"
     ],
     shortDescription: "Museu que conta a história do café na região, com degustação e loja de produtos.",
     typeTag: "Museu",
@@ -13697,10 +13697,10 @@ export const cars: Car[] = [
     sellerType: "concessionaria",
     whatsapp: "5535999001122",
     phone: "+55 35 99900-1122",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNHondaCivic2022ExampleImage=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNHondaCivic2022ExampleImage=w800-h500-k-no",
-      "https://lh3.googleusercontent.com/p/AF1QipMHondaCivicInterior=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=500&fit=crop"
     ],
     description: "Honda Civic EXL 2022 impecável, único dono, todas as revisões na concessionária. Completo com teto solar, bancos em couro, central multimídia.",
     features: ["Teto solar", "Bancos em couro", "Central multimídia", "Câmera de ré", "Sensor de estacionamento"],
@@ -13723,9 +13723,9 @@ export const cars: Car[] = [
     neighborhood: "Jd Santa Clara",
     sellerType: "particular",
     whatsapp: "5535998223344",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNFiatStrada2023Example=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNFiatStrada2023Example=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=500&fit=crop"
     ],
     description: "Fiat Strada Freedom cabine simples, perfeita para trabalho e lazer. Motor 1.3 econômico, direção hidráulica, ar condicionado.",
     features: ["Ar condicionado", "Direção hidráulica", "Rádio Bluetooth", "Caçamba revestida"],
@@ -13749,9 +13749,9 @@ export const cars: Car[] = [
     sellerType: "particular",
     whatsapp: "5535997445566",
     phone: "+55 35 99744-5566",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNVWPolo2021Example=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNVWPolo2021Example=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=500&fit=crop"
     ],
     description: "VW Polo TSI 200 automático, motor turbo 1.0 muito econômico. IPVA 2024 pago, pneus novos, revisado.",
     features: ["Câmbio automático", "Motor turbo", "Start/Stop", "Computador de bordo", "Airbags"],
@@ -13780,7 +13780,7 @@ export const jobs: Job[] = [
     postedAt: "2024-01-15",
     expiresAt: "2024-02-15",
     tags: ["Vendas", "CLT", "Presencial"],
-    logo: "https://lh3.googleusercontent.com/p/AF1QipNLogoMagazine=w200-h200-k-no"
+    logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=200&fit=crop"
   },
   {
     id: "job002",
@@ -13799,7 +13799,7 @@ export const jobs: Job[] = [
     whatsapp: "5535998334455",
     postedAt: "2024-01-18",
     tags: ["Mecânica", "CLT", "Experiência"],
-    logo: "https://lh3.googleusercontent.com/p/AF1QipNLogoAutoCenter=w200-h200-k-no"
+    logo: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=200&h=200&fit=crop"
   },
   {
     id: "job003",
@@ -13820,7 +13820,7 @@ export const jobs: Job[] = [
     postedAt: "2024-01-20",
     expiresAt: "2024-02-20",
     tags: ["Farmácia", "Atendimento", "CLT"],
-    logo: "https://lh3.googleusercontent.com/p/AF1QipNLogoFarmacia=w200-h200-k-no"
+    logo: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=200&h=200&fit=crop"
   },
   {
     id: "job004",
@@ -13837,7 +13837,8 @@ export const jobs: Job[] = [
     howToApply: "Envie portfólio e currículo por e-mail.",
     email: "careers@techsolutionsmg.com.br",
     postedAt: "2024-01-22",
-    tags: ["Tecnologia", "Remoto", "PJ"]
+    tags: ["Tecnologia", "Remoto", "PJ"],
+    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=200&fit=crop"
   }
 ];
 
@@ -13859,10 +13860,10 @@ export const realEstate: RealEstate[] = [
     neighborhood: "Centro",
     lat: -21.1885,
     lng: -46.9761,
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNCasa3QuartosExample=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNCasa3QuartosExample=w800-h500-k-no",
-      "https://lh3.googleusercontent.com/p/AF1QipMCasaQuintal=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop"
     ],
     description: "Linda casa com 3 quartos (1 suíte), sala ampla, cozinha planejada, quintal espaçoso com churrasqueira. Excelente localização, próximo a escolas e comércio.",
     amenities: ["Churrasqueira", "Quintal gramado", "Cozinha planejada", "Aquecedor solar"],
@@ -13886,9 +13887,9 @@ export const realEstate: RealEstate[] = [
     furnished: "semimobiliado",
     city: "Monte Santo de Minas",
     neighborhood: "Jd Santa Clara",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNApto2QuartosExample=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNApto2QuartosExample=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=500&fit=crop"
     ],
     description: "Apartamento novo em condomínio fechado, com 2 quartos, sala, cozinha americana e área de serviço. Condomínio com portaria 24h e playground.",
     amenities: ["Portaria 24h", "Playground", "Salão de festas", "Interfone"],
@@ -13910,9 +13911,9 @@ export const realEstate: RealEstate[] = [
     furnished: "vazio",
     city: "Monte Santo de Minas",
     neighborhood: "Jardim Boas Novas",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNTerrenoExample=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNTerrenoExample=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=500&fit=crop"
     ],
     description: "Terreno plano de 300m², escriturado, pronto para construir. Rua asfaltada com água, luz e esgoto. Excelente para residência ou investimento.",
     amenities: ["Escriturado", "Rua asfaltada", "Água e luz", "Esgoto"],
@@ -13934,9 +13935,9 @@ export const realEstate: RealEstate[] = [
     furnished: "mobiliado",
     city: "Monte Santo de Minas",
     neighborhood: "Centro",
-    coverImage: "https://lh3.googleusercontent.com/p/AF1QipNKitnetExample=w800-h500-k-no",
+    coverImage: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=500&fit=crop",
     gallery: [
-      "https://lh3.googleusercontent.com/p/AF1QipNKitnetExample=w800-h500-k-no"
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=500&fit=crop"
     ],
     description: "Kitnet totalmente mobiliada, ideal para estudantes ou profissionais solteiros. Inclui cama, guarda-roupa, geladeira, fogão e ar condicionado.",
     amenities: ["Mobiliada", "Ar condicionado", "Internet disponível", "Água inclusa"],
