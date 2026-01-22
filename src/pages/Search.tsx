@@ -336,7 +336,7 @@ export default function Search() {
         {showCategories && (
           <section>
             <h2 className="text-lg font-bold text-foreground mb-3">Categorias</h2>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
               {categories.map((category) => (
                 <CategoryCard 
                   key={category.id} 
