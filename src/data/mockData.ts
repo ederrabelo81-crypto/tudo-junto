@@ -112,6 +112,106 @@ export interface Obituary {
   status: 'pending' | 'approved';
 }
 
+
+// ==================== INTERFACES ====================
+
+export interface Place {
+  id: string;
+  slug: string;
+  name: string;
+  city: string;
+  neighborhood: string;
+  lat?: number;
+  lng?: number;
+  coverImage: string;
+  gallery: string[];
+  shortDescription: string;
+  typeTag: string;
+  openingHours?: string;
+  priceLevel: 'Grátis' | '$' | '$$' | '$$$';
+  bestTimeToGo?: string;
+  durationSuggestion?: string;
+  highlights: string[];
+  rating: number;
+  reviewsCount: number;
+  tags: string[];
+}
+
+export interface Car {
+  id: string;
+  title: string;
+  brand: string;
+  model: string;
+  year: number;
+  price: number;
+  mileageKm: number;
+  fuel: 'flex' | 'gasolina' | 'diesel' | 'hibrido' | 'eletrico';
+  transmission: 'manual' | 'automatico' | 'cvt';
+  condition: 'novo' | 'seminovo' | 'usado';
+  doors: number;
+  color: string;
+  city: string;
+  neighborhood: string;
+  sellerType: 'concessionaria' | 'particular';
+  whatsapp: string;
+  phone?: string;
+  coverImage: string;
+  gallery: string[];
+  description: string;
+  features: string[];
+  tags: string[];
+}
+
+export interface Job {
+  id: string;
+  jobTitle: string;
+  companyName: string;
+  city: string;
+  neighborhood?: string;
+  employmentType: 'CLT' | 'PJ' | 'Estágio' | 'Freelancer';
+  workModel: 'presencial' | 'hibrido' | 'remoto';
+  salaryRange?: string;
+  benefits: string[];
+  description: string;
+  requirements: string[];
+  differentials: string[];
+  howToApply: string;
+  whatsapp?: string;
+  email?: string;
+  postedAt: string;
+  expiresAt?: string;
+  tags: string[];
+  logo?: string;
+}
+
+export interface RealEstate {
+  id: string;
+  title: string;
+  transactionType: 'alugar' | 'comprar';
+  propertyType: 'apartamento' | 'casa' | 'kitnet' | 'terreno' | 'comercial';
+  price?: number;
+  rentPrice?: number;
+  condoFee?: number;
+  bedrooms: number;
+  bathrooms: number;
+  parkingSpots: number;
+  areaM2: number;
+  petFriendly: boolean;
+  furnished: 'mobiliado' | 'semimobiliado' | 'vazio';
+  city: string;
+  neighborhood: string;
+  lat?: number;
+  lng?: number;
+  coverImage: string;
+  gallery: string[];
+  description: string;
+  amenities: string[];
+  whatsapp: string;
+  phone?: string;
+  availability: 'imediata' | 'negociar';
+  tags: string[];
+}
+
 // Dados Mock - Comércios e Serviços (Comer Agora + Serviços)
 export const businesses: Business[] = [
 {
@@ -13478,6 +13578,31 @@ export const obituaries: Obituary[] = [
     status: 'approved',
   },
 ];
+
+
+// ==================== MOCK DATA: PLACES ====================
+export const places: Place[] = [
+
+];
+
+// ==================== MOCK DATA: CARS ====================
+export const cars: Car[] = [
+
+];
+
+// ==================== MOCK DATA: JOBS ====================
+export const jobs: Job[] = [
+
+];
+
+// ==================== MOCK DATA: REAL ESTATE ====================
+export const realEstate: RealEstate[] = [
+
+];
+
+export const filtersByNewType: Record<string, string[]> = {
+
+};
 
 // Categorias principais (8 na home - grid 4x2)
 export const mainCategories: Array<{ id: string; name: string; iconKey: CategoryIconKey; color: string }> = [

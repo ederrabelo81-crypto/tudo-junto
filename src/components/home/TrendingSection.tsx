@@ -3,7 +3,7 @@ import { SectionHeader } from '@/components/ui/SectionHeader';
 import { NewsCard } from '@/components/cards/NewsCard';
 import { ListingCard } from '@/components/cards/ListingCard';
 import { news, listings } from '@/data/mockData';
-import { jobs } from '@/data/newListingTypes';
+import { jobs } from '@/data/mockData';
 import { MapPin, Briefcase, Building2 } from 'lucide-react';
 
 function SectionBadge({ text }: { text: string }) {

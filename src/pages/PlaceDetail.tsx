@@ -5,7 +5,7 @@ import { ListingTabs, TabItem } from "@/components/listing/ListingTabs";
 import { ListingActionsBar } from "@/components/listing/ListingActionsBar";
 import { GallerySection } from "@/components/listing/GallerySection";
 import { Chip } from "@/components/ui/Chip";
-import { places } from "@/data/newListingTypes";
+import { places } from "@/data/mockData";
 import { formatTag } from "@/lib/tags";
 import { useFavorites } from "@/hooks/useFavorites";
 

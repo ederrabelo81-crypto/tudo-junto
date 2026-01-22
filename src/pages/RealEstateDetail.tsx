@@ -4,7 +4,7 @@ import { ListingHero } from "@/components/listing/ListingHero";
 import { ListingTabs, TabItem } from "@/components/listing/ListingTabs";
 import { GallerySection } from "@/components/listing/GallerySection";
 import { Chip } from "@/components/ui/Chip";
-import { realEstate } from "@/data/newListingTypes";
+import { realEstate } from "@/data/mockData";
 import { formatTag } from "@/lib/tags";
 import { useFavorites } from "@/hooks/useFavorites";
 

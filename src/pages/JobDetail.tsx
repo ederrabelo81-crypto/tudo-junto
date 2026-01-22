@@ -3,7 +3,7 @@ import { MapPin, Clock, FileText, Gift, Send, Building2, MessageCircle, Mail, He
 import { ListingHero } from "@/components/listing/ListingHero";
 import { ListingTabs, TabItem } from "@/components/listing/ListingTabs";
 import { Chip } from "@/components/ui/Chip";
-import { jobs } from "@/data/newListingTypes";
+import { jobs } from "@/data/mockData";
 import { formatTag } from "@/lib/tags";
 import { useFavorites } from "@/hooks/useFavorites";
 

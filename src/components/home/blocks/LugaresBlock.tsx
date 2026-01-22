@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
-import { places } from '@/data/newListingTypes';
+import { places } from '@/data/mockData';
 import { MapPin, Star } from 'lucide-react';
 
 // Formata tags em snake_case para exibição humanizada

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
-import { realEstate } from '@/data/newListingTypes';
+import { realEstate } from '@/data/mockData';
 import { MapPin, Bed, Bath, Home } from 'lucide-react';
 
 function formatPrice(value: number): string {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Fuel, Gauge, X, ChevronDown } from 'lucide-react';
 import { ListingTypeHeader } from '@/components/common/ListingTypeHeader';
 import { TagChip } from '@/components/ui/TagChip';
-import { cars } from '@/data/newListingTypes';
+import { cars } from '@/data/mockData';
 import { filtersByCategory } from '@/data/mockData';
 import { 
   createFilterOptions, 

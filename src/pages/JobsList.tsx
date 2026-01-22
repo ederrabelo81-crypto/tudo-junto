@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Clock, Building2, X, ChevronDown } from 'lucide-react';
 import { ListingTypeHeader } from '@/components/common/ListingTypeHeader';
 import { TagChip } from '@/components/ui/TagChip';
-import { jobs } from '@/data/newListingTypes';
+import { jobs } from '@/data/mockData';
 import { filtersByCategory } from '@/data/mockData';
 import { 
   createFilterOptions, 

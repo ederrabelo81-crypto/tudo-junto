@@ -6,7 +6,7 @@ import { DealCard } from '@/components/cards/DealCard';
 import { EventCard } from '@/components/cards/EventCard';
 import { BusinessCard } from '@/components/cards/BusinessCard';
 import { deals, events, businesses } from '@/data/mockData';
-import { places } from '@/data/newListingTypes';
+import { places } from '@/data/mockData';
 import { isOpenNow } from '@/lib/tagUtils';
 import { MapPin, Star } from 'lucide-react';
 

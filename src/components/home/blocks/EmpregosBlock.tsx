@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { SectionHeader } from '@/components/ui/SectionHeader';
-import { jobs } from '@/data/newListingTypes';
+import { jobs } from '@/data/mockData';
 import { MapPin, Briefcase, Building2, AlertTriangle } from 'lucide-react';
 
 export function EmpregosBlock() {

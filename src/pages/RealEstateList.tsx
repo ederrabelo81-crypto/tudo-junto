@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Bed, Bath, Car, Maximize, X, ChevronDown } from 'lucide-react';
 import { ListingTypeHeader } from '@/components/common/ListingTypeHeader';
 import { TagChip } from '@/components/ui/TagChip';
-import { realEstate } from '@/data/newListingTypes';
+import { realEstate } from '@/data/mockData';
 import { filtersByCategory } from '@/data/mockData';
 import { 
   createFilterOptions, 
