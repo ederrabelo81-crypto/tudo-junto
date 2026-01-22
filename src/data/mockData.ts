@@ -8656,7 +8656,7 @@ export const businesses: Business[] = [
     address: "Avenida Doutor Antônio Pereira Lima 172, Monte Santo de Minas - MG, 37958-000, Monte Santo de Minas - MG",
     website: undefined,
   },
-  {
+{
     id: "p_4fc408de7dabbba0",
     name: "Empório Das Aves",
     category: "Loja",
@@ -8673,7 +8673,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1956000a86f24b01",
     name: "Comercial Alvorada. Loja 2",
     category: "Pet Shop",
@@ -8690,7 +8690,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 17 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c17617b8c60c4e5a",
     name: "Comercial Alvorada",
     category: "Pet Shop",
@@ -8707,7 +8707,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 844 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_efbde7684307cace",
     name: "Center Vet",
     category: "Pet Shop",
@@ -8724,7 +8724,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 576 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://www.lojalocal.com/13616795000109",
   },
-  {
+{
     id: "p_abd95f57bf3f20aa",
     name: "Lucky Pet - Estética Canina",
     category: "Banho e tosa",
@@ -8741,7 +8741,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1009 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://marca-online.wixsite.com/luckypet",
   },
-  {
+{
     id: "p_667485e5b4432f61",
     name: "Agropecuária G.T.M. Ltda",
     category: "Agricultura e pecuária",
@@ -8758,7 +8758,7 @@ export const businesses: Business[] = [
     address: "Pereira Lima 721, Av. Antônio Pereira Lima - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://agropec.agr.br/",
   },
-  {
+{
     id: "p_72789aa402fccf42",
     name: "Agro Rações Zanetti",
     category: "Fornecedor de equipamentos agrícolas",
@@ -8775,7 +8775,7 @@ export const businesses: Business[] = [
     address: "R. Tancredo Neves, 51 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8bd5cfebdccefbf7",
     name: "4 patas pet shop banho e tosa",
     category: "Pet Shop",
@@ -8792,7 +8792,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale, 242 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://instagram.com/4.patas.pet.shop?igshid=YmMyMTA2M2Y=",
   },
-  {
+{
     id: "p_711e021e64e6db2b",
     name: "Agro Center Sol Agropecuária",
     category: "Loja atacadista de alimentos",
@@ -8809,7 +8809,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 429 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4e1d3b34e56c2186",
     name: "Viola Agro - Armazéns Gerais",
     category: "Torrefação de café",
@@ -8826,7 +8826,7 @@ export const businesses: Business[] = [
     address: "R. Mário Paulino da Costa, 251 - Chácara do Trevo, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://cafeviola.com.br/",
   },
-  {
+{
     id: "p_f75c5f07cd89569c",
     name: "Loja De Racão Ze Rosa",
     category: "Serviços",
@@ -8843,7 +8843,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5140eee20394fbd5",
     name: "Clin Vet",
     category: "Veterinário",
@@ -8860,7 +8860,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro, 444 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_172aaf2a18624bb5",
     name: "Sementes Agrogini",
     category: "Fornecedor de sementes",
@@ -8877,7 +8877,7 @@ export const businesses: Business[] = [
     address: "R. dos Trabalhadores - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fcf90cbd57382fd0",
     name: "Sementes Bravante",
     category: "Cooperativa agrícola",
@@ -8894,7 +8894,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_38805f65adc40915",
     name: "AGRO JP",
     category: "Serviços",
@@ -8911,7 +8911,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 419 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8a58bc214b99cd70",
     name: "Supermercado Tonin - Monte Santo de Minas",
     category: "Supermercado",
@@ -8928,7 +8928,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 288 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://www.supertonin.com.br/",
   },
-  {
+{
     id: "p_34a47889001b97c8",
     name: "Agro minas",
     category: "Serviços",
@@ -8945,7 +8945,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1f92369c039ab274",
     name: "Petlândia - Clínica Veterinária & Pet Shop",
     category: "Veterinário",
@@ -8962,7 +8962,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 822 - Jardim Boas Novas, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/taina_medvet?igsh=dHNrM3lmdXFtdWNr",
   },
-  {
+{
     id: "p_393a63e2327f6149",
     name: "Vetvitalis",
     category: "Veterinário",
@@ -8979,7 +8979,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 320 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cefea4947687e955",
     name: "AGRO TOP",
     category: "Serviços",
@@ -8996,7 +8996,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cac6ca14baaf8021",
     name: "Pantanal Raçoes e Asseçorios",
     category: "Mercado",
@@ -9013,7 +9013,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b11099115cab06d3",
     name: "Comercial Lara Guimarães",
     category: "Pet Shop",
@@ -9030,7 +9030,7 @@ export const businesses: Business[] = [
     address: "Rua Fabiano Soares, 489, R. São Sebastião, 2 - Jardim, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_55907fb79447447b",
     name: "Vida Animal - Clinica Veterinária e PetShop",
     category: "Veterinário",
@@ -9047,7 +9047,7 @@ export const businesses: Business[] = [
     address: ", Monte Santo de Minas - MG",
     website: "https://www.instagram.com/vidaanimal_vett?igsh=dzh0czhpaXVlYm1u&utm_source=qr",
   },
-  {
+{
     id: "p_ee28565de68a0877",
     name: "Juh Pet",
     category: "Pet Shop",
@@ -9064,7 +9064,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares, 469 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_56543ec0c4f0e814",
     name: "São Francisco Petshop",
     category: "Serviços",
@@ -9081,7 +9081,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 215 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_add63de91f5290c9",
     name: "Ilha do Pet",
     category: "Pet Shop",
@@ -9098,7 +9098,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Francisco Paulino da Costa, 601 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cbee121929efa940",
     name: "MERCEARIA NOSSA SENHORA DOS MILAGRES",
     category: "Supermercado",
@@ -9115,7 +9115,7 @@ export const businesses: Business[] = [
     address: "Av. Plinio Quinette - Centro, Monte Santo de Minas - MG, 37959-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f8cc7258c757df6a",
     name: "Padaria Aguiar",
     category: "Padaria",
@@ -9132,7 +9132,7 @@ export const businesses: Business[] = [
     address: "Av. Plinio Quinette, 795 - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4201e982348e0199",
     name: "Padaria skina mineira",
     category: "Padaria",
@@ -9149,7 +9149,7 @@ export const businesses: Business[] = [
     address: "Praça Nossa Senhora dos milagres - Milagre, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_33fa3b823a4c70f8",
     name: "Drogarias Ultra Popular",
     category: "Farmácia",
@@ -9166,7 +9166,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 226 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://www.drogariasultrapopular.com.br/",
   },
-  {
+{
     id: "p_7b6ba9eea351c845",
     name: "SUPERMERCADO Santo Antônio",
     category: "Supermercado",
@@ -9183,7 +9183,7 @@ export const businesses: Business[] = [
     address: "R. Natal Piovan - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8c822209738c57b0",
     name: "Drogaria Nossa Senhora Dos Milagres",
     category: "Empresa farmacêutica",
@@ -9200,7 +9200,7 @@ export const businesses: Business[] = [
     address: "Av Plinio Quinete, 785, Letra A, Centro / Milagre, Monte Santo de Minas - MG, 37959-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b87ec32800948565",
     name: "Isa Acessórios",
     category: "Loja de acessórios de moda",
@@ -9217,7 +9217,7 @@ export const businesses: Business[] = [
     address: "Praça Nossa Senhora dos Milagres - Centro, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: "https://www.isaacessoriosbf.com.br/",
   },
-  {
+{
     id: "p_1ab8701e4f7e7301",
     name: "Delurian Confecções e Comércio do Vestuário",
     category: "Loja de roupas de designer",
@@ -9234,7 +9234,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 41 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.delurian.com.br/",
   },
-  {
+{
     id: "p_06ee0fcf1d9e37a7",
     name: "Laís Assis Semi Joias",
     category: "Designer de joias",
@@ -9251,7 +9251,7 @@ export const businesses: Business[] = [
     address: "R. Santa Terezinha Menino Jesus - Vila Nova, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9567942217ae6381",
     name: "Really's A Casa Do Jeans",
     category: "Loja de Roupa",
@@ -9268,7 +9268,7 @@ export const businesses: Business[] = [
     address: "Av. São Pedro, 253 - Milagre, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_aeea9113fe554688",
     name: "Parada Obrigatória",
     category: "Loja de Roupa",
@@ -9285,7 +9285,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.instagram.com/lojaparadaobrigatoria",
   },
-  {
+{
     id: "p_7f0ba5652097a57d",
     name: "Moda e Beleza Fashion",
     category: "Loja de moda feminina",
@@ -9302,7 +9302,7 @@ export const businesses: Business[] = [
     address: "Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c6a7f6e8d3638d28",
     name: "Sassá Calçados",
     category: "Loja de calçado",
@@ -9319,7 +9319,7 @@ export const businesses: Business[] = [
     address: "da, R. Dr. Pedro Paulino da Costa, 446, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_42069d2ee7a809ed",
     name: "Compasso Calçados",
     category: "Loja de calçado",
@@ -9336,7 +9336,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 531 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_2c8413d840ba8cce",
     name: "Galeria Sports",
     category: "Loja de calçado",
@@ -9353,7 +9353,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 380 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9bd28532625ad29e",
     name: "Panificadora Ki Pão",
     category: "Padaria",
@@ -9370,7 +9370,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e4110b48e6aeb43e",
     name: "Dutra Bom padaria e confeitaria",
     category: "Padaria",
@@ -9387,7 +9387,7 @@ export const businesses: Business[] = [
     address: "Próximo ao jardim Velho - R. Waldomiro Magalhães, n° 256 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e8688d6d7ba1f133",
     name: "Mercearia",
     category: "Mercado",
@@ -9404,7 +9404,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha, 795 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_51d9b3f6216b053e",
     name: "Mercearia Campestre",
     category: "Mercado",
@@ -9421,7 +9421,7 @@ export const businesses: Business[] = [
     address: "R. São Miguel - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_95064cd949cf2dca",
     name: "Drogaria Americana",
     category: "Empresa farmacêutica",
@@ -9438,7 +9438,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 356 - CENTRO, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://drogariaamericanamsm.negocio.site/?utm_source=gmb&utm_medium=referral",
   },
-  {
+{
     id: "p_226ebc2a982bba95",
     name: "PADOCCA Panificadora",
     category: "Padaria",
@@ -9455,7 +9455,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Israel Pinheiro, 404-456 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e565217cb3d45fa1",
     name: "São Caetano Supermercado",
     category: "Supermercado",
@@ -9472,7 +9472,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho, 27 - Jardim Bela Vista, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a61e54c927e76241",
     name: "Dsg Farma de Monte Santo",
     category: "Drogaria",
@@ -9489,7 +9489,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 244 - Centro, Monte Santo de Minas - MG, 37900-968, Brasil",
     website: "http://www.dsgfarma.com.br/",
   },
-  {
+{
     id: "p_ae6e5403bd1fe805",
     name: "Rede Inova Drogaria do Pedro",
     category: "Drogaria",
@@ -9506,7 +9506,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 1171-1261 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_61b803bbb2e0bcbb",
     name: "MERCEARIA mpestre",
     category: "Serviços",
@@ -9523,7 +9523,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_306ad6412a765985",
     name: "Assim Assados",
     category: "Açougue",
@@ -9540,7 +9540,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_266516203f0c70c5",
     name: "Empório Jardim",
     category: "Loja de Conveniência",
@@ -9557,7 +9557,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 240 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_79943f2e17b6c7b5",
     name: "Mini Mercado São José",
     category: "Supermercado",
@@ -9574,7 +9574,7 @@ export const businesses: Business[] = [
     address: "Via Toscana - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_542d699bbadbfa29",
     name: "MERCEARIA ALVORADA",
     category: "Serviços",
@@ -9591,7 +9591,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3d58fdd08b9e9bb2",
     name: "MINI MERCADO DIA A",
     category: "Supermercado",
@@ -9608,7 +9608,7 @@ export const businesses: Business[] = [
     address: "Via Trentino - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b806be89c2407c00",
     name: "Adega e Mercearia Parada Obrigatória",
     category: "Adega",
@@ -9625,7 +9625,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 144 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d3ec307110ea841d",
     name: "MERCEARIA & AÇOUGUE DO CLÁUDIO",
     category: "Serviços",
@@ -9642,7 +9642,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Eduardo Lane, 163 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_292cec5f8e3c66e4",
     name: "Bella Dona",
     category: "Loja de Roupa",
@@ -9659,7 +9659,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 486 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_03f536682a5e9245",
     name: "Passarella Modas",
     category: "Loja de Roupa",
@@ -9676,7 +9676,7 @@ export const businesses: Business[] = [
     address: "R. Romeu F. Ângelo - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b472e72883884952",
     name: "BELLA Perfumaria",
     category: "Loja de Roupa",
@@ -9693,7 +9693,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 536 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9c05c1523312cba7",
     name: "Carla Perfumaria",
     category: "Loja de Roupa",
@@ -9710,7 +9710,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - CENTRO, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_33035c782a9bca1f",
     name: "Loja da Negia LNSF",
     category: "Loja de Roupa",
@@ -9727,7 +9727,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 380 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9d7fd59c6e78d102",
     name: "Naiara Modas",
     category: "Loja de Roupa",
@@ -9744,7 +9744,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8e9cbe0288fc963e",
     name: "Tiger Shop - Loja do Lucão",
     category: "Loja de eletrônicos",
@@ -9761,7 +9761,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 253 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_95a8bed3f7f5334b",
     name: "Monte Country",
     category: "Loja de Roupa",
@@ -9778,7 +9778,7 @@ export const businesses: Business[] = [
     address: "Av conde Ribeiro do vale, Rotatória Santos Reis, 248 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e635004286789766",
     name: "Loja Ponto Perfeito",
     category: "Loja de Roupa",
@@ -9795,7 +9795,7 @@ export const businesses: Business[] = [
     address: "R. Enor Machado de Moraes, 693 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://www.instagram.com/lojapontoperfeito/",
   },
-  {
+{
     id: "p_cd12a4770a9c122e",
     name: "Lima Limão",
     category: "Loja de roupas para jovens",
@@ -9812,7 +9812,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 540 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_44e1ab83bc6b9a79",
     name: "Lojas Premium",
     category: "Loja",
@@ -9829,7 +9829,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 684 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_85e5c3c34764cf22",
     name: "Modas Márcia",
     category: "Loja de Roupa",
@@ -9846,7 +9846,7 @@ export const businesses: Business[] = [
     address: "Pr. Castelo Branco, 16 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.facebook.com/Modas1Marcia",
   },
-  {
+{
     id: "p_fa7b624609298205",
     name: "Loja Zema - Monte Santo de Minas",
     category: "Loja de departamento",
@@ -9863,7 +9863,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 393 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://www.zema.com/",
   },
-  {
+{
     id: "p_ed67e6a354149b07",
     name: "Magazine Luiza",
     category: "Loja de departamento",
@@ -9880,7 +9880,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 385 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://lojas.magazineluiza.com.br/buscar-filiais?utm_source=google&utm_medium=maps&utm_campaign=gbp",
   },
-  {
+{
     id: "p_d62688abeb2702a0",
     name: "Loja Vivo",
     category: "Loja de celulares",
@@ -9897,7 +9897,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 371 - Loja A - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.vivo.com.br/",
   },
-  {
+{
     id: "p_8d5a00a9b0e05605",
     name: "Lojão Monte Santo de Minas",
     category: "Loja de acessórios de moda",
@@ -9914,7 +9914,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 157 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bed759869a36aaa3",
     name: "Zaatar",
     category: "Loja de Roupa",
@@ -9931,7 +9931,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 205 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "http://lojazaatar.com.br/",
   },
-  {
+{
     id: "p_4fdae322db82839b",
     name: "Rede Minas Farma",
     category: "Farmácia",
@@ -9948,7 +9948,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_934e4eb7be95d4a8",
     name: "Belpharma",
     category: "Farmácia",
@@ -9965,7 +9965,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Lucas Magalhães, 64 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5b5160715941eb18",
     name: "Drogaria Dose Certa Frank farma Farmacia da Juliana",
     category: "Drogaria",
@@ -9982,7 +9982,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1027 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f1e9d757a4595191",
     name: "Drogaria Lima e Marçal",
     category: "Drogaria",
@@ -9999,7 +9999,7 @@ export const businesses: Business[] = [
     address: "Rua Eustazio Secundo 881, MG, 37959-000, Brasil, Monte Santo de Minas - MG",
     website: undefined,
   },
-  {
+{
     id: "p_6c2cc17a72c88190",
     name: "FARMACIA Rede Minas Farma Monte Santo (Farmacia do Zé Basilio)",
     category: "Empresa farmacêutica",
@@ -10016,7 +10016,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 260 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://instagram.com/monte_santo_shopping?igshid=YmMyMTA2M2Y=",
   },
-  {
+{
     id: "p_f674de13ec5b248e",
     name: "Drogaria Micuri",
     category: "Drogaria",
@@ -10033,7 +10033,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 406 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6df54f9342518a1a",
     name: "Farmácia Popular",
     category: "Farmácia",
@@ -10050,7 +10050,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 541 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://montesantodeminas.mg.gov.br/",
   },
-  {
+{
     id: "p_e39fef60cc911074",
     name: "Farmácia Brasil",
     category: "Drogaria",
@@ -10067,7 +10067,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 226 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b30b232079446eba",
     name: "Nova Minas Drogaria",
     category: "Farmácia",
@@ -10084,7 +10084,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 471 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a5ef6919e3c8c90c",
     name: "Drogaria São José",
     category: "Drogaria",
@@ -10101,7 +10101,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 453 - centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_db4ec503921eab65",
     name: "Farmácia Americana",
     category: "Farmácia",
@@ -10118,7 +10118,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 211 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_728f1420140ada15",
     name: "Drogaria Mãe Rainha",
     category: "Drogaria",
@@ -10135,7 +10135,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 188 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9d716d4c360e6938",
     name: "ACIMS",
     category: "Associação / organização",
@@ -10152,7 +10152,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 197 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://acimsmontesanto.com.br/",
   },
-  {
+{
     id: "p_e91946f6b4baa2b1",
     name: "PADARIA BOA MASSA",
     category: "Padaria",
@@ -10169,7 +10169,7 @@ export const businesses: Business[] = [
     address: "Via Veneto - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_408abf5a8a2aa149",
     name: "Padaria do Kiko",
     category: "Padaria",
@@ -10186,7 +10186,7 @@ export const businesses: Business[] = [
     address: "R. Goiás, 466 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_264a915226435afe",
     name: "Emporio di Mineiro",
     category: "Armazém",
@@ -10203,7 +10203,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 663 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_036b6cda8e8b5ffb",
     name: "Mercearia Brasil Moe seu café na Hora",
     category: "Mercearia atacadista",
@@ -10220,7 +10220,7 @@ export const businesses: Business[] = [
     address: "R. Rio de Janeiro, 248 - Jardim brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_145802bdbd118885",
     name: "Lotérica Monte Santo",
     category: "Casa lotérica",
@@ -10237,7 +10237,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 358 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ae8226fd91950bb4",
     name: "Armazém Gerais Bocaina",
     category: "Supermercado",
@@ -10254,7 +10254,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 144 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_421b642d3db9dc24",
     name: "Panificadora do Gil",
     category: "Padaria atacadista",
@@ -10271,7 +10271,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 802 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_321111995bdb344c",
     name: "Mercearia 3 irmãos",
     category: "Mercado",
@@ -10288,7 +10288,7 @@ export const businesses: Business[] = [
     address: "R. Antônio Luz - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e65f29d9763af58d",
     name: "Mercearia Da Ivani",
     category: "Supermercado",
@@ -10305,7 +10305,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_027efbb03696e3af",
     name: "Mini Mercado Real",
     category: "Supermercado",
@@ -10322,7 +10322,7 @@ export const businesses: Business[] = [
     address: "Av. Eutímio Antoniolli - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4d84caafef01c015",
     name: "MERCADO E AÇOUGUE - BELLMAR",
     category: "Supermercado",
@@ -10339,7 +10339,7 @@ export const businesses: Business[] = [
     address: "Via Veneto, 335 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ec4d6f6c0320c513",
     name: "Panificadora Santa Clara",
     category: "Padaria",
@@ -10356,7 +10356,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 151 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_47c844977a8af425",
     name: "Mini Marcado Sao Francisco",
     category: "Supermercado",
@@ -10373,7 +10373,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 844 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ecf12ac20f843756",
     name: "MERCADO BEM",
     category: "Supermercado",
@@ -10390,7 +10390,7 @@ export const businesses: Business[] = [
     address: "R. Isac Soares - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a89cd27c27047fd8",
     name: "Mercado Bela Vista",
     category: "Supermercado",
@@ -10407,7 +10407,7 @@ export const businesses: Business[] = [
     address: "R. Santa Bárbara - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a6549a546db49a69",
     name: "Mercado Felipe",
     category: "Mercado",
@@ -10424,7 +10424,7 @@ export const businesses: Business[] = [
     address: "R. Luís Rodrigues, 499-575 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9b6f7280f5ba3157",
     name: "Antoninho Supermercado Loja 2",
     category: "Supermercado",
@@ -10441,7 +10441,7 @@ export const businesses: Business[] = [
     address: "R. Waldemar Salgado de Oliveira, 415 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_97ab6dc7be61328e",
     name: "Mercado Demarzinho",
     category: "Supermercado",
@@ -10458,7 +10458,7 @@ export const businesses: Business[] = [
     address: "R. Monte Alegre, 180 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cdfb40be8bd37492",
     name: "Avenida Supermercado",
     category: "Supermercado",
@@ -10475,7 +10475,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1668 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ddec0dc2a5879668",
     name: "Mercado Perlotti",
     category: "Supermercado",
@@ -10492,7 +10492,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4a2fb99be964485f",
     name: "Ideal Super mercado",
     category: "Supermercado",
@@ -10509,7 +10509,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f94435c2965712b3",
     name: "Mercado Castelo Branco",
     category: "Açougue",
@@ -10526,7 +10526,7 @@ export const businesses: Business[] = [
     address: "R. Enor Machado de Moraes, 57 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_63654f571e67302d",
     name: "Mercado JL",
     category: "Supermercado",
@@ -10543,7 +10543,7 @@ export const businesses: Business[] = [
     address: "R. Ademar Ventorin, 282 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3d6afb94518c8ddd",
     name: "Sabores Grotto",
     category: "Confeitaria",
@@ -10560,7 +10560,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares, 499 - Jardim São Sebastião II, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3df1defb91491156",
     name: "Antoninho Supermercados ltda",
     category: "Supermercado",
@@ -10577,7 +10577,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_23b65ae400a58408",
     name: "Panificadora Da Chica",
     category: "Padaria",
@@ -10594,7 +10594,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 330 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6d2347dd2400d353",
     name: "Mãe e Filhas panificadora e confeitaria",
     category: "Padaria",
@@ -10611,7 +10611,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_958958022cfe242c",
     name: "Padaria e Confeitaria Bueno's",
     category: "Padaria",
@@ -10628,7 +10628,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 1038 - Jardim Santa Herminia, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cc7f100e0b23e4f6",
     name: "Padaria ao Pão Gostoso",
     category: "Padaria",
@@ -10645,7 +10645,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 430 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d4371eda3c0ea8ca",
     name: "Mercearia E Padaria Riber Luz",
     category: "Supermercado",
@@ -10662,7 +10662,7 @@ export const businesses: Business[] = [
     address: "Av. Pref. Sebastião de Castro Teixeira, 250 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6ea76356e639ee30",
     name: "Central Panificadora E Confeitaria",
     category: "Panificadora de pães no vapor",
@@ -10679,7 +10679,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1aae0f526604cfcc",
     name: "Padaria da Sirlei",
     category: "Padaria",
@@ -10696,7 +10696,7 @@ export const businesses: Business[] = [
     address: "Romeu Francisco Angelo, 103 - Jardim Santa Herminia, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0775ec7a89d15cd6",
     name: "Antobela Pães & Doces",
     category: "Padaria",
@@ -10713,7 +10713,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9ce4d7f6972a6c31",
     name: "Panificadora Estrela",
     category: "Padaria",
@@ -10730,7 +10730,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b3efc220d21b7662",
     name: "Panificadora Ana Júlia",
     category: "Padaria",
@@ -10747,7 +10747,7 @@ export const businesses: Business[] = [
     address: "R. Isac Soares, 19 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_379d0fc5d59a4746",
     name: "Panificadora Café com Leite",
     category: "Padaria",
@@ -10764,7 +10764,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_51b0063a86287a72",
     name: "Panificadora Santos Reis",
     category: "Padaria",
@@ -10781,7 +10781,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 782 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_42575b6b6a8acdf2",
     name: "Panificadora Magnólia",
     category: "Padaria",
@@ -10798,7 +10798,7 @@ export const businesses: Business[] = [
     address: "R. Comendador Coelho, 356-412 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7404720b0242cf41",
     name: "7 Café Delights",
     category: "Confeitaria",
@@ -10815,7 +10815,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 32 - B - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://instadelivery.com.br/7cafedelights",
   },
-  {
+{
     id: "p_ba735a1ebaa9fd8f",
     name: "Estilo Calçados",
     category: "Loja de calçado",
@@ -10832,7 +10832,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 367 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d68d91c920a12a50",
     name: "Nilda Modas",
     category: "Loja de Roupa",
@@ -10849,7 +10849,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 485 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7b3239bb6bf3e960",
     name: "Central Da Moda",
     category: "Loja de Roupa",
@@ -10866,7 +10866,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 211 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8ce3750405053775",
     name: "Impacto's calçados",
     category: "Fábrica de Calçados",
@@ -10883,7 +10883,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "http://impacto-s-calcados.webnode.com/",
   },
-  {
+{
     id: "p_6e5bb98ee88c3cc7",
     name: "Fofuxos Kids",
     category: "Loja de moda infantil",
@@ -10900,7 +10900,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 291 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.instagram.com/fofuxoskidsoficial",
   },
-  {
+{
     id: "p_3963c69b551a0301",
     name: "Jackalope",
     category: "Loja de Roupa",
@@ -10917,7 +10917,7 @@ export const businesses: Business[] = [
     address: "R. Iolanda F. Lima Costa, 344 - Jardim Magnólia, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e5658eceff321271",
     name: "CONCEITO Outlet",
     category: "Loja de Roupa",
@@ -10934,7 +10934,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8a1d0f6e147b58c2",
     name: "Neia Noivas",
     category: "Loja de Roupa",
@@ -10951,7 +10951,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 438a - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6930d46d2312b1be",
     name: "Mercearia do Luizinho",
     category: "Supermercado",
@@ -10968,7 +10968,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_af9468fd9d24ea5e",
     name: "Mundo Bita Kids",
     category: "Loja de moda infantil",
@@ -10985,7 +10985,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 587 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4599c25e64f27396",
     name: "Olívia Baby Kid's",
     category: "Loja de roupas para bebês",
@@ -11002,7 +11002,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 435 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.obkidsfashiony.com.br/",
   },
-  {
+{
     id: "p_557ef6dda22875d0",
     name: "Isabella Modas",
     category: "Loja de Roupa",
@@ -11019,7 +11019,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 439 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cc6dbf2b19a79516",
     name: "Hello Kids",
     category: "Loja de Roupa",
@@ -11036,7 +11036,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 272 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0025949e429be503",
     name: "Revolution Shop",
     category: "Loja de roupas esportivas",
@@ -11053,7 +11053,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 415 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_21d116208213ac98",
     name: "Lapela Kid",
     category: "Loja de Roupa",
@@ -11070,7 +11070,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3b1b488fb0f9cee4",
     name: "Ju manicure pé de cury",
     category: "Loja de Roupa",
@@ -11087,7 +11087,7 @@ export const businesses: Business[] = [
     address: "R. Monte Alegre, 259 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_735c0c147d2198b2",
     name: "Reis Confecções",
     category: "Loja de uniformes",
@@ -11104,7 +11104,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 561 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6496c4f6a8efb1f9",
     name: "Perfumaria Michele Muniz",
     category: "Perfumaria",
@@ -11121,7 +11121,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 412 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6d771ca060d45f8a",
     name: "Loja Biosfera",
     category: "Loja de cosmético",
@@ -11138,7 +11138,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 226 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d87ef54f0122c3dd",
     name: "PANTANAL",
     category: "Loja de Roupa",
@@ -11155,7 +11155,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha, 487 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ba491bacdc81ae42",
     name: "COLORÊ kids",
     category: "Loja de Roupa",
@@ -11172,7 +11172,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1449 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d08b3a1f4687e947",
     name: "LOJA LOLO BABY",
     category: "Loja de Roupa",
@@ -11189,7 +11189,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 571 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8ae23c25674e62a7",
     name: "Cata Vento",
     category: "Loja de Roupa",
@@ -11206,7 +11206,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro, 243-257 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fb129dfda381d511",
     name: "MISSBELLA",
     category: "Loja de Roupa",
@@ -11223,7 +11223,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 391 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4fc3dad20d97e7ac",
     name: "Bela Nina kids",
     category: "Loja de Roupa",
@@ -11240,7 +11240,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 396 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_61dd4e8b559a9736",
     name: "Maria Bonita",
     category: "Loja de lingerie",
@@ -11257,7 +11257,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 491 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b2b18f1396b6070b",
     name: "CLOSET ANACIPRI",
     category: "Loja de Roupa",
@@ -11274,7 +11274,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 577 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b00bd629f83eb37f",
     name: "Use Aretta",
     category: "Loja de Roupa",
@@ -11291,7 +11291,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Francisco Paulino da Costa, 836 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1787d0aa9b3c13b1",
     name: "Juliana Modas",
     category: "Loja de Roupa",
@@ -11308,7 +11308,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 455 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_19bad86ba48fe839",
     name: "RGS Moda & Complemento",
     category: "Loja de moda feminina",
@@ -11325,7 +11325,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1240B - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.rgscomplementos.com.br/",
   },
-  {
+{
     id: "p_27f740109e793e67",
     name: "Sol Modas",
     category: "Loja de Roupa",
@@ -11342,7 +11342,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 164 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b0326e71c92cffb3",
     name: "Pandas & Cia",
     category: "Loja de Roupa",
@@ -11359,7 +11359,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 313 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_29250284124cacf3",
     name: "Danusa Modas",
     category: "Loja de Roupa",
@@ -11376,7 +11376,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 503 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_52369c64e453111a",
     name: "VAIMODAS",
     category: "Loja de Roupa",
@@ -11393,7 +11393,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho, 56 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9dd97f00590863cb",
     name: "Loja Moondi Moda Infantil",
     category: "Loja de Roupa",
@@ -11410,7 +11410,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 587 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/moondimodainfantil",
   },
-  {
+{
     id: "p_5de35d34ba67abfc",
     name: "HM MULTIMARCAS",
     category: "Loja de calçado",
@@ -11427,7 +11427,7 @@ export const businesses: Business[] = [
     address: "R. Tiradentes, 151 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://instagram.com/hm.multi?igshid=MzNlNGNkZWQ4Mg==",
   },
-  {
+{
     id: "p_92c5c9bd6cae922e",
     name: "Loja Maria Maria",
     category: "Loja de Roupa",
@@ -11444,7 +11444,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 161 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://www.instagram.com/lojamariamaria_minas/",
   },
-  {
+{
     id: "p_5387dc5874d02ce8",
     name: "Célia Confecções",
     category: "Loja de roupas de designer",
@@ -11461,7 +11461,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 726 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fa5372548d06f9c2",
     name: "Boutique Mix:By Fátima Barbosa",
     category: "Loja de Roupa",
@@ -11478,7 +11478,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, N° 571 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a41c7e0f85e47d4f",
     name: "CILENE CALCADOS",
     category: "Loja de calçado",
@@ -11495,7 +11495,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 388 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d92fd86405f49b1b",
     name: "Li Moda Atual",
     category: "Loja de Roupa",
@@ -11512,7 +11512,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a4c017b0c4de3ca5",
     name: "Bela Estampa",
     category: "Loja de Roupa",
@@ -11529,7 +11529,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 350 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_42e426393b8d6972",
     name: "PITAYA BOUTIQUE",
     category: "Loja de Roupa",
@@ -11546,7 +11546,7 @@ export const businesses: Business[] = [
     address: "Rua Dr. Pedro Paulino da Costa, 472 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9fa18eefc8739b73",
     name: "Portal da Moda",
     category: "Loja de Roupa",
@@ -11563,7 +11563,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 119-253 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_750584f9c05e735e",
     name: "Fátima Boutique",
     category: "Loja de roupas para atividades externas",
@@ -11580,7 +11580,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 253 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fe1f2e0b9da6e164",
     name: "Karol Modas",
     category: "Loja de Roupa",
@@ -11597,7 +11597,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_455792e3f5a101dd",
     name: "Pulsação",
     category: "Loja de Roupa",
@@ -11614,7 +11614,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 221 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f54cbd8676765dbf",
     name: "Diamante Rosa & Xande Modas",
     category: "Loja de Roupa",
@@ -11631,7 +11631,7 @@ export const businesses: Business[] = [
     address: "R. Tiradentes, 9 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5c0ac0c034e31f8b",
     name: "Superação Bike Store",
     category: "Loja de bicicleta",
@@ -11648,7 +11648,7 @@ export const businesses: Business[] = [
     address: "R. Mal. Deodoro, 502 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://instagram.com/superacaobikestore",
   },
-  {
+{
     id: "p_8564571a3d7cbe03",
     name: "tudo Liz",
     category: "Loja de Brinquedos",
@@ -11665,7 +11665,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Adolfo Santana, 112 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://tudo-liz.myshopify.com/",
   },
-  {
+{
     id: "p_82c80912fa228d7f",
     name: "Minas gelo e bebidas",
     category: "Adega",
@@ -11682,7 +11682,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 981 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8d699434f5559dbf",
     name: "Adome clothing",
     category: "Loja",
@@ -11699,7 +11699,7 @@ export const businesses: Business[] = [
     address: "R. Benedito Albertini - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ae2d3a3d61b99768",
     name: "Lima Constrular",
     category: "Loja de materiais de construção",
@@ -11716,7 +11716,7 @@ export const businesses: Business[] = [
     address: "R. José Fichina, 322 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e591d7c1721cdf04",
     name: "Gasparzinho Telecomunicações",
     category: "Loja de eletrônicos",
@@ -11733,7 +11733,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 406 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_920f2bf0f930d27a",
     name: "Ozon Saúde Natural",
     category: "Centro de saúde e beleza",
@@ -11750,7 +11750,7 @@ export const businesses: Business[] = [
     address: "R. Pará, 35 - Jd Brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_399917a0dcd9fe73",
     name: "Draulitec-Construções",
     category: "Loja de materiais de construção",
@@ -11767,7 +11767,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 779 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f5c2442bca880115",
     name: "O Boticário",
     category: "Loja de produtos de beleza",
@@ -11784,7 +11784,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 307 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://www.boticario.com.br/?utm_source=google&utm_medium=maps&utm_campaign=mirum6346",
   },
-  {
+{
     id: "p_313774d443b79b23",
     name: "Adega Du Mineiro",
     category: "Adega",
@@ -11801,7 +11801,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 702 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5acce5772f922484",
     name: "Super Kid’s Moda Infantil",
     category: "Loja infantil",
@@ -11818,7 +11818,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 164 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_2671aa918487081e",
     name: "Floricultura Copo de Leite",
     category: "Floricultura",
@@ -11835,7 +11835,7 @@ export const businesses: Business[] = [
     address: "R. Lamana, 478-500 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_13232299a54e8657",
     name: "Adega Toca da Cerveja",
     category: "Adega",
@@ -11852,7 +11852,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares, 489 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6e3138d63c565dc6",
     name: "Pratamania",
     category: "Joalheiro",
@@ -11869,7 +11869,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 548 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ed66e3ee7ec33c5f",
     name: "Adega Honorato",
     category: "Loja de bebidas",
@@ -11886,7 +11886,7 @@ export const businesses: Business[] = [
     address: "R. Goiás, 386 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1f812132bc93cd86",
     name: "ODARA",
     category: "Joalheria",
@@ -11903,7 +11903,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 355 - centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4cd094c3ed3cb0d3",
     name: "Ze da barraquinha",
     category: "Loja de Brinquedos",
@@ -11920,7 +11920,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 181 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_dc5b128447e5c585",
     name: "BEIJAVÔ ENXOVAIS",
     category: "Loja de artigos para cama, mesa e banho",
@@ -11937,7 +11937,7 @@ export const businesses: Business[] = [
     address: "Pr. Castelo Branco, 16 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ceb17b90f7771ef1",
     name: "Juniaer Modelismo",
     category: "Loja especializada em aeromodelismo",
@@ -11954,7 +11954,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho, 230/240 - Jd Bela Vista, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://juniaer.com.br/",
   },
-  {
+{
     id: "p_909f053d7ebd2e08",
     name: "Avelar Pratas",
     category: "Joalheria",
@@ -11971,7 +11971,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 391 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c215cb5258d72144",
     name: "JeM Bijuterias e acessorios",
     category: "Loja de acessórios de moda",
@@ -11988,7 +11988,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e4e6fa1a0c50408c",
     name: "Lojas IM - Monte Santo de Minas",
     category: "Loja de móveis",
@@ -12005,7 +12005,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 354 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c28dff95257a8d7f",
     name: "Floricultura Sempre Verde",
     category: "Floricultura",
@@ -12022,7 +12022,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1257 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_214839d72f1dc241",
     name: "Paraná Materiais",
     category: "Loja de materiais de construção",
@@ -12039,7 +12039,7 @@ export const businesses: Business[] = [
     address: "Atendimento Online - R. Paraná, 294 (35) 99829-5425, R. Paraná, 294 - Jardim Brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_154c4b8d72d94655",
     name: "PaperLikka Papelaria Criativa",
     category: "Papelaria",
@@ -12056,7 +12056,7 @@ export const businesses: Business[] = [
     address: "Endereço apenas para retirada de produtos - R. Rio de Janeiro, 43 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "http://www.paperlikka.com.br/",
   },
-  {
+{
     id: "p_ea469e2c6404c7a3",
     name: "Cachaça Monte Santo de Minas",
     category: "Loja de bebidas alcoólicas",
@@ -12073,7 +12073,7 @@ export const businesses: Business[] = [
     address: "Unnamed Road, 37958-000 Estrada velha Monte Santo / Itamogi - Km11, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://www.cachacamontesantodeminas.com/",
   },
-  {
+{
     id: "p_0016feec44db1497",
     name: "Bicileiaria Jc Bike",
     category: "Loja de bicicleta",
@@ -12090,7 +12090,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8771f84bdcb5df7b",
     name: "Império Móveis",
     category: "Loja de artigos domésticos",
@@ -12107,7 +12107,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 692 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f66c0ee3617ed2f9",
     name: "Móveis Zacarias",
     category: "Loja de artigos domésticos",
@@ -12124,7 +12124,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 439 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7f907afa5b4481b8",
     name: "Flor De Melissa Atelier",
     category: "Loja",
@@ -12141,7 +12141,7 @@ export const businesses: Business[] = [
     address: "Sítio Café com Leite Cachoeirinha, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.flor-de-melissa-atelier.com/",
   },
-  {
+{
     id: "p_70c6fdb625dd77bc",
     name: "Hora da Gelada",
     category: "Adega",
@@ -12158,7 +12158,7 @@ export const businesses: Business[] = [
     address: "Av. Plinio Quinette, 770 - Centro, Monte Santo de Minas - MG, 37959-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e5f6d8d53296db89",
     name: "Papelaria LL",
     category: "Papelaria",
@@ -12175,7 +12175,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 283 - centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c7b19717de53b6a4",
     name: "Isa Sorvetes",
     category: "Sorveteria",
@@ -12192,7 +12192,7 @@ export const businesses: Business[] = [
     address: "Praça Nossa Senhora dos Milagres 865 Milagre - Distrito - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://www.instagram.com/isasorvetes/",
   },
-  {
+{
     id: "p_b5e5d77c28bc9c16",
     name: "Casa de carnes dos amigos",
     category: "Açougue",
@@ -12209,7 +12209,7 @@ export const businesses: Business[] = [
     address: "Av. Plinio Quinette - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f7f70da7277a3c1e",
     name: "Serra sítio Santo Afonso",
     category: "Sociedade de serviços habitacionais",
@@ -12226,7 +12226,7 @@ export const businesses: Business[] = [
     address: "W4G5+HW - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6fec3ec8c412a1a8",
     name: "Fazenda Aratama",
     category: "Fazenda",
@@ -12243,7 +12243,7 @@ export const businesses: Business[] = [
     address: "Estrada Monte Santo de Minas ao Bairro Cunha Km 22 Cunha, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b4f02b4dd8db59cb",
     name: "Sítio São José",
     category: "Fazenda",
@@ -12260,7 +12260,7 @@ export const businesses: Business[] = [
     address: "V33H+39 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_991174c1a86d1f56",
     name: "Mecânica Fusão Torno e Solda",
     category: "Serviço de conserto",
@@ -12277,7 +12277,7 @@ export const businesses: Business[] = [
     address: "Rua José Luiz, R. Carlos Giacomelli, 46 - Parque Industrial, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a70f05d6aff4365f",
     name: "Ricardo Fretes e Mudanças",
     category: "Serviço de transporte",
@@ -12294,7 +12294,7 @@ export const businesses: Business[] = [
     address: "R. Aparecida, 1163 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.facebook.com/Ricardo-Ferreira-Fretes-e-mudan%C3%A7as-713309718751318",
   },
-  {
+{
     id: "p_a97e774b0dc6ec34",
     name: "FortMaq Indústria e Comercio LTDA",
     category: "Serviço de estampagem de metais",
@@ -12311,7 +12311,7 @@ export const businesses: Business[] = [
     address: "R. dos Trabalhadores, 113 - Parque Industrial, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.fortmaqindustria.com/",
   },
-  {
+{
     id: "p_6fcc5c65064a1fbd",
     name: "Copasa",
     category: "Serviço de tratamento de água e esgoto",
@@ -12328,7 +12328,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 448 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_eb2f8c4fe2298ec5",
     name: "Ferreira Diversões",
     category: "Serviço de locação de artigos de festa",
@@ -12345,7 +12345,7 @@ export const businesses: Business[] = [
     address: "R. Benedito Albertini, 128 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f4695093d34e6444",
     name: "Casa do Construtor Monte Santo de Minas",
     category: "Serviço de locação de equipamentos para construção civil",
@@ -12362,7 +12362,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 632 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.casadoconstrutor.com.br/loja/monte-santo-de-minas-mg/",
   },
-  {
+{
     id: "p_51856378f5c305b3",
     name: "Robinho Locações",
     category: "Serviço de locação de equipamentos para construção civil",
@@ -12379,7 +12379,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello, 140 - MUNDO NOVO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://wa.me/5535991235566",
   },
-  {
+{
     id: "p_2278ea0da02ab383",
     name: "CHICÃO EXPRESS",
     category: "Serviço de transporte",
@@ -12396,7 +12396,7 @@ export const businesses: Business[] = [
     address: "R. Afonso Pena, 144 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7f95ef1d3234dbd8",
     name: "Diego Guinchos",
     category: "Serviço de reboque",
@@ -12413,7 +12413,7 @@ export const businesses: Business[] = [
     address: "R. Espírito Santo, 200 - Jardim Bandeirantes, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7af0ab76009f19a2",
     name: "Granja: Fábio Ferreira De Carvalho",
     category: "Granja",
@@ -12430,7 +12430,7 @@ export const businesses: Business[] = [
     address: "Pinheirinho - Cachoeirinha, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7b9018557eec74fe",
     name: "Sítio Vale dos sonhos",
     category: "Fazenda",
@@ -12447,7 +12447,7 @@ export const businesses: Business[] = [
     address: "Q2P3+7C - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c16bfa353b9e8b66",
     name: "Rafael Leite Técnico em Eletrônica / Qualidade / Logística",
     category: "Serviços de engenharia eletrônica",
@@ -12464,7 +12464,7 @@ export const businesses: Business[] = [
     address: "R. Francisco Antônio da Luz, 361 - Jardim Bandeirantes, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d92dd0bce31bb95b",
     name: "Sítio Boa Esperança",
     category: "Fazenda",
@@ -12481,7 +12481,7 @@ export const businesses: Business[] = [
     address: "R2HQ+W4 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ae20bf2eb7353093",
     name: "Elétrica Pereira",
     category: "Eletricista",
@@ -12498,7 +12498,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale - São Francisco, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7db1584fa068a89c",
     name: "Transvertil",
     category: "Serviço de transporte",
@@ -12515,7 +12515,7 @@ export const businesses: Business[] = [
     address: "R. Luís Rodrigues, 522 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fc234eb5f33d2a55",
     name: "Creche Pingo de Gente",
     category: "Creche",
@@ -12532,7 +12532,7 @@ export const businesses: Business[] = [
     address: "R. São Miguel, 371 - Centro, Monte Santo de Minas - MG, 32545-000, Brasil",
     website: "http://montesantodeminas.mg.gov.br/",
   },
-  {
+{
     id: "p_15a64193f1134a24",
     name: "Despachante Magalhães",
     category: "Despachante",
@@ -12549,7 +12549,7 @@ export const businesses: Business[] = [
     address: "R. Luís Rodrigues, 2-166 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_78aa562aa4bd5f0a",
     name: "Correios",
     category: "Correios",
@@ -12566,7 +12566,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 338 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://www.correios.com.br/",
   },
-  {
+{
     id: "p_f0e3714cbf2347f9",
     name: "Chácara das Flores",
     category: "Casa de campo",
@@ -12583,7 +12583,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha, 1342-1396 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_06f20c9c27311925",
     name: "DN | Despachante Negrão",
     category: "Despachante",
@@ -12600,7 +12600,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 542 - Centro, Monte Santo de Minas - MG, 37658-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d87ccb3763fccfd4",
     name: "Nuvyon | A internet do futuro. Hoje!",
     category: "Operadora de internet",
@@ -12617,7 +12617,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 11 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://www.artelecom.com.br/",
   },
-  {
+{
     id: "p_b5a2a4ad81096a9d",
     name: "LUZ TECH REPAIRS ️",
     category: "Mecânico",
@@ -12634,7 +12634,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho, 200 - Jardim Bela Vista, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a8a666219c1220ca",
     name: "UAI Despachante",
     category: "Despachante",
@@ -12651,7 +12651,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro, 499 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d45bf0bfca5a2973",
     name: "Sítio Imaculada de Paula por",
     category: "Sociedade de serviços habitacionais",
@@ -12668,7 +12668,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ac446a5c33c1b725",
     name: "Funilaria e Pintura Marcio",
     category: "Funilaria",
@@ -12685,7 +12685,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ce5ab00cf04e3f42",
     name: "Centro de Recuperação Resgatando Vidas C.E.R.V",
     category: "Clínica de Reabilitação",
@@ -12702,7 +12702,7 @@ export const businesses: Business[] = [
     address: "P4P4+RH - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f3198d0689a1d7fd",
     name: "Borges e Caliari Contadores S/S Ltda.",
     category: "Assessoria contábil",
@@ -12719,7 +12719,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 954 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_be38253e7676f123",
     name: "FLASH CAR LTDA",
     category: "Oficina mecânica",
@@ -12736,7 +12736,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 374 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e8c1931b8ac2a87d",
     name: "Terranova Engenharia Ltda",
     category: "Prestador de serviços de construção civil",
@@ -12753,7 +12753,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 351 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.terranovaengenharia.com.br/",
   },
-  {
+{
     id: "p_e9e35c6ac8aaf90d",
     name: "Condominio Nova Alphaville",
     category: "Complexo de condomínio",
@@ -12770,7 +12770,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fbdf4cb8c9b2f933",
     name: "Gil Eletro Refrigerção",
     category: "Assistência técnica de eletrodomésticos",
@@ -12787,7 +12787,7 @@ export const businesses: Business[] = [
     address: "R. Enor Machado de Moraes, 170 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e276b5dea834e6d0",
     name: "Agropecuária Panorama 1",
     category: "Fazenda",
@@ -12804,7 +12804,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4df97ae50e23a086",
     name: "Gaúcho Terraplanagem",
     category: "Empresa de aluguel de máquinas de construção",
@@ -12821,7 +12821,7 @@ export const businesses: Business[] = [
     address: "R. Miguel Loguércio, 40 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_75a9bc9a71961047",
     name: "Eletro Balt - Instalações Elétricas",
     category: "Eletricista",
@@ -12838,7 +12838,7 @@ export const businesses: Business[] = [
     address: "R. Rio de Janeiro - Jardim Brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.facebook.com/edsonbaltazar.edinho.5",
   },
-  {
+{
     id: "p_b2dac5da79ad3419",
     name: "Alcans Telecom: Internet, Banda Larga, Fibra, VPN em Monte Santo de Minas MG",
     category: "Operadora de internet",
@@ -12855,7 +12855,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 672 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://alcans.com.br/",
   },
-  {
+{
     id: "p_140bf4b47ff941a5",
     name: "Campo alegre",
     category: "Sociedade de serviços habitacionais",
@@ -12872,7 +12872,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3cb32bf18d334ac6",
     name: "Fazenda Limeira",
     category: "Fazenda",
@@ -12889,7 +12889,7 @@ export const businesses: Business[] = [
     address: "Q3JM+55 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_397ae379e16dfe9a",
     name: "DIAS & FREIRIA ESCELÊNCIA CONTABIL",
     category: "Escritório de contabilidade",
@@ -12906,7 +12906,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 332 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5af973df792a743d",
     name: "Fazenda Itiguassú",
     category: "Fazenda",
@@ -12923,7 +12923,7 @@ export const businesses: Business[] = [
     address: "Unnamed Road, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_11c9fa77782c4962",
     name: "Sicredi das Culturas RS/MG - Agência Monte Santo de Minas",
     category: "Instituição financeira",
@@ -12940,7 +12940,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 284 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.sicredi.com.br/coop/culturasrsmg/",
   },
-  {
+{
     id: "p_22d150f3acb025f9",
     name: "Mel e Própolis Bocaina",
     category: "Fazenda de apicultura",
@@ -12957,7 +12957,7 @@ export const businesses: Business[] = [
     address: "R. São Pedro, 223 - Jardim Bela Vista, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_2868eb261b68aba4",
     name: "funeraria São Sebastião",
     category: "Casa funerária",
@@ -12974,7 +12974,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, Nº 699 - centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://funerariasaosebastiao.com.br/",
   },
-  {
+{
     id: "p_06eedc594b862a9a",
     name: "Hidro Elétrica Soluções",
     category: "Eletricista",
@@ -12991,7 +12991,7 @@ export const businesses: Business[] = [
     address: "R. Luís Rodrigues, 775 - Jardim Magnólia, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://sites.google.com/view/hidro-eletrica-solucoes/in%C3%ADcio",
   },
-  {
+{
     id: "p_687ad65bd9371467",
     name: "Controle De Gado",
     category: "Fazenda",
@@ -13008,7 +13008,7 @@ export const businesses: Business[] = [
     address: "Av. Dr, Av. Antônio Pereira Lima - centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://controledegado.com.br/",
   },
-  {
+{
     id: "p_d7f305343e5ddab5",
     name: "Lúmina Soluções",
     category: "Consultoria em Marketing",
@@ -13025,7 +13025,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 109 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_67eb997a190d4162",
     name: "Fazenda Nova Aliança",
     category: "Fazenda",
@@ -13042,7 +13042,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://fazendanovaalianca.com.br/",
   },
-  {
+{
     id: "p_7a50d441ff07bff6",
     name: "Cafe de Juan",
     category: "Sociedade de serviços habitacionais",
@@ -13059,7 +13059,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a9dddf8470680acd",
     name: "Sapê pb",
     category: "Apartamentos",
@@ -13076,7 +13076,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_978778d68ef3860c",
     name: "Sítio nossa senhora da parecida pedra Grande.",
     category: "Sociedade de serviços habitacionais",
@@ -13093,7 +13093,7 @@ export const businesses: Business[] = [
     address: "Q427+5J - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7172fdd335785a40",
     name: "RS Eletricista e Encanador",
     category: "Eletricista",
@@ -13110,7 +13110,7 @@ export const businesses: Business[] = [
     address: "R. das Piaparas, G4 - Condomínio águas da serra, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9b4ec346644121da",
     name: "Emprega Fácil Monte Santo de Minas",
     category: "Agência de empregos",
@@ -13127,7 +13127,7 @@ export const businesses: Business[] = [
     address: "Rua Dr. João Ribeiro,, R. Dr. Pedro Paulino da Costa, 434, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0b1c995390668319",
     name: "Paulinho Calhas E Rufos",
     category: "Prestador de serviços de construção civil",
@@ -13144,7 +13144,7 @@ export const businesses: Business[] = [
     address: "Av. Juscelino Kubitscheck, 164 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e047f5d8f766c9b5",
     name: "Disk Limpeza e Caçambas Bandeirantes",
     category: "Empresa de Coleta de Entulho",
@@ -13161,7 +13161,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Alvin Horcades, 16 - Jardim Primavera, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c3ea3b67dd222370",
     name: "Difer comercio e instaladora",
     category: "Eletricista",
@@ -13178,7 +13178,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 171 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6e9aced4c12cc145",
     name: "Top Artes Print",
     category: "Serviços gráficos",
@@ -13195,7 +13195,7 @@ export const businesses: Business[] = [
     address: "R. Marcio Hamilton Magalhães, 42 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7a0acdadfe40bca9",
     name: "CLEAM JET",
     category: "Lavanderia automática",
@@ -13212,7 +13212,7 @@ export const businesses: Business[] = [
     address: "R. Miguel Espósito, 93 - Primeiro de maio, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ff8e3cf7301cf20a",
     name: "Monte Santo de Minas",
     category: "Sociedade de serviços habitacionais",
@@ -13229,7 +13229,7 @@ export const businesses: Business[] = [
     address: "R. dos Cravos, 90 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0cfda5a457c66960",
     name: "Matur Contábil | Unidade Monte Santo de Minas",
     category: "Escritório de contabilidade",
@@ -13246,7 +13246,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 301 - A - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c198319a04d614b1",
     name: "Morais Gesso",
     category: "Empreiteira de serviços com gesso",
@@ -13263,7 +13263,7 @@ export const businesses: Business[] = [
     address: "Via Rovigo, 193-209 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_852d238f6c6924c8",
     name: "RPM Torno & Solda",
     category: "Serviço de manutenção de máquinas",
@@ -13280,7 +13280,7 @@ export const businesses: Business[] = [
     address: "R. Hipólito Gomes Ribeiro, 53 - Milagre, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_05a75eae142f36d5",
     name: "Auto Elétrica Segel",
     category: "Autoelétrico",
@@ -13297,7 +13297,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 787 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a4b990d33155e2f7",
     name: "Rogerio pedreiro",
     category: "Construtor Imobiliário",
@@ -13314,7 +13314,7 @@ export const businesses: Business[] = [
     address: "R. Me. Gertrúdes, 509 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7daac38f90003394",
     name: "Eletro Luz",
     category: "Eletricista",
@@ -13331,7 +13331,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 313 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9e8d042d95386c06",
     name: "Martins Elétrica",
     category: "Eletricista",
@@ -13348,7 +13348,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 996 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/martinseletrica_mg/?hl=pt-br",
   },
-  {
+{
     id: "p_8e2940bf1ed00b6b",
     name: "Serralheria loguércio",
     category: "Empresa de construções metálicas",
@@ -13365,7 +13365,7 @@ export const businesses: Business[] = [
     address: "37958-000, Monte Santo de Minas - MG, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ee41416efdd72864",
     name: "Serralheria J&R",
     category: "Serralharia",
@@ -13382,7 +13382,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 532 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_63bbbcb61152bc89",
     name: "Serralheria & Calhas Montefer",
     category: "Serviços",
@@ -13399,7 +13399,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_88aebfe840fcd785",
     name: "ASSISTEC MJ COMERCIAL",
     category: "Loja de alarmes antifurto",
@@ -13416,7 +13416,7 @@ export const businesses: Business[] = [
     address: "Av. Juscelino Kubitscheck, 199 B - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.facebook.com/profile.php?id=100006759736821",
   },
-  {
+{
     id: "p_2852a45a91c6d5fd",
     name: "Lucas Barbosa Materiais para Construção",
     category: "Loja de materiais de construção",
@@ -13433,7 +13433,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello, 2071 - Jardim Primeiro de Maio, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c8d00021896bb613",
     name: "Companhia Luz e Forca de Mococa",
     category: "Companhia elétrica",
@@ -13450,7 +13450,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 298 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9baa1f1cf7c34983",
     name: "Auto mecanica 4 rodas",
     category: "Oficina mecânica",
@@ -13467,7 +13467,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1c5d73c0b623b15a",
     name: "AUTO ELETRICA AVENIDA",
     category: "Oficina mecânica",
@@ -13484,7 +13484,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1442 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_2662ee30ee73a815",
     name: "Evolusom Auto Eletrica Som e Acessorios",
     category: "Autoelétrico",
@@ -13501,7 +13501,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 581 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_63e9434b5249ffd4",
     name: "JC Auto eletrica",
     category: "Autoelétrico",
@@ -13518,7 +13518,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Humberto Falbo, 70 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.instagram.com/jcautoeletrica",
   },
-  {
+{
     id: "p_8339bc7ab3b3001e",
     name: "MS Energia Solar®",
     category: "Fornecedor de equipamentos a energia solar",
@@ -13535,7 +13535,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 32 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://msenergiasolar.net.br/",
   },
-  {
+{
     id: "p_e0bdc36c24a2bfde",
     name: "Talento Automotivo - Auto Eletrica",
     category: "Autoelétrico",
@@ -13552,7 +13552,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Jardim primeiro de maio, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e485ca69cfea42ec",
     name: "Subestação Monte Santo de Minas 1 - CPFL",
     category: "Subestação elétrica",
@@ -13569,7 +13569,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 720 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.cpfl.com.br/",
   },
-  {
+{
     id: "p_b2e275fb44c36a60",
     name: "Auto Elétrica Sebastião Vanderlei",
     category: "Mecânica para carros",
@@ -13586,7 +13586,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale, 316 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_05a2522bd1becc7e",
     name: "Ribeiro Catalyst Recycling",
     category: "Centro de Reciclagem",
@@ -13603,7 +13603,7 @@ export const businesses: Business[] = [
     address: "Carvalhães de Freitas - R. Fúlvia Carvalhais De Freitas, 41 - Mundo Novo, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c81aae744687c1b2",
     name: "Rezende Veículos e Despachante",
     category: "Agente comercial de carros",
@@ -13620,7 +13620,7 @@ export const businesses: Business[] = [
     address: "R. Dr. José Ernesto Coelho, 261 - JARDIM PRIMAVERA, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9325b6b61958ffc4",
     name: "Migão Veículos",
     category: "Revendedora de carros usados",
@@ -13637,7 +13637,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 261 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://www.migaoveiculos.com.br/",
   },
-  {
+{
     id: "p_442a1138c4294880",
     name: "Juninho Veiculos",
     category: "Concessionária",
@@ -13654,7 +13654,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_19cb7ba58a11648b",
     name: "Zé Américo Veículos",
     category: "Agente comercial de carros",
@@ -13671,7 +13671,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7dbe5b5457fa12b9",
     name: "Garagem D'Oscar",
     category: "Garagem de automóveis",
@@ -13688,7 +13688,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 597 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e2efc93adc0d2a32",
     name: "Auto Posto Tecla",
     category: "Posto de combustível",
@@ -13705,7 +13705,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Israel Pinheiro, 260 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_abd4874ece4cdd5c",
     name: "Desmanche - Marquinhos",
     category: "Loja de autopeças",
@@ -13722,7 +13722,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_41364071ea56d625",
     name: "Lucão motos",
     category: "Revendedor de motoneves",
@@ -13739,7 +13739,7 @@ export const businesses: Business[] = [
     address: "Av. Pref. Sebastião de Castro Teixeira, n 240 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_528c54c2946ed1b1",
     name: "Usinagem Serralheria Djs",
     category: "Oficina de máquinas",
@@ -13756,7 +13756,7 @@ export const businesses: Business[] = [
     address: "R. Maria José, 46 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6aa29278d3bf56d1",
     name: "Auto Mêcanica Menezes",
     category: "Mecânica para carros",
@@ -13773,7 +13773,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello, 140 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a9af850dfd1f064f",
     name: "Posto Bandeirantes",
     category: "Posto de combustível",
@@ -13790,7 +13790,7 @@ export const businesses: Business[] = [
     address: "Brasil, Minas Gerais, Monte Santo de Minas, Jardim Magnólia, チラデンテス通り",
     website: undefined,
   },
-  {
+{
     id: "p_865244de1a341e9e",
     name: "Stock Car Autopeças",
     category: "Loja de autopeças",
@@ -13807,7 +13807,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 480 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://shopee.com.br/stock.car",
   },
-  {
+{
     id: "p_38ed42ac7e8bcfd9",
     name: "Branca",
     category: "Posto de combustível",
@@ -13824,7 +13824,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Israel Pinheiro, 260 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b2534cb16077a8c6",
     name: "Brasil Petro",
     category: "Posto de combustível",
@@ -13841,7 +13841,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Israel Pinheiro - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_85e894ce16d30c28",
     name: "Shell",
     category: "Posto de combustível",
@@ -13858,7 +13858,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c2c0ca7354ff0b29",
     name: "Trevo Monte Santo de Minas-MG",
     category: "Estacionamento",
@@ -13875,7 +13875,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3be8407ab6189c3d",
     name: "ConsertaFone",
     category: "Oficina de reparos de celulares",
@@ -13892,7 +13892,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 390 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ba6565b080f63b95",
     name: "Posto 7",
     category: "Posto de combustível",
@@ -13909,7 +13909,7 @@ export const businesses: Business[] = [
     address: "Rodovia BR 491, km 37 Zona Rural, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_65e8d058e95b8593",
     name: "Rizhome Oficina de Arte",
     category: "Fabricante",
@@ -13926,7 +13926,7 @@ export const businesses: Business[] = [
     address: "R. Virgilio Esteves, 420 - Chacara, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.rizhome.com.br/",
   },
-  {
+{
     id: "p_a3e87b798665e0b2",
     name: "Rubinho auto peças",
     category: "Fornecedor de peças para carroceria",
@@ -13943,7 +13943,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 909 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a87b66af544d23c5",
     name: "Impacto Auto Peças",
     category: "Loja de autopeças",
@@ -13960,7 +13960,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1304 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1e94c3f19fee794e",
     name: "TONIN",
     category: "Posto de combustível",
@@ -13977,7 +13977,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6c23ec2c673f1097",
     name: "Posto Petrobras",
     category: "Posto de combustível",
@@ -13994,7 +13994,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1460 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://www.postospetrobras.com.br/?utm_source=gmb&utm_medium=search",
   },
-  {
+{
     id: "p_c5f4a3b3d55f6c71",
     name: "Marquinhos - Auto Peças e Acessórios",
     category: "Loja de autopeças",
@@ -14011,7 +14011,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 285 - centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_26df2f588b5d99aa",
     name: "MERCADO DO PNEU",
     category: "Loja de autopeças",
@@ -14028,7 +14028,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9fd3b163013341ac",
     name: "Greghi Motos",
     category: "Loja de peças para motocicletas",
@@ -14045,7 +14045,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello, 1931 - Primeiro de maio, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_860bd42dc1bb6d36",
     name: "Gilvan Antônio da Silva",
     category: "Oficina de conserto de eletrônicos",
@@ -14062,7 +14062,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 27 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a0368f0692314022",
     name: "Automax Funilaria Pintura",
     category: "Oficina mecânica",
@@ -14079,7 +14079,7 @@ export const businesses: Business[] = [
     address: "R. Malvina Joaquina de Paula - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7936310e361f68cb",
     name: "Auto Posto Monte Santo",
     category: "Posto de combustível",
@@ -14096,7 +14096,7 @@ export const businesses: Business[] = [
     address: "R, Av. Antônio Pereira Lima, 16 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3c355ed1de356e7d",
     name: "Auto Center PIT STOP",
     category: "Serviços",
@@ -14113,7 +14113,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 477A - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_64a621d1a59caafa",
     name: "Triângulo Vistorias - Monte Santo de Minas",
     category: "Oficina de inspeção veicular",
@@ -14130,7 +14130,7 @@ export const businesses: Business[] = [
     address: "Pc da Estacao, R. Padre Pascoal, 543 - Jardim, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_12292fc22dc3776a",
     name: "CENTRAL AUTOPEÇAS",
     category: "Loja de autopeças",
@@ -14147,7 +14147,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1191 - sala 03 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/centralautopecas.mg?igsh=eDI1YXVtN2F0bWU2&utm_source=qr",
   },
-  {
+{
     id: "p_2d585cae87953390",
     name: "Rota 66 Goroge",
     category: "Oficina mecânica",
@@ -14164,7 +14164,7 @@ export const businesses: Business[] = [
     address: "Av. Juscelino Kubitscheck, 311 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bd75a9d3af4ffcd6",
     name: "Paulo Diesel",
     category: "Oficina mecânica",
@@ -14181,7 +14181,7 @@ export const businesses: Business[] = [
     address: "R. Roberto Magno Pucci - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6720636c67fb7317",
     name: "Nelsinho Pneus",
     category: "Comércio de Pneu",
@@ -14198,7 +14198,7 @@ export const businesses: Business[] = [
     address: "Rua : Olimpio Bento da Silva, 200 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d5c21439be1b1c1a",
     name: "Auto Peças Monte Santo",
     category: "Loja de autopeças",
@@ -14215,7 +14215,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 430 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b63a4ea0b4c3196b",
     name: "Mecánica Santos",
     category: "Oficina mecânica",
@@ -14232,7 +14232,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1344 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cf38e8f593bf77cb",
     name: "Luzia Mecânico",
     category: "Oficina mecânica",
@@ -14249,7 +14249,7 @@ export const businesses: Business[] = [
     address: "R. Isac Soares, 48 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_697502f9734e7944",
     name: "Pneu & Cia",
     category: "Comércio de Pneu",
@@ -14266,7 +14266,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 681 - Jd Primavera, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_afed1a928765b3ef",
     name: "Oficina do bacana",
     category: "Oficina mecânica",
@@ -14283,7 +14283,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c9f8bf866715b98b",
     name: "Oficina de motos Nos Mininos",
     category: "Oficina mecânica de motos",
@@ -14300,7 +14300,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Pinheiro - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_303c07e6eecc659a",
     name: "Mecânica Auto Center Nossa Senhora Aparecida",
     category: "Oficina mecânica",
@@ -14317,7 +14317,7 @@ export const businesses: Business[] = [
     address: "R. Enor Machado de Moraes, 359 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_def399096abb2ca9",
     name: "Tidinho motos",
     category: "Oficina mecânica de motos",
@@ -14334,7 +14334,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a0ec8d1f1b9dcda2",
     name: "Mecanica do Marquinhos",
     category: "Oficina mecânica de motos",
@@ -14351,7 +14351,7 @@ export const businesses: Business[] = [
     address: "R. Sebastião José Pereira Lima, 509 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d53e9aa66e2d5216",
     name: "Oficina Central Carros",
     category: "Oficina mecânica",
@@ -14368,7 +14368,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 16B - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1b6709cb88ffb0a9",
     name: "Word Car Autocenter Loja 2",
     category: "Oficina mecânica",
@@ -14385,7 +14385,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 538 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1e4c6c928ba6487b",
     name: "CENTER CAR",
     category: "Oficina mecânica",
@@ -14402,7 +14402,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 300 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1382da914501cd48",
     name: "Academia Oficina Fit",
     category: "Academia",
@@ -14419,7 +14419,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://www.instagram.com/academia_oficinafit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
-  {
+{
     id: "p_c02eefc99174b55d",
     name: "CAR2 Estética Automotiva",
     category: "Lava-rápido",
@@ -14436,7 +14436,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Pinheiro, 10A - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://linktr.ee/car2estetica.automotiva",
   },
-  {
+{
     id: "p_5700a2eca1ba6259",
     name: "MIGÃO VEÍCULOS",
     category: "Concessionária",
@@ -14453,7 +14453,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 642A - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9808d75ffb3f4bb6",
     name: "MONTE SANTO PLACAS AUTOMOTIVAS LTDA",
     category: "Agência de emplacamento de automóveis",
@@ -14470,7 +14470,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1439 A - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d1d4067433323779",
     name: "Juninho veículos loja 2",
     category: "Concessionária",
@@ -14487,7 +14487,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_93677fda32638470",
     name: "Ofícina de Café",
     category: "Cafeteria",
@@ -14504,7 +14504,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro, 483a - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7ffcdee7eef0ea0c",
     name: "Branca",
     category: "Posto de combustível",
@@ -14521,7 +14521,7 @@ export const businesses: Business[] = [
     address: "Estr. Milagre de Monte Santos de Minas, 1058 - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_67bb7715c380d35c",
     name: "Geraes Corretora de Seguros",
     category: "Agência de seguros",
@@ -14538,7 +14538,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Pinheiro, 44 - Jardim Magnólia, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.geraessegurosmg.com.br/",
   },
-  {
+{
     id: "p_cddbe02bab3c7e30",
     name: "Posto Martins e Silva Ltda",
     category: "Posto de combustível",
@@ -14555,7 +14555,7 @@ export const businesses: Business[] = [
     address: "Estr. Milagre de Monte Santos de Minas, 1058 - Distrito de Milagre, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_eb679ba78cf157a9",
     name: "Banca - Toc na Cuca",
     category: "Banca de jornais",
@@ -14572,7 +14572,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 246 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d2cc98c17e1da6e3",
     name: "Guilherme Estética Automotiva",
     category: "Lava-rápido",
@@ -14589,7 +14589,7 @@ export const businesses: Business[] = [
     address: "Rua praça da estação n545A - Jardin santa Inês, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/guilhermeesteticaautomotivams?igsh=bXA0N213YW14dnpw",
   },
-  {
+{
     id: "p_4198e88c5602a8a0",
     name: "Alfredo Açaiteria",
     category: "Sorveteria",
@@ -14606,7 +14606,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 1315 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bc58bf97c0246b44",
     name: "Lanchonete Ponto Certo",
     category: "Restaurante",
@@ -14623,7 +14623,7 @@ export const businesses: Business[] = [
     address: "Praça Nossa Senhora dos Milagres - Milagre, Monte Santo de Minas - MG, 37969-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7e87735f9f4e6910",
     name: "Uai ki fome lanches Da Camila",
     category: "Lanchonete",
@@ -14640,7 +14640,7 @@ export const businesses: Business[] = [
     address: "Av. São Pedro - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b38975a91d8ab155",
     name: "Restaurante Lázaro e família",
     category: "Restaurante",
@@ -14657,7 +14657,7 @@ export const businesses: Business[] = [
     address: "Av. Plinio Quinette - Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_29c62ffe61e82f22",
     name: "Pesqueiro fazendinha",
     category: "Restaurante",
@@ -14674,7 +14674,7 @@ export const businesses: Business[] = [
     address: "Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_86babe439be2ddd6",
     name: "Sítio Três Reis Magos",
     category: "Café",
@@ -14691,7 +14691,7 @@ export const businesses: Business[] = [
     address: "Milagre, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8a54e7d264fcadc3",
     name: "Sorveteria Amarena",
     category: "Sorveteria",
@@ -14708,7 +14708,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa - Centro, Monte Santo de Minas - MG, 37950-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3b8b3224b0224e58",
     name: "Sorveteria Kero Mais",
     category: "Sorveteria",
@@ -14725,7 +14725,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://app.cardapioweb.com/sorveteria_kero_mais",
   },
-  {
+{
     id: "p_e16577301a4874ef",
     name: "Sorveteria Ferreira&Rocha",
     category: "Sorveteria",
@@ -14742,7 +14742,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 390 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://m.facebook.com/ferreiraerochasorvetes/?ref=bookmarks",
   },
-  {
+{
     id: "p_01c50b7583f6f9e3",
     name: "Sorveteria 1000 Savours do Paulão",
     category: "Sorveteria",
@@ -14759,7 +14759,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5a0864b8f77fac64",
     name: "Cafe sítio Garcia CUNHAS",
     category: "Hospedaria",
@@ -14776,7 +14776,7 @@ export const businesses: Business[] = [
     address: "Cachueira da retifica - Av Sebastião de Castro Teixeira km 09 Cunha, sentido, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4e809991cdae51cb",
     name: "Sorveteria Pingo de Mel",
     category: "Doceria",
@@ -14793,7 +14793,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares, 488 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6f332a9ccfadc888",
     name: "Chacara nosso sonho",
     category: "Complexo de condomínio",
@@ -14810,7 +14810,7 @@ export const businesses: Business[] = [
     address: "Rod. do Café - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_16524dd14d47652b",
     name: "Marmitaria RM",
     category: "Restaurante",
@@ -14827,7 +14827,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 151 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e3835fa54a097ceb",
     name: "ESPETO NA BRASA",
     category: "Restaurante de churrasquinho",
@@ -14844,7 +14844,7 @@ export const businesses: Business[] = [
     address: "Av. Pref. Sebastião de Castro Teixeira, 250 - Coité, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/espetonabrasa_2025?igsh=MTdjYm85aHNiYjFsZQ==&utm_source=qr",
   },
-  {
+{
     id: "p_293e5a990b32785f",
     name: "Du Massas",
     category: "Pizzaria",
@@ -14861,7 +14861,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 610 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://app.anota.ai/du-massas?from=msa&utm_source=portal-share-btn",
   },
-  {
+{
     id: "p_87880fb6cb213472",
     name: "Cacau Show - Chocolates",
     category: "Loja de chocolates",
@@ -14878,7 +14878,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 275 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.cacaushow.com.br/",
   },
-  {
+{
     id: "p_a3d429492ed3b19b",
     name: "Haru Sushi",
     category: "Restaurante de culinária japonesa com influência ocidental",
@@ -14895,7 +14895,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha, 834 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "https://pedido.anota.ai/loja/haru?f=msa",
   },
-  {
+{
     id: "p_88252ecb5fde1553",
     name: "Sabor da Casa",
     category: "Restaurante",
@@ -14912,7 +14912,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 211 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_124e5b36be63558e",
     name: "Fazenda Nova Aliança",
     category: "Café",
@@ -14929,7 +14929,7 @@ export const businesses: Business[] = [
     address: "km, 12 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://fazendanovaalianca.com.br/",
   },
-  {
+{
     id: "p_417b5b461a469ccf",
     name: "Terraço Restaurante",
     category: "Restaurante",
@@ -14946,7 +14946,7 @@ export const businesses: Business[] = [
     address: "R. Vitor Ferreira - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a52e8d80f1e08ffe",
     name: "Espaço Chimbica",
     category: "Lanchonete",
@@ -14963,7 +14963,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 20 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_59ea9eef29df3e76",
     name: "Lanche Baratão",
     category: "Lanchonete",
@@ -14980,7 +14980,7 @@ export const businesses: Business[] = [
     address: "R. Lamana, 113 - Jd Santa Clara, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8ede91c8a031a88c",
     name: "Restaurante sabor Mineiro",
     category: "Restaurante",
@@ -14997,7 +14997,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a0670167725d2214",
     name: "Fazenda Nova Esperança",
     category: "Café",
@@ -15014,7 +15014,7 @@ export const businesses: Business[] = [
     address: "V2GG+H3 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_56a23a0415317542",
     name: "Balança - Cafeeira Monte Santo",
     category: "Estação de pesagem",
@@ -15031,7 +15031,7 @@ export const businesses: Business[] = [
     address: "Via Jorge Alberto Avelino, 292 - Matadouro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bdac57490eb9683e",
     name: "Cafeeira Monte Santo",
     category: "Armazém",
@@ -15048,7 +15048,7 @@ export const businesses: Business[] = [
     address: "R. dos Trabalhadores, 387 - Parque Industrial, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_691f0e302fa009d3",
     name: "CAFÉ ALTANO - CAFÉS ESPECIAIS",
     category: "Torrefação de café",
@@ -15065,7 +15065,7 @@ export const businesses: Business[] = [
     address: "R. Mário Paulino da Costa, 251 - Chácara do Trevo, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://altano.com.br/",
   },
-  {
+{
     id: "p_4a4c566e1cdde20b",
     name: "Café São Jorge",
     category: "Torrefação de café",
@@ -15082,7 +15082,7 @@ export const businesses: Business[] = [
     address: "R. Paulo Pelegrini, 121 - bem te vi, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c82528afa338133d",
     name: "Estância Santa Felicidade",
     category: "Café",
@@ -15099,7 +15099,7 @@ export const businesses: Business[] = [
     address: "Unnamed Road, 37958-000, Monte Santo de Minas - MG, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_af096a951c5f4b12",
     name: "GAMES BAR",
     category: "Bar informal",
@@ -15116,7 +15116,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha - MOCOQUINHA, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6cc953e94c743213",
     name: "Confeitaria Paloma",
     category: "Confeitaria",
@@ -15133,7 +15133,7 @@ export const businesses: Business[] = [
     address: "R. Francisco Antônio da Luz, 142 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d8d544f6309be3eb",
     name: "Donnabella Chocolateria",
     category: "Loja de chocolates",
@@ -15150,7 +15150,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Pinheiro, 1-103 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6a36343972cf0e09",
     name: "Galiêta Doceria e Café",
     category: "Café",
@@ -15167,7 +15167,7 @@ export const businesses: Business[] = [
     address: "Av. Juscelino Kubitscheck, 41 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_178caa72592f54e2",
     name: "Sorvetes e Salgados Chapecó",
     category: "Sorveteria",
@@ -15184,7 +15184,7 @@ export const businesses: Business[] = [
     address: "Av. Pref. Sebastião de Castro Teixeira - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6fbaf7a1790cfacb",
     name: "Milkblue Sabores Gourmet",
     category: "Sorveteria",
@@ -15201,7 +15201,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 220 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_618de5ce725535bc",
     name: "Sorveteria Pingo de Mel",
     category: "Doceria",
@@ -15218,7 +15218,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 324 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a8843f5085eec32c",
     name: "Loja de Milkshake Milkblue",
     category: "Sorveteria",
@@ -15235,7 +15235,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 220 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_433f50bb01f232f0",
     name: "chacara do trevo",
     category: "Sorveteria",
@@ -15252,7 +15252,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_57db3d925a25fe69",
     name: "Senhor Expresso Gelateria",
     category: "Sorveteria",
@@ -15269,7 +15269,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_db28181cbcee5172",
     name: "Sítio São Bento (Baú)",
     category: "Café",
@@ -15286,7 +15286,7 @@ export const businesses: Business[] = [
     address: "RW95+43 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_817b78b5a600de69",
     name: "Barka Gastronomia",
     category: "Restaurante asiático",
@@ -15303,7 +15303,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 508 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a8177df5d63b6476",
     name: "Sorveteria Era Do Gelo",
     category: "Sorveteria",
@@ -15320,7 +15320,7 @@ export const businesses: Business[] = [
     address: "R. Bahia, 2-138 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ca41cc74bfe55877",
     name: "Marta Marmitaria",
     category: "Restaurante",
@@ -15337,7 +15337,7 @@ export const businesses: Business[] = [
     address: "R. Abel Perlotti, 146 - Jardim Sao Mateus, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c42af0e437e2e050",
     name: "ANTONINHO RESTAURANTE",
     category: "Restaurante",
@@ -15354,7 +15354,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 737 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c4fc01c44b182a68",
     name: "Lanchonete Gato Grill",
     category: "Lanchonete",
@@ -15371,7 +15371,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 298 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4c087431a91bc3ec",
     name: "Casa Do Pastel",
     category: "Restaurante",
@@ -15388,7 +15388,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ba9332976c95d87e",
     name: "Pesqueiro campagnoli",
     category: "Restaurante",
@@ -15405,7 +15405,7 @@ export const businesses: Business[] = [
     address: "Estrada buracão - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fd56deb6daf72f68",
     name: "Santo Frango Carlão",
     category: "Restaurante",
@@ -15422,7 +15422,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale, 284 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_95660d3f79ed7aff",
     name: "Paradise Pizzaria e Choperia",
     category: "Pizzaria",
@@ -15439,7 +15439,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 567 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://paradisechoperiamontesanto.menudino.com/",
   },
-  {
+{
     id: "p_a219306422b63aa7",
     name: "Lanchonete Cida Salgados Express",
     category: "Lanchonete",
@@ -15456,7 +15456,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/cida_salgados_lanchonete/",
   },
-  {
+{
     id: "p_22eb1dba5f9ea7c8",
     name: "Andorinhas Food Truck",
     category: "Restaurante de comida natural",
@@ -15473,7 +15473,7 @@ export const businesses: Business[] = [
     address: "R. Francisco Antônio da Luz, 174 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "https://instadelivery.com.br/andorinhasfoodtruck",
   },
-  {
+{
     id: "p_3d2ef45ff619cbb3",
     name: "Pousada Rodriacqua Restaurante e lazer",
     category: "Pousada",
@@ -15490,7 +15490,7 @@ export const businesses: Business[] = [
     address: "BR-491, 2 - km do trevo de, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://www.rodriacqua.com.br/",
   },
-  {
+{
     id: "p_6be2f64a0cbfec24",
     name: "Lanche do Menoti",
     category: "Lanchonete",
@@ -15507,7 +15507,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 1-117 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_eb25c17761d61117",
     name: "Bar do Tadeu",
     category: "Restaurante",
@@ -15524,7 +15524,7 @@ export const businesses: Business[] = [
     address: "R. Santa Bárbara, 88 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_893d19041ec07b75",
     name: "Varanda Restaurante e Pizzaria",
     category: "Restaurante",
@@ -15541,7 +15541,7 @@ export const businesses: Business[] = [
     address: "R. Paraná, 360 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "https://beacons.ai/varandarestauranteepizzaria",
   },
-  {
+{
     id: "p_fdd5de25914829db",
     name: "Pastelaria da Nilva",
     category: "Lanchonete",
@@ -15558,7 +15558,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 327 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/pastelariadanilva/",
   },
-  {
+{
     id: "p_ab4626e4199c5427",
     name: "Casa Da Pizza",
     category: "Restaurante",
@@ -15575,7 +15575,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_55ae2f6b3f45783a",
     name: "Valnerindo Maxakali",
     category: "Brasserie",
@@ -15592,7 +15592,7 @@ export const businesses: Business[] = [
     address: "euvaeuva03@gmail.com - Monte Santo de Minas, MG, 39874-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_480750f407eabcba",
     name: "PASTELARIA HONDO",
     category: "Restaurante",
@@ -15609,7 +15609,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 379 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5f747cd87c0cc258",
     name: "Nícolas Barbosa - Advocacia",
     category: "Advogado de Direito de Família",
@@ -15626,7 +15626,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 369 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c698bab24ffa4c41",
     name: "Martins Assessoria Contábil & Tributária S/S LTDA",
     category: "Escritório de contabilidade",
@@ -15643,7 +15643,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 229 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.escritoriomartins.com.br/",
   },
-  {
+{
     id: "p_2774ec576e2e7390",
     name: "Contabilidade Marvil SS Ltda",
     category: "Perito em contabilidade",
@@ -15660,7 +15660,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 256 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: "http://www.contabilidademarvil.com.br/",
   },
-  {
+{
     id: "p_aecca2553b3f57e7",
     name: "Angeli Assessoria Contabil e Financeira",
     category: "Escritório de contabilidade",
@@ -15677,7 +15677,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 6 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0e043d4f798b3b87",
     name: "Julio Cesar Prado",
     category: "Advogado",
@@ -15694,7 +15694,7 @@ export const businesses: Business[] = [
     address: "Praça Joaquim Bernardes, 136 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_68372766a7cb5221",
     name: "Ordem dos Advogados do Brasil",
     category: "Imobiliária",
@@ -15711,7 +15711,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 193 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_23dffbf1cabf6d75",
     name: "RFN Advogados",
     category: "Advogado imobiliário",
@@ -15728,7 +15728,7 @@ export const businesses: Business[] = [
     address: ", Monte Santo de Minas - MG",
     website: "https://advroger.com/lp/despejo/",
   },
-  {
+{
     id: "p_02be60c04e79e713",
     name: "Corrêa, Martins e Venâncio Advocacia",
     category: "Advogado",
@@ -15745,7 +15745,7 @@ export const businesses: Business[] = [
     address: "R. Dr. João Ribeiro, 499 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e6983f9eacb97365",
     name: "OTÁVIO CARDOSO GARCIA DE OLIVEIRA sociedade individual de advocacia",
     category: "Advogado",
@@ -15762,7 +15762,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 388 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a481d2db34ac7e2c",
     name: "Advocacia Mafra Magalhaes",
     category: "Escritório de advocacia",
@@ -15779,7 +15779,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 471 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: "http://maframagalhaes.com.br/",
   },
-  {
+{
     id: "p_253820219566be47",
     name: "Marcela Pallassini Advocacia",
     category: "Advogado",
@@ -15796,7 +15796,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 217 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_667d4279e4fcd87d",
     name: "Escritório de Advocacia Dra. Ana Paula Maravelli Silva Palacini",
     category: "Advogado",
@@ -15813,7 +15813,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 367 - 2° Andar, Sala 01 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_173264e34605b0e1",
     name: "Dr. André Luís Advocacia e Consultoria Jurídica!!",
     category: "Advogado",
@@ -15830,7 +15830,7 @@ export const businesses: Business[] = [
     address: "R. Comendador Coelho, 91 - Magnólia, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8252b031bd241a9b",
     name: "Julio Cesar Prado",
     category: "Advogado",
@@ -15847,7 +15847,7 @@ export const businesses: Business[] = [
     address: "Praça Joaquim Bernardes, 136 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d3cf0f67a8ce8006",
     name: "ANTONIO PEREIRA",
     category: "Advogado trabalhista",
@@ -15864,7 +15864,7 @@ export const businesses: Business[] = [
     address: "Dr Pedro Paulino da Costa nº 158, R. Olívia Pereira Lima, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.facebook.com/Antonio-Pereira-110089744096513",
   },
-  {
+{
     id: "p_fee2e87303b83511",
     name: "CONSULTORIA JURÍDICA PONTES PALACINI E ADVOGADOS ASSOCIADOS",
     category: "Escritório de advocacia",
@@ -15881,7 +15881,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 131 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://advpontespalacini.com.br/",
   },
-  {
+{
     id: "p_17ab7a11dd8495d4",
     name: "Gabriel de Brito - Advogado",
     category: "Advogado",
@@ -15898,7 +15898,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 877-1003 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_78a83d9d741fa6d3",
     name: "Aline Lima - Advocacia & Consultoria Jurídica",
     category: "Advogado",
@@ -15915,7 +15915,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 909 - A - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_23020c1ed261db56",
     name: "Advogado Robson Miqueti",
     category: "Advogado",
@@ -15932,7 +15932,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 227-325 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c87a7a4dbfa90006",
     name: "Lider Contabilidade",
     category: "Perito em contabilidade",
@@ -15949,7 +15949,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 328-362 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_0cbb79cfaedae4ac",
     name: "Escritório de Contabilidade Pereira",
     category: "Assessoria contábil",
@@ -15966,7 +15966,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 189 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_35960be635c24c48",
     name: "Escritório Contábil Cardeal Ltda.",
     category: "Assessoria contábil",
@@ -15983,7 +15983,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 370 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8f3a5df6a91c89e0",
     name: "Ricardo Bressan Advogado",
     category: "Advogado",
@@ -16000,7 +16000,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 379-583 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6a34a1a7a7508fd9",
     name: "Escritório de Contabilidade Parisi",
     category: "Assessoria contábil",
@@ -16017,7 +16017,7 @@ export const businesses: Business[] = [
     address: "Praça Joaquim Bernardes, 63 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_fffd5d181f9674fd",
     name: "ERIVELTO PAULINO ADVOCACIA E CONSULTORIA JURIDICA",
     category: "Escritório de advocacia",
@@ -16034,7 +16034,7 @@ export const businesses: Business[] = [
     address: "Av. Conde Ribeiro do Vale, 198 - CENTRO, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_34cc5e83dfae0f68",
     name: "Services Assessoria e Cobranças",
     category: "Agência de Cobrança",
@@ -16051,7 +16051,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 456 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_8cc4650580673a00",
     name: "Dearo Advocacia",
     category: "Escritório de advocacia",
@@ -16068,7 +16068,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 332 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/dearo.adv/",
   },
-  {
+{
     id: "p_90805b21d6f4291b",
     name: "TERRA SIG ASSESSORIA E CONSULTORIA AMBIENTAL",
     category: "Engenharia ambiental",
@@ -16085,7 +16085,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 426 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.terrasig.com.br/",
   },
-  {
+{
     id: "p_7010b9580647f5b7",
     name: "Adega Padroeira do Brasil",
     category: "Adega",
@@ -16102,7 +16102,7 @@ export const businesses: Business[] = [
     address: "R. Minas Gerais, 585 - Jardim Brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b94e682f3bcd8c02",
     name: "Claudia Estética e Saúde",
     category: "Salão de sobrancelhas",
@@ -16119,7 +16119,7 @@ export const businesses: Business[] = [
     address: "R. Paulo Pelegrini, 82 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_9fb3b6fce6886932",
     name: "Hotel E Rest",
     category: "Hotel",
@@ -16136,7 +16136,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_be20e740a9b659bf",
     name: "US mininus eventos",
     category: "Local para eventos",
@@ -16153,7 +16153,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 380-584 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e783a590c5dfa6cd",
     name: "São José Hotel e Restaurante",
     category: "Hotel",
@@ -16170,7 +16170,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 500 - Centro, Monte Santo de Minas - MG, 37658-000, Brasil",
     website: "https://sheltnowbr.cfd/sao-jose-restaurante-vr0t4a",
   },
-  {
+{
     id: "p_f5f5f2bf97c294dc",
     name: "Lanchonete Dois Irmãos",
     category: "Lanchonete",
@@ -16187,7 +16187,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 954 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_21a90a2dd8f56c05",
     name: "Churrasquinho do Cláudio",
     category: "Churrascaria",
@@ -16204,7 +16204,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 761 - Jardim Boas Novas, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_709a6ffaa446f97b",
     name: "Alforria - Pizzaria e Chopperia",
     category: "Pizzaria",
@@ -16221,7 +16221,7 @@ export const businesses: Business[] = [
     address: "WhatsApp & CELL (31 - 973510087 - Av. Juscelino Kubitscheck, 41 - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6640ea831194b6d8",
     name: "Bar do Moretti",
     category: "Bar",
@@ -16238,7 +16238,7 @@ export const businesses: Business[] = [
     address: "R. José Fichina, 372 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1b6b98896952ee93",
     name: "Pizzaria Forno a Lenha",
     category: "Pizzaria",
@@ -16255,7 +16255,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 318-406 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_52b09e395272e52e",
     name: "BAR DO VITINHO",
     category: "Bar",
@@ -16272,7 +16272,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 1358 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_2b5f41307982f27b",
     name: "Lanchonete - Kifome",
     category: "Lanchonete",
@@ -16289,7 +16289,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 731 - Jardim Boas Novas, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a400bee00d0c7140",
     name: "Stop Dog",
     category: "Cachorro-quente",
@@ -16306,7 +16306,7 @@ export const businesses: Business[] = [
     address: "R. dos Pardais, 192 - Santa Hérnia 2, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_e38edba98f33ec2f",
     name: "Sambódromo Sebastião Antônio da Silva - Terreirão do Samba",
     category: "Sambódromo",
@@ -16323,7 +16323,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 422-640 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_009876add81d4e9d",
     name: "Praça Thomé Elisio De Freitas",
     category: "Parque de diversão",
@@ -16340,7 +16340,7 @@ export const businesses: Business[] = [
     address: "R. Comendador Coelho - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_67acba9bf2b1bcb3",
     name: "Komilão",
     category: "Lanchonete",
@@ -16357,7 +16357,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 215 - centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: "http://app.cardapioweb.com/komilao",
   },
-  {
+{
     id: "p_ae7c541eb6927f79",
     name: "Bar do Beto",
     category: "Bar",
@@ -16374,7 +16374,7 @@ export const businesses: Business[] = [
     address: "Q4MM+76 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_f8abcf2567416483",
     name: "ADEGA ARMAZEM",
     category: "Serviços",
@@ -16391,7 +16391,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 498 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c299424c3441cb11",
     name: "Adega Da Patroa",
     category: "Serviços",
@@ -16408,7 +16408,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_6d2685fabca52f36",
     name: "Adega Central",
     category: "Casa noturna",
@@ -16425,7 +16425,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 306 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a967b1bb6b75d7f7",
     name: "Empório BR bebidad",
     category: "Adega",
@@ -16442,7 +16442,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 795 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1e88d16cee3628ed",
     name: "Deposito central",
     category: "Adega",
@@ -16459,7 +16459,7 @@ export const businesses: Business[] = [
     address: "R. Dr. Pedro Paulino da Costa, 126 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "http://www.depositocentral.com.br/",
   },
-  {
+{
     id: "p_c66eb7b65fd66936",
     name: "Venda do Sr. Fernando (Fazenda da Onça)",
     category: "Bar",
@@ -16476,7 +16476,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7808fba3911d00d4",
     name: "Adega do Marquinho Thoa",
     category: "Adega",
@@ -16493,7 +16493,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello, 140 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b82f08d14595e483",
     name: "BAR da VERA",
     category: "Bar",
@@ -16510,7 +16510,7 @@ export const businesses: Business[] = [
     address: "R. Goiás, 63 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ca4f5b7c7872cb3a",
     name: "BAR TO ATOA",
     category: "Bar",
@@ -16527,7 +16527,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_c9e851d875e3e278",
     name: "Bar Tião Gordo",
     category: "Bar",
@@ -16544,7 +16544,7 @@ export const businesses: Business[] = [
     address: "R. dos Sanhaços, 36 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_df58483cdb8be390",
     name: "Bar da Maria Machado",
     category: "Bar",
@@ -16561,7 +16561,7 @@ export const businesses: Business[] = [
     address: "R. David Perloti, 441 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5e4e0b2af0a0cd7f",
     name: "lafiesta e evento",
     category: "Bar",
@@ -16578,7 +16578,7 @@ export const businesses: Business[] = [
     address: "R. Goiás, 45 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_39f65d44ba4a7c3d",
     name: "Bar do Sô Zé",
     category: "Bar",
@@ -16595,7 +16595,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 905 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_580aa86aa26b6974",
     name: "Empório Monte Santo",
     category: "Bar",
@@ -16612,7 +16612,7 @@ export const businesses: Business[] = [
     address: "R. Malvina Joaquina de Paula, 394 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_16c598813199fa3a",
     name: "Petiscaria Família",
     category: "Petiscaria",
@@ -16629,7 +16629,7 @@ export const businesses: Business[] = [
     address: "R. dos Sanhaços, 51 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4a9a5357145072a1",
     name: "Bar do Nelson",
     category: "Bar",
@@ -16646,7 +16646,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 191-273 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_dfb7a92591020f40",
     name: "Bar Do Toninho",
     category: "Bar",
@@ -16663,7 +16663,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_860f96489828f33e",
     name: "Bar Da Rosa",
     category: "Bar",
@@ -16680,7 +16680,7 @@ export const businesses: Business[] = [
     address: "R. Tiradentes, 2-112 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4afa904a9854172f",
     name: "Pesqueiro Berlato",
     category: "Bar",
@@ -16697,7 +16697,7 @@ export const businesses: Business[] = [
     address: "R2GV+P5 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b4896d4a9d5e5867",
     name: "Studio Maria Ribeiro",
     category: "Salão",
@@ -16714,7 +16714,7 @@ export const businesses: Business[] = [
     address: "Av. Vital Paulino da Costa, 605 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b884b2c0b3ffcd33",
     name: "Bar Do Luis Triste",
     category: "Bar",
@@ -16731,7 +16731,7 @@ export const businesses: Business[] = [
     address: "R. da Mocoquinha, 87A - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_3f65cd641da79f7b",
     name: "Bar da Montanha",
     category: "Bar",
@@ -16748,7 +16748,7 @@ export const businesses: Business[] = [
     address: "Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_676cfd14c8d83117",
     name: "Tiosk Empório Mineiro Artesanal",
     category: "Bar",
@@ -16765,7 +16765,7 @@ export const businesses: Business[] = [
     address: "Unnamed Road, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_22704dd7dfe5198f",
     name: "Bar do Newton",
     category: "Bar",
@@ -16782,7 +16782,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 47-191 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bf388b26067fda96",
     name: "Bar da Marta",
     category: "Bar",
@@ -16799,7 +16799,7 @@ export const businesses: Business[] = [
     address: "Av. Pref. Sebastião de Castro Teixeira - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_202a617bc12f013f",
     name: "Bar do Marquinhos",
     category: "Bar",
@@ -16816,7 +16816,7 @@ export const businesses: Business[] = [
     address: "RWC3+6X - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_d8b2a92870d63311",
     name: "Lela Cabeleireira",
     category: "Salão de Beleza",
@@ -16833,7 +16833,7 @@ export const businesses: Business[] = [
     address: "Av. Antônio Pereira Lima, 72 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_cedfbf990bff40ee",
     name: "Studio Darlene Ventura",
     category: "Salão de Beleza",
@@ -16850,7 +16850,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 561 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_1c0a6f970fdc28bf",
     name: "BRUNO MORAIS BEAUTY",
     category: "Salão de Beleza",
@@ -16867,7 +16867,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa, 715 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/brunomoraisbeauty",
   },
-  {
+{
     id: "p_7a1071454af5956d",
     name: "Claudia Cabelereira",
     category: "Salão de Beleza",
@@ -16884,7 +16884,7 @@ export const businesses: Business[] = [
     address: "R. Waldomiro Magalhães, 311 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ab1fa39b8b24840c",
     name: "Salão Thaty Afrolis",
     category: "Cabeleireiro",
@@ -16901,7 +16901,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, 17 1 - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_b4e29d9fc4a3a8d0",
     name: "Rafa’s Hair Cabeleireira - Rafaela Vieira Terapeuta Capilar",
     category: "Cabeleireiro",
@@ -16918,7 +16918,7 @@ export const businesses: Business[] = [
     address: "Av. José Augusto Filho, 36 - Jardim Bela Vista, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/rafas_hair/",
   },
-  {
+{
     id: "p_2ce00c6f9415dfec",
     name: "STUDIO BELEZA PLENA | Salão de Beleza",
     category: "Salão de Beleza",
@@ -16935,7 +16935,7 @@ export const businesses: Business[] = [
     address: "R. Cel. José Cassiano Gomes, 289 - Monte Santo de Minas, MG, 37658-000, Brasil",
     website: "https://wa.me/553535911548",
   },
-  {
+{
     id: "p_53bda4d36082c253",
     name: "Augusto Hairs",
     category: "Cabeleireiro",
@@ -16952,7 +16952,7 @@ export const businesses: Business[] = [
     address: "R. Lamana, 615 - Jardim dos Italianos, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_a8989d36896deb0d",
     name: "Alisson Barbeiro",
     category: "Barbearia",
@@ -16969,7 +16969,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Fabiano Soares, 480 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_7f41cf42e2beb7c1",
     name: "Viin's Barbeiro",
     category: "Barbearia",
@@ -16986,7 +16986,7 @@ export const businesses: Business[] = [
     address: "Av. Dr. Aristídes Cunha, 442 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_82e2d3adead40ba3",
     name: "Maiki barbeiro",
     category: "Barbearia",
@@ -17003,7 +17003,7 @@ export const businesses: Business[] = [
     address: "Av. Cel. Antônio Paulino da Costa - Centro, Monte Santo de Minas - MG, 37978-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_ddfe4defb54cc45e",
     name: "Carlos Barbeiro",
     category: "Barbearia",
@@ -17020,7 +17020,7 @@ export const businesses: Business[] = [
     address: "R. Benjamin Constant, 31 - Centro, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_4ad66047098ccc0b",
     name: "Barbearia do Willian",
     category: "Barbearia",
@@ -17037,7 +17037,7 @@ export const businesses: Business[] = [
     address: "Av. Limirio Pereira de Mello - Monte Santo de Minas, MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_bad53dab5bce3308",
     name: "Mariane Fernandes - Reflexoterapeuta Podal",
     category: "Reflexologista",
@@ -17054,7 +17054,7 @@ export const businesses: Business[] = [
     address: "Rua Neuza Olinda Mariano Ferreira , 230, 1 de - Maio, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: "https://www.instagram.com/mafernandespaiva?igsh=cWtiamJ0dHZyZ28%3D&utm_source=qr",
   },
-  {
+{
     id: "p_79b5f1712c1041bc",
     name: "Mariotti Barber`s ( Barbearia do JOW)",
     category: "Barbearia",
@@ -17071,7 +17071,7 @@ export const businesses: Business[] = [
     address: "R. Espírito Santo, 133 - JD Brasil, Monte Santo de Minas - MG, 37968-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_39bf1510a61dd30b",
     name: "Barbearia do Tavinho",
     category: "Barbearia",
@@ -17088,7 +17088,7 @@ export const businesses: Business[] = [
     address: "R. Cel. Francisco Paulino da Costa - Centro, Monte Santo de Minas - MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_571a5e4912aa7786",
     name: "Barbearia Gabriel Araújo",
     category: "Barbearia",
@@ -17105,7 +17105,7 @@ export const businesses: Business[] = [
     address: "R. Antenor Carvalhaes, N° 464 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_5100e141b68c3013",
     name: "BARBEARIA",
     category: "Barbearia",
@@ -17122,7 +17122,7 @@ export const businesses: Business[] = [
     address: "Av. Gov. Valadares, 378 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
   },
-  {
+{
     id: "p_12369ae1f624085c",
     name: "HIQUINHO BARBER",
     category: "Barbearia",
@@ -17138,6 +17138,193 @@ export const businesses: Business[] = [
     description: "⭐  ( avaliações)",
     address: "Av. Gov. Valadares, 927 - Monte Santo de Minas, MG, 37958-000, Brasil",
     website: undefined,
+  },
+  {
+    id: "p_f3715061ae64d5ff",
+    name: "qBF1Pd",
+    category: "W4Efsd",
+    categorySlug: "lugares",
+    tags: ["W4Efsd", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "W4Efsd 3",
+    phone: "UsdlK",
+    whatsapp: "5535990000000",
+    coverImages: ["Jn12ke src"],
+    isOpenNow: false,
+    isVerified: false,
+    description: "⭐ MW4etd (UY7F9 avaliações) • ah5Ghc",
+    address: "W4Efsd 4, W4Efsd 5, e4rVHe, Monte Santo de Minas - MG",
+    website: "hfpxzc href",
+  },
+  {
+    id: "p_365a508640b7fa72",
+    name: "Monte Santo de Minas",
+    category: "Atração turística",
+    categorySlug: "lugares",
+    tags: ["Atração turística", "Turismo", "Monte Santo"],
+    neighborhood: "Centro",
+    hours: "Aberto agora",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.8 (102 avaliações) • Cidade histórica, ótimos pontos turísticos\nPovo hospitaleiro",
+    address: "Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Monte+Santo+de+Minas/data=!4m7!3m6!1s0x94b7a9eb348d92c3:0x986a3f69819bb518!8m2!3d-21.1899297!4d-46.9768603!16s%2Fg%2F11v3pt348g!19sChIJw5KNNOupt5QRGLWbgWk_apg?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_2e45cb690ff18ba4",
+    name: "Cachoeira da Retífica",
+    category: "Atração turística",
+    categorySlug: "lugares",
+    tags: ["Atração turística", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "Aberto 24 horas",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.8 (232 avaliações) • Fácil acesso pela cidade de Monte Santo de Minas, linda e bem conservada.",
+    address: "Unnamed Road, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Cachoeira+da+Ret%C3%ADfica/data=!4m7!3m6!1s0x94b7a9dfac70f601:0xb9c4f58fb64ade9b!8m2!3d-21.0885411!4d-46.8883918!16s%2Fg%2F11h2lqhgq3!19sChIJAfZwrN-pt5QRm95Kto_1xLk?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_0f224e1d3a578e80",
+    name: "Monte Santo de Minas",
+    category: "MG",
+    categorySlug: "lugares",
+    tags: ["MG", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: false,
+    isVerified: false,
+    description: "⭐ 0 (0 avaliações)",
+    address: "Nenhuma avaliação, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Monte+Santo+de+Minas/data=!4m7!3m6!1s0x94b7a8068076e32b:0xefa8bac5f86df513!8m2!3d-21.1899297!4d-46.9768603!16s%2Fg%2F11bxfx6_6f!19sChIJK-N2gAaot5QRE_Vt-MW6qO8?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_03b196dc3a50b277",
+    name: "Parque Municipal Mauro Baldo",
+    category: "Parque ecológico",
+    categorySlug: "lugares",
+    tags: ["Parque ecológico", "Turismo", "Monte Santo"],
+    neighborhood: "Centro",
+    hours: "Aberto 24 horas",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.8 (266 avaliações) • Um lugar lindo, super bem cuidado, com uma linda vista.",
+    address: "Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Parque+Municipal+Mauro+Baldo/data=!4m7!3m6!1s0x94b7a781e677adbb:0x439d0587b95b9ad4!8m2!3d-21.1863215!4d-46.9832545!16s%2Fg%2F11frp9dmcr!19sChIJu6135oGnt5QR1JpbuYcFnUM?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_95be9f29fc2a65a5",
+    name: "Sambódromo Sebastião Antônio da Silva - Terreirão do Samba",
+    category: "Sambódromo",
+    categorySlug: "lugares",
+    tags: ["Sambódromo", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "Aberto 24 horas",
+    phone: "(35) 3591-5195",
+    whatsapp: "553535915195",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.5 (132 avaliações) • Local excelente p eventos",
+    address: "Av. Vital Paulino da Costa, 422-640, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Samb%C3%B3dromo+Sebasti%C3%A3o+Ant%C3%B4nio+da+Silva+-+Terreir%C3%A3o+do+Samba/data=!4m7!3m6!1s0x94b7a805df7f2ded:0x6be6550facdfd827!8m2!3d-21.1887997!4d-46.9756342!16s%2Fg%2F11g8v5g1mw!19sChIJ7S1_3wWot5QRJ9jfrA9V5ms?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_64b2e0cc37065d67",
+    name: "Praça Cel. Silvério Pereira de Mello",
+    category: "Jardim",
+    categorySlug: "lugares",
+    tags: ["Jardim", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "Aberto agora",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.7 (287 avaliações) • Muito grande e bonita vale a visita.",
+    address: "390,, R. José Fichina, 368, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Pra%C3%A7a+Cel.+Silv%C3%A9rio+Pereira+de+Mello/data=!4m7!3m6!1s0x94b7a807f306ba23:0xb9854b286ebf4fab!8m2!3d-21.190487!4d-46.9800765!16s%2Fg%2F11bx2l7z15!19sChIJI7oG8weot5QRq0-_bihLhbk?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_e9a28ca2e64f7c9b",
+    name: "Estação Mogiana",
+    category: "Atração turística",
+    categorySlug: "lugares",
+    tags: ["Atração turística", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: false,
+    isVerified: false,
+    description: "⭐ 5.0 (1 avaliações) • Local está reformando e ficou um charme.",
+    address: "Av. Limirio Pereira de Mello, 15, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Esta%C3%A7%C3%A3o+Mogiana/data=!4m7!3m6!1s0x94b7a9b15511594b:0x557cc55c2a03813!8m2!3d-21.1848386!4d-46.9733989!16s%2Fg%2F11vd54dbhl!19sChIJS1kRVbGpt5QREzigwlXMVwU?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_dd0bdff5d7aa56cd",
+    name: "Trilha GT - Monte Santo",
+    category: "Reserva natural",
+    categorySlug: "lugares",
+    tags: ["Reserva natural", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "Aberto 24 horas",
+    phone: undefined,
+    whatsapp: "5535990000000",
+    coverImages: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 0 (0 avaliações)",
+    address: "Av. Limirio Pereira de Mello, Nenhuma avaliação, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Trilha+GT+-+Monte+Santo/data=!4m7!3m6!1s0x94b7075b31249bb3:0xfbd0e5be32302e2e!8m2!3d-21.1757013!4d-46.9782421!16s%2Fg%2F11t6hk0zqg!19sChIJs5skMVsHt5QRLi4wMr7l0Ps?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_927b44e38b5146f6",
+    name: "Morro Dois Irmãos",
+    category: "Atração turística",
+    categorySlug: "lugares",
+    tags: ["Atração turística", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "Aberto 24 horas",
+    phone: "(35) 3591-5195",
+    whatsapp: "553535915195",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: true,
+    isVerified: false,
+    description: "⭐ 4.9 (64 avaliações) • Sensacional, a vista é incrível, vale a pena a subida.",
+    address: "Rua Dr. Pedro Paulino da Costa, 333, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Morro+Dois+Irm%C3%A3os/data=!4m7!3m6!1s0x94b7a97295a25557:0xa9a57a23c4e42715!8m2!3d-21.1270026!4d-46.8930539!16s%2Fg%2F11h2n5hns2!19sChIJV1WilXKpt5QRFSfkxCN6pak?authuser=0&hl=pt-BR&rclk=1",
+  },
+  {
+    id: "p_1dcfd227739c4a92",
+    name: "Mirante Santa Casa",
+    category: "Atração turística",
+    categorySlug: "lugares",
+    tags: ["Atração turística", "Turismo", "Monte Santo"],
+    neighborhood: "Monte Santo",
+    hours: "",
+    phone: "(35) 3591-1444",
+    whatsapp: "553535911444",
+    coverImages: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"],
+    isOpenNow: false,
+    isVerified: false,
+    description: "⭐ 5.0 (1 avaliações) • Vista muito linda👏🏻👏🏻",
+    address: "R. São Vicente De Paulo, 120, Monte Santo de Minas - MG",
+    website: "https://www.google.com/maps/place/Mirante+Santa+Casa/data=!4m7!3m6!1s0x94b7a929754a200f:0xd77182b931de4e14!8m2!3d-21.1962549!4d-46.9797167!16s%2Fg%2F11vd535z5q!19sChIJDyBKdSmpt5QRFE7eMbmCcdc?authuser=0&hl=pt-BR&rclk=1",
   }
 ];
 
