@@ -219,23 +219,23 @@ GET    /api/v1/favorites (auth required)<br>
 ### 🤝 Como Contribuir  
 Contribuições são muito bem-vindas! <br>
 **Para contribuir:<br>**
-1.Fork o projeto<br>
-2.Crie uma branch para sua feature (git checkout -b feature/MinhaFeature)<br>
-3.Commit suas mudanças (git commit -m 'feat: adiciona nova funcionalidade')<br>
-4.Push para a branch (git push origin feature/MinhaFeature)<br>
-5.Abra um Pull Request<br>
+1. Fork o projeto<br>
+2. Crie uma branch para sua feature (git checkout -b feature/MinhaFeature)<br>
+3. Commit suas mudanças (git commit -m 'feat: adiciona nova funcionalidade')<br>
+4. Push para a branch (git push origin feature/MinhaFeature)<br>
+5. Abra um Pull Request<br>
 
 
 ---
 ### Padrões de Commit  
 **Seguimos Conventional Commits:<br>**
-feat: nova funcionalidade | <br>
-fix: correção de bug | <br>
-docs: alteração em documentação |<br>
-style: formatação, ponto e vírgula, etc |<br>
-refactor: refatoração de código |<br>
-test: adição ou correção de testes |<br>
-chore: tarefas de manutenção |<br>
+feat: nova funcionalidade <br>
+fix: correção de bug <br>
+docs: alteração em documentação <br>
+style: formatação, ponto e vírgula, etc <br>
+refactor: refatoração de código <br>
+test: adição ou correção de testes <br>
+chore: tarefas de manutenção <br>
 
 
 ---
