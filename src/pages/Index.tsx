@@ -26,9 +26,9 @@ export default function Index() {
         <div className="px-4 py-3">
           <div className="flex items-center gap-3 mb-3">
             <div className="flex-1">
-              <h1 className="text-xl font-extrabold text-primary tracking-tight">
-                Procura UAI
-              </h1>
+              <div className="flex items-center h-8 mb-1">
+                <img src="/logo.svg" alt="Procura UAI" className="h-full w-auto" />
+              </div>
               <LocationSelector />
             </div>
           </div>

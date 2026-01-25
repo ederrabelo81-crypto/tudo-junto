@@ -16,12 +16,12 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 17% 17%;
 
-    /* Azul Royal - Confiança */
-    --primary: 222 100% 56%; /* #1E5EFF */
+    /* Horizon Blue - Procura UAI */
+    --primary: 201 100% 36%; /* #0077B6 */
     --primary-foreground: 0 0% 100%;
 
-    /* Amarelo - Atenção/Novidade */
-    --secondary: 42 100% 62%; /* #FFC83D */
+    /* Gold - Procura UAI */
+    --secondary: 46 65% 52%; /* #D4AF37 */
     --secondary-foreground: 220 17% 17%;
 
     /* Verde WhatsApp - Conversão */
@@ -34,7 +34,7 @@
     --accent: 222 100% 96%;
     --accent-foreground: 222 100% 40%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 357 71% 49%; /* #D22630 - Red Procura UAI */
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 91%;
