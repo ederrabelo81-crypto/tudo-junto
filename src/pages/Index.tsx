@@ -23,10 +23,10 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       {/* Header fixo com busca global */}
       <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border safe-top">
-        <div className="px-4 py-3">
-          <div className="flex items-center gap-3 mb-3">
+        <div className="px-4 py-4">
+          <div className="flex items-center gap-3 mb-4">
             <div className="flex-1">
-              <div className="flex items-center h-16 mb-2">
+              <div className="flex items-center h-24 mb-3">
                 <img src="/logo.svg" alt="Procura UAI" className="h-full w-auto" />
               </div>
               <LocationSelector />
