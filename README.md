@@ -254,39 +254,6 @@ Eder Rabelo (@ederrabelo81-crypto)
 Comunidades de desenvolvedores Vue.js e TypeScript<br>
 Contributors e early adopters<br>
 Associações comerciais locais parceiras<br>
-Feito com ❤️ para conectar comunidades regionais
-
-
----
-
-
-## 🎯 COMO ADICIONAR AO GITHUB  
-
-**Opção 1: Via Interface Web**
-
-**[Acesse:]** (https://github.com/ederrabelo81-crypto/procurauai)  
-
-Clique em "Add file" → "Create new file"  
-
-Nome do arquivo: README.md  
-
-Cole todo o conteúdo acima  
-
-Commit: "docs: adiciona README completo"
-
-**Opção 2: Via Git Local**  
-
-cd procurauai  
-
-#Crie o arquivo README.md e cole o conteúdo  
-
-git add README.md  
-
-git commit -m "docs: adiciona README completo com documentacao do projeto"  
-
-git push origin main  
-
-
----  
+Feito com ❤️ para conectar comunidades regionais 
 
 Desenvolvido com ❤️ para a comunidade de **Monte Santo de Minas**
