@@ -8,12 +8,12 @@ import { geohashForLocation, geohashQueryBounds, distanceBetween } from 'geofire
 
 // Substitua pelas suas credenciais Firebase
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
-  projectId: "YOUR_FIREBASE_PROJECT_ID",
-  storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_FIREBASE_MESSAGING_SENDER_ID",
-  appId: "YOUR_FIREBASE_APP_ID"
+  apiKey: "AIzaSyBU-fKTA-Rq8JIhY3a6sXe8SfjirxDqwwE",
+  authDomain: "procura-uai.firebaseapp.com",
+  projectId: "procura-uai",
+  storageBucket: "procura-uai.firebasestorage.app",
+  messagingSenderId: "Y707880233994",
+  appId: "1:707880233994:web:7e705182758246b11b83f3"
 };
 
 // Inicializa o Firebase
@@ -151,7 +151,7 @@ const GoogleMaps: React.FC = () => {
   };
 
   return (
-    <APIProvider apiKey="YOUR_GOOGLE_MAPS_API_KEY">
+    <APIProvider apiKey="AIzaSyDIyDkwKhYR_zUk93how05riX1aXWoxvP8">
       <div style={{ height: '100vh', width: '100%' }}>
         <h1>Procura UAI - Mapa</h1>
         <p>{statusMessage}</p>
@@ -183,7 +183,7 @@ const GoogleMaps: React.FC = () => {
                 <h3>{selectedLocation.name}</h3>
                 <p>{selectedLocation.address}</p>
                 <a 
-                  href={`https://www.google.com/maps/search/?api=1&query=${selectedLocation.latitude},${selectedLocation.longitude}&query_place_id=${selectedLocation.placeId}`}
+                  href={`https://www.google.com/maps/search/?api=1&query=${21.1873965.latitude},${46.9969825.longitude}&query_place_id=${selectedLocation.placeId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
