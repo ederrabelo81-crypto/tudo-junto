@@ -16,7 +16,7 @@ interface BusinessCardProps {
 }
 
 // NOTE: You need to ensure your Google Maps API key has Maps JavaScript API enabled.
-const API_KEY = "AIzaSyDIyDkwKhYR_zUk93how05riX1aXWoxvP8";
+const API_KEY = "YOUR_GOOGLE_MAPS_API_KEY";
 
 export function BusinessCard({ business, variant = 'default', className }: BusinessCardProps) {
   const isCompact = variant === 'compact';
@@ -28,8 +28,8 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
   const rating = ratingMatch ? parseFloat(ratingMatch[1]) : undefined;
   const reviewCount = ratingMatch ? parseInt(ratingMatch[2]) : undefined;
 
-  // Assume PRO plan: always show all CTAs if data exists.
-  const isProPlan = true;
+  // A lógica do "plano Pro" foi movida diretamente para a CTAGrid,
+  // então todos os CTAs disponíveis serão mostrados.
 
   return (
     <div
@@ -38,7 +38,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
         className
       )}
     >
-      {/* Map Section or Image Section */}
+      {/* Seção do Mapa ou da Imagem */}
       {position ? (
         <APIProvider apiKey={API_KEY}>
           <div className={cn('relative h-36 w-full')}>
@@ -88,7 +88,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
         </Link>
       )}
 
-      {/* Content Section */}
+      {/* Seção de Conteúdo */}
       <div className="p-3 flex-grow flex flex-col">
         <Link to={`/comercio/${business.id}`} className="flex-grow">
           <h3 className="font-bold text-foreground text-base mb-0.5 line-clamp-1">{business.name}</h3>
@@ -105,15 +105,13 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
           </div>
         )}
 
-        {/* CTAs are always shown as if it's a PRO plan */}
-        {isProPlan && (
-           <CTAGrid
-             whatsapp={business.whatsapp}
-             mapsQuery={position ? `${position.lat},${position.lng}` : `${business.name} ${business.address ?? ''}`}
-             phone={business.phone}
-             size="sm"
-           />
-        )}
+        {/* Os CTAs são sempre renderizados com os dados disponíveis */}
+        <CTAGrid
+          whatsapp={business.whatsapp}
+          mapsQuery={position ? `${position.lat},${position.lng}` : `${business.name} ${business.address ?? ''}`}
+          phone={business.phone}
+          size="sm"
+        />
       </div>
     </div>
   );
