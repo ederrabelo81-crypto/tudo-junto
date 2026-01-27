@@ -183,7 +183,7 @@ const GoogleMaps: React.FC = () => {
                 <h3>{selectedLocation.name}</h3>
                 <p>{selectedLocation.address}</p>
                 <a 
-                  href={`https://www.google.com/maps/search/?api=1&query=${21.1873965.latitude},${46.9969825.longitude}&query_place_id=${selectedLocation.placeId}`}
+                  href={`https://www.google.com/maps/search/?api=1&query=${selectedLocation.latitude},${selectedLocation.longitude}&query_place_id=${selectedLocation.placeId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
