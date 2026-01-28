@@ -4,10 +4,11 @@ import { APIProvider, Map, AdvancedMarker } from '@vis.gl/react-google-maps';
 import { BadgePill, VerifiedBadge, OpenBadge, ClosedBadge, RatingBadge } from '@/components/ui/BadgePill';
 import { TagChip } from '@/components/ui/TagChip';
 import { CTAGrid } from '@/components/ui/ActionButtons';
-import type { Business } from '@/data/mockData';
+import type { Business } from '@/data/mockData'; // Mantemos para tipagem se necessário
 import { cn } from '@/lib/utils';
 import { getBusinessTags } from '@/lib/businessTags';
 import { isOpenNow } from '@/lib/tagUtils';
+import { normalizeBusinessData } from '@/lib/dataNormalization'; // Importa a função de normalização
 
 interface BusinessCardProps {
   business: Business & { latitude?: number; longitude?: number };
@@ -15,21 +16,21 @@ interface BusinessCardProps {
   className?: string;
 }
 
-// NOTE: You need to ensure your Google Maps API key has Maps JavaScript API enabled.
-const API_KEY = "YOUR_GOOGLE_MAPS_API_KEY";
+// Usar a variável de ambiente segura para a chave da API
+const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
-export function BusinessCard({ business, variant = 'default', className }: BusinessCardProps) {
+export function BusinessCard({ business: rawBusiness, variant = 'default', className }: BusinessCardProps) {
+  // Normaliza os dados do negócio para garantir que todos os campos existam
+  const business = normalizeBusinessData(rawBusiness);
+
   const isCompact = variant === 'compact';
   const tags = getBusinessTags(business);
   const open = isOpenNow(business.hours);
-  const position = business.latitude && business.longitude ? { lat: business.latitude, lng: business.longitude } : null;
+  const position = rawBusiness.latitude && rawBusiness.longitude ? { lat: rawBusiness.latitude, lng: rawBusiness.longitude } : null;
 
   const ratingMatch = business.description?.match(/Nota\s+(\d+(?:\.\d+)?)\s*\((\d+)/i);
   const rating = ratingMatch ? parseFloat(ratingMatch[1]) : undefined;
   const reviewCount = ratingMatch ? parseInt(ratingMatch[2]) : undefined;
-
-  // A lógica do "plano Pro" foi movida diretamente para a CTAGrid,
-  // então todos os CTAs disponíveis serão mostrados.
 
   return (
     <div
@@ -64,7 +65,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
           </div>
         </APIProvider>
       ) : (
-        <Link to={`/comercio/${business.id}`} className="block">
+        <Link to={`/comercio/${business.categorySlug}/${business.id}`} className="block">
           <div className={cn('relative overflow-hidden', isCompact ? 'h-28' : 'h-36')}>
             <img
               src={business.coverImages[0]}
@@ -90,7 +91,7 @@ export function BusinessCard({ business, variant = 'default', className }: Busin
 
       {/* Seção de Conteúdo */}
       <div className="p-3 flex-grow flex flex-col">
-        <Link to={`/comercio/${business.id}`} className="flex-grow">
+        <Link to={`/comercio/${business.categorySlug}/${business.id}`} className="flex-grow">
           <h3 className="font-bold text-foreground text-base mb-0.5 line-clamp-1">{business.name}</h3>
           <p className="text-sm text-muted-foreground mb-3 line-clamp-1">{business.category}</p>
         </Link>
