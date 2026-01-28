@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -88,25 +89,46 @@ out
 .nuxt
 dist
 
-# Svelte specific
+# Svelte build output
 .svelte-kit
 
-# Storybook specific
-.storybook
+# Remix build output
+.remix
 
-# Docusaurus specific
+# Docusaurus build output
 .docusaurus
 
 # Gatsby files
 .cache/
-# Add storybook folders to .gitignore. For more details see https://storybook.js.org/docs/react/configure/sharing-stories
-.storybook
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
 
-# Vite specific
-dist
+# VuePress build output
+.vuepress/dist
 
-# Mac specific
-.DS_Store
+# Vite build output
+/dist
+/dist-ssr
 
-# Vitest specific
+# Astro build output
+/dist
+.astro
+
+# Sass compile cache
+.sass-cache
+
+# Stylus compile cache
+.stylus-cache
+
+# Ferment compile cache
+.ferment
+
+# SolidStart build output
+.solid
+
+# FuseBox cache
+.fusebox
+
+# Vitest
 coverage/
