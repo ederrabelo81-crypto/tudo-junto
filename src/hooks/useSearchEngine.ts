@@ -2,7 +2,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { signInAnonymously } from 'firebase/auth';
-import { auth, db } from '@/firebase'; 
+import { auth, db, firebaseEnabled } from '@/firebase'; 
 import { listings, deals, events, news, businesses as mockBusinesses } from '@/data/mockData';
 import { matchesAllFilters, normalizeText } from '@/lib/tagUtils';
 import { getBusinessTags } from '@/lib/businessTags';
@@ -35,6 +35,11 @@ function useFirestoreBusinesses() {
     const fetchBusinesses = async () => {
       setIsLoading(true);
       const fallbackBusinesses = mockBusinesses.map((business) => normalizeBusinessData(business));
+      if (!firebaseEnabled || !auth || !db) {
+        setBusinesses(fallbackBusinesses);
+        setIsLoading(false);
+        return;
+      }
       try {
         if (!auth.currentUser) {
           try {

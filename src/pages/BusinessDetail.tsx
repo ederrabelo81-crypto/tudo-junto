@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { doc, getDoc, collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { signInAnonymously } from 'firebase/auth';
-import { auth, db } from '@/firebase';
+import { auth, db, firebaseEnabled } from '@/firebase';
 import { User, Images, Phone as PhoneIcon, Info, CalendarDays, Star, BadgeCheck } from 'lucide-react';
 import { ListingHero } from '@/components/listing/ListingHero';
 import { ListingActionsBar } from '@/components/listing/ListingActionsBar';
@@ -53,6 +53,11 @@ export default function BusinessDetail() {
       };
 
       try {
+        if (!firebaseEnabled || !auth || !db) {
+          loadFallbackData();
+          setLoading(false);
+          return;
+        }
         if (!auth.currentUser) {
           try {
             await signInAnonymously(auth);

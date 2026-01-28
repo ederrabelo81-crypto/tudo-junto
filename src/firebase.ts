@@ -1,7 +1,7 @@
 
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-import { getAuth, signInAnonymously } from "firebase/auth";
+import { initializeApp, type FirebaseApp } from "firebase/app";
+import { getFirestore, type Firestore } from "firebase/firestore";
+import { getAuth, type Auth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -10,26 +10,30 @@ const firebaseConfig = {
   projectId: import.meta.env.VITE_PROJECT_ID,
   storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
   messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID
+  appId: import.meta.env.VITE_APP_ID,
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const firebaseEnabled = Boolean(
+  firebaseConfig.apiKey &&
+    firebaseConfig.authDomain &&
+    firebaseConfig.projectId &&
+    firebaseConfig.storageBucket &&
+    firebaseConfig.messagingSenderId &&
+    firebaseConfig.appId
+);
 
-// Initialize services
-const db = getFirestore(app);
-const auth = getAuth(app);
+let app: FirebaseApp | null = null;
+let db: Firestore | null = null;
+let auth: Auth | null = null;
 
-// Function to sign in anonymously
-const signIn = async () => {
-  try {
-    await signInAnonymously(auth);
-    console.log("Signed in anonymously");
-  } catch (error) {
-    console.error("Failed to sign in anonymously. Continuing without authentication.", error);
-  }
-};
+if (firebaseEnabled) {
+  app = initializeApp(firebaseConfig);
+  db = getFirestore(app);
+  auth = getAuth(app);
+} else {
+  console.warn(
+    "Firebase não configurado. As variáveis VITE_* não foram encontradas; recursos dependentes do Firebase serão desativados."
+  );
+}
 
-signIn();
-
-export { db, auth };
+export { db, auth, firebaseEnabled };

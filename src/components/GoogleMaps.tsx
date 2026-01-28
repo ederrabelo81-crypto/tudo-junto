@@ -4,7 +4,7 @@ import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react
 import { collection, addDoc, getDocs, query, orderBy, startAt, endAt } from 'firebase/firestore';
 import { signInAnonymously } from 'firebase/auth';
 import { geohashForLocation, geohashQueryBounds, distanceBetween } from 'geofire-common';
-import { db, auth } from '@/firebase';
+import { db, auth, firebaseEnabled } from '@/firebase';
 
 // Interface expandida para incluir todos os campos de um negócio
 interface BusinessDoc {
@@ -39,6 +39,10 @@ const GoogleMaps: React.FC = () => {
   useEffect(() => {
     const init = async () => {
       try {
+        if (!firebaseEnabled || !auth || !db) {
+          setStatusMessage('Firebase não configurado. Exibindo mapa sem dados.');
+          return;
+        }
         await signInAnonymously(auth);
         setStatusMessage('Autenticado. Obtendo localização...');
 
@@ -68,6 +72,11 @@ const GoogleMaps: React.FC = () => {
   }, []);
 
   const loadAndDisplayLocations = async (lat: number, lng: number, radiusInKm: number = 25) => {
+    if (!firebaseEnabled || !db) {
+      setMarkers([]);
+      setStatusMessage('Firebase não configurado. Não foi possível carregar locais.');
+      return;
+    }
     const center: [number, number] = [lat, lng];
     const radiusInM = radiusInKm * 1000;
     const bounds = geohashQueryBounds(center, radiusInM);
@@ -112,6 +121,10 @@ const GoogleMaps: React.FC = () => {
 
   const handleMapClick = async (event: google.maps.MapMouseEvent) => {
     if (!event.latLng) return;
+    if (!firebaseEnabled || !db) {
+      setStatusMessage('Firebase não configurado. Não foi possível salvar local.');
+      return;
+    }
     const lat = event.latLng.lat();
     const lng = event.latLng.lng();
 
