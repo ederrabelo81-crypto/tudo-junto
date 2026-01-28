@@ -194,7 +194,7 @@ const GoogleMaps: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Ver no Google Maps
+                  Ver no Procura UAI Maps
                 </a>
               </div>
             </InfoWindow>
