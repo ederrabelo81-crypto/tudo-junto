@@ -158,7 +158,7 @@ const GoogleMaps: React.FC = () => {
   };
 
   return (
-    <APIProvider apiKey="YOUR_GOOGLE_MAPS_API_KEY">
+    <APIProvider apiKey="AIzaSyDIyDkwKhYR_zUk93how05riX1aXWoxvP8">
       <div style={{ height: '100vh', width: '100%' }}>
         <h1>Procura UAI - Mapa</h1>
         <p>{statusMessage}</p>
