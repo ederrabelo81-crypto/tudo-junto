@@ -7,13 +7,16 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   // Load env file based on `mode` in the current working directory.
-  // Set the third parameter to '' to load all env regardless of the `VITE_` prefix.
   const env = loadEnv(mode, process.cwd(), '');
+
+  // Diagnostic log to see what variables are being loaded in the build environment
+  console.log('[Debug] Variáveis de Ambiente Carregadas:', env);
 
   return {
     // vite config
     define: {
-      'import.meta.env': env
+      // This is supposed to expose the variables to your client-side code
+      'import.meta.env': JSON.stringify(env)
     },
     server: {
       host: "::",
